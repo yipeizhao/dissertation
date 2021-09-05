@@ -1,0 +1,169 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=1.5in, right=1in, top=1in, bottom=1in, includefoot, headheight=13.6pt]{geometry}
+\usepackage{biblatex}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\addbibresource{bib.bib}
+\graphicspath{ {./figures/} }
+
+\title{Network Complexity}
+\author{Yipei Zhao}
+\date{\today}
+
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Network Complexity}
+            
+        \vspace{0.5cm}
+        \LARGE
+        Thesis Subtitle
+            
+        \vspace{1.5cm}
+            
+        \textbf{Yipei Zhao}
+            
+        \vfill
+            
+        A dissertation presented for the degree of\\
+        Master of Science
+            
+        \vspace{0.8cm}
+            
+        \includegraphics[width=0.4\textwidth]{university.png}
+            
+        \Large
+        MSc Data Analytics\\
+        Aston University\\
+        United Kingdom\\
+        05 September 2021
+            
+    \end{center}
+\end{titlepage}
+\section{Introduction}
+In my literature review, several complexity measures were introduced, includes the theory and the difference between them. 
+
+\section{Method}
+\subsection{Implemeted methods}
+In the literature review, 9 methods were introduced, 7 methods were succesfully implemented and tested with a new method MAri based on MAg. The implemented methods are:
+\begin{itemize}
+    \item Subgraph measures:
+    \begin{itemize}
+        \item $C_{1e,st}$
+        \item $C_{1e,spec}$
+        \item $C_{2e,spec}$
+    \end{itemize}
+    \item $OdC$ (Entropy measure)
+    \item Product measures:
+    \begin{itemize}
+        \item $MAg$
+        \item $Cr$
+        \item $Ce$
+        \item $MAri$
+    \end{itemize}
+\end{itemize}
+
+\subsection{$MA_{RI}$}
+The $MAg$ measure is a product measure, which distributes higher complexity to graphs with medium number of edges and lower complexity at both tails. Using the product of redundancy $R$ and mutual information $I$, with a normalisation formular, $MAg$ is defined as\cite{KIM20082637}:
+\begin{equation}
+    \label{eq:MAg}
+    \begin{gathered}
+        R = \frac{1}{m}\sum_{i,j>i}ln(d_id_j)\\
+        I = \frac{1}{m}\sum_{i,j>i}ln(\frac{2m}{d_id_j})\\
+        MA_R = 4(\frac{R-R_{path}}{R_{clique}-R_{path}})(1-\frac{R-R_{path}}{R_{clique}-R_{path}})\\
+        MA_I = 4(\frac{I-I_{clique}}{I_{path}-I_{clique}})(1-\frac{I-I_{clique}}{I_{path}-I_{clique}})\\
+        MA_g = MA_R * MA_I
+    \end{gathered}
+\end{equation}
+$R_{path},R_{clique},I_{path}$ and $I_{clique}$ represent lowest redundacy, highest redundancy, highest mutual information and lowest mutual information of graphs with fixed $m$ and $n$ respectively. The equations can be found in the literature review.\\
+Even though $MA_g$ is well defined and normalised, a problem with the $MA_g$ is it does not assign highest complexities to graphs with the most middle number of edges for small graphs. The highest complexity is reached at $n^{1.5}$, instead of $\frac{n(n-1)}{4}$.\\
+
+\begin{figure}[ht]
+    \includegraphics[width=\textwidth]{mag.png}
+    \centering
+    \caption{$MA_g$ complexity values of graphs with n=7,8,9,10 nodes}
+    \label{fig:mag}
+\end{figure}
+\noindent
+Hence, we may change the normalisation term such that the highest complexity is shifted more towards the middle number of edges. The normalisation term becomes:
+\begin{equation}
+    \label{eq:mari}
+    MA_{RI} = 4(\frac{R-R_{path}}{R_{clique}-R_{path}})(\frac{I-I_{clique}}{I_{path}-I_{clique}})
+\end{equation}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{mag&mari.png}
+    \caption{Comparison of $MA_{RI}$ and $MA_{g}$.}
+    \label{fig:mari&mag}
+\end{figure}
+\noindent
+As showin in figure \ref{fig:mari&mag}, $MA_{RI}$ and $MA_{g}$ behave alsmost the same, whereas $MA_{RI}$ assigns higher complexity values to graphs with middle number of edges and averagely higher complexity than $MA_{g}$ for higher number of edges. The complexity of computation stays the same, which is $O(m)$. $MA_{RI}$ complexity intends to have the nomalization property, which is $0\leq MA_{RI}\leq 1$, with exceptions.\\
+During the simulation, a few unnormalization cases were found, they are:\\
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        n & m & Highest complexity\\
+        \hline
+        6 & 9 & 1.0421694413111797\\
+        \hline
+        7 & 11 & 1.0203660524038531\\
+        \hline
+        7 & 12 & 1.0042984248515054\\
+        \hline
+        8 & 15 & 1.0068924792733018\\
+        \hline
+    \end{tabular}
+\end{table}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\textwidth]{mari_exception.png}
+    \caption{Graphs with highest $MA_{RI}$ complexity.}
+    \label{fig:mari_execption}
+\end{figure}
+
+\subsection{Potential problems and solutions of different subgraph measures}
+During the implementation of measures, several problems were found, possible solutions are also given for future projects.\\
+Different subgraph measures are principally simple, but they are complex to compute, within at least $O(n^2)$ time\cite{KIM20082637}. This is not the only problem. An upper-bound of the complexity $m_{cu} = n^{1.68}-10$ was introduced by Kim and Wilhelm\cite{KIM20082637} to normalise the complexity. However, from the simulation, we found that this may not be the actual upper-bound of the different subgraph measures.
+
+\begin{figure}[ht]
+    \includegraphics[width=\textwidth]{subgraph_measures.png}
+    \caption{Different subgraph measure of $G(n,m)$ random graphs, with $n$ = 15.}
+    \label{fig:subgraph_measure}
+\end{figure}
+\noindent
+The complexity is abnormal for graphs with around 90 edges and 15 nodes as shown in figure \ref{fig:subgraph_measure}. This could imply that the upper-bound $mcu$ is not correct, but there is another possible reason, which is the problem of floating point arithmetic.\\
+On most machines today, numbers are represented in binary system\cite{floating_point}. For example, 0.2 is 0.00110011001100110011... in a binary system. This series is infinite, represented by $1*2^{-3}+1*2^{-4}+1*2^{-7}+1*2{-8}...$. For obvious reasons, computer scientists don't want to work with infinite series, therefore, the series is approximated. On a modern compueter, the series is usually approximated to 63 digits with 1 digit represents the sign of the number. After approximation, the error could cause the equal operation to fail. A well known example is that for modern programming language or machine that operates this numbering system, 0.2+0.1 does not equal to 0.15+0.15. As a result, the comparison may cause more number of different subgraph than actual.\\
+The core of different subgraph measure is to compare the cofactor($C_{1e,st}$)/spectrum($C_{1e,spec}$ and $C_{2e,spec}$) of a subgraph. Given the fact that the proabbility of a decimal number to appear in the sprectrums is high and the cofactor will also be very large for a large graph. The comparison will be inaccurate. There are three possible solutions:
+\begin{itemize}
+    \item As suggested, errors will be made when approxiamted by the machine. An error threshold can be used when comparing spectrums and cofactors. For example, two numbers with relative error less than 1\% can also be considered as equal numbers. One disadvantage is the increase of complexity, taking more time and effort to compare the spectrums/number of spanning trees.
+    \item Similarly, numbers can be rounded before comparison to avoid error. This is used in the implementation of different subgraph measures, all cofactors and spectrums are rounded to first 10 significant figures. This solution requires less computation time than first solution. The drawback is that similar graphs can be considered as isomorphic graphs, this also applies to the first provided solution, but with higher accuracy for large graphs.
+    \item Instead of using $m_{cu}$ as a normalisation parameter, $m$ can be used for one-edge-deleted subgraph complexity and $\genfrac(){0pt}{2}{m}{2}$ for two-edges-deletied subgraph complexity. This gurantees the normalisation and avoid the mistake that caused by the first two solutions, but on the other hand, causing the complexity to be different.
+\end{itemize}
+A unique problem with $C_{2e,spec}$ is the value is not properly normalised for small graphs.
+
+\begin{figure}[ht]
+    \includegraphics[width = \textwidth]{c2espec.png}
+    \caption{$C_{2e,spec}$ complexities for n = 6,7,8 respectively.}
+    \centering
+\end{figure}
+\noindent
+The upper-bound of $C_{2e,spec}$ is 0.5 while $ n\leq7 $. To have an upper-bound at 1, the complexity value have to be scaled by 2. However, scale by 2 will cause the complexity to exceed 1 for larger graphs. Thus, they are not scaled and maintaining an upperbound at 0.5 for $n \leq 7$.
+
+\section{Result}
+\clearpage
+\begin{figure}[ht]
+    \includegraphics[width=\textwidth]{complexities_n=7.png}
+    \centering
+    \caption{results of implemented methods of graphs with n =7. Methods from top-left to bottom-right are: $C_{1e,st}$, $C_{1e,spec}$, $C_{2e,spec}$, $OdC$, $MAg$, $Cr$, $Cr$ and $MAri$.}
+\end{figure}
+\section{Conclusion}
+
+\printbibliography
+
+\end{document}

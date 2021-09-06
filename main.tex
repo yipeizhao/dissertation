@@ -83,7 +83,7 @@ $R_{path},R_{clique},I_{path}$ and $I_{clique}$ represent lowest redundacy, high
 Even though $MA_g$ is well defined and normalised, a problem with the $MA_g$ is it does not assign highest complexities to graphs with the most middle number of edges for small graphs. The highest complexity is reached at $n^{1.5}$, instead of $\frac{n(n-1)}{4}$.\\
 
 \begin{figure}[ht]
-    \includegraphics[width=\textwidth]{mag.png}
+    \includegraphics[width=\textwidth]{mag.eps}
     \centering
     \caption{$MA_g$ complexity values of graphs with n=7,8,9,10 nodes}
     \label{fig:mag}
@@ -97,7 +97,7 @@ Hence, we may change the normalisation term such that the highest complexity is 
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=\textwidth]{mag&mari.png}
+    \includegraphics[width=\textwidth]{mag&mari.eps}
     \caption{Comparison of $MA_{RI}$ and $MA_{g}$.}
     \label{fig:mari&mag}
 \end{figure}
@@ -122,17 +122,34 @@ During the simulation, a few unnormalization cases were found, they are:\\
 \end{table}
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.7\textwidth]{mari_exception.png}
+    \includegraphics[width=0.7\textwidth]{mari_exception.eps}
     \caption{Graphs with highest $MA_{RI}$ complexity.}
     \label{fig:mari_execption}
 \end{figure}
-
+\noindent
+These outliers are only found for small graphs, for larger graphs, complexities are normalised. Therefore, a solution is proposed.\\
+Observing the equation \ref{eq:mari}, the extremes are fixed for $n$, $R$ and $I$ are the variables. Also, $R$ and $I$ are negatively correlated with correlation coefficent equal to -1.\\
+\begin{equation}
+    \label{eq:ricorrelation}
+    \begin{gathered}
+        R = \frac{1}{m}\sum_{i,j>i}ln(d_id_j)\\
+        I = \frac{1}{m}\sum_{i,j>i}ln(\frac{2m}{d_id_j})\\
+        I = \frac{1}{m}\sum_{i,j>i}ln(2m)-\frac{1}{m}\sum_{i,j>i}ln(d_id_j)\\
+        I = ln(2m)-R\\
+    \end{gathered}
+\end{equation}
+Thus, if the maximum of $\sum_{i,j>i}ln(d_id_j)$ can be found, the maxmimum of $MAri$ can be found as well. The maximum can be found in two ways:\\
+\begin{itemize}
+    \item Creates all graphs with the respective $n$, and find the maximum complexity, and divide all valeus by the maximum complexity.
+    \item As $R$ and $I$ are negatively correlated with coefficent -1, we can find the maximum of $MAri$. Given the fact $R_{min} = R_{path} = ln(2m)-I_{max} = ln(2m)-I_{path}$ and $R_{max} = R_{clique} = ln(2m)-I_{min} = ln(2m)-I_{clique}$. By varying the value of $R$ between $R_{min}$ and $R_{max}$, $MA_{RImax}$ can be found.
+\end{itemize}
+We only suggest to use the solutions for small graphs, not only the problem only occurs for small graphs, but also the complexity will be largely increased for large graphs.\\
 \subsection{Potential problems and solutions of different subgraph measures}
 During the implementation of measures, several problems were found, possible solutions are also given for future projects.\\
 Different subgraph measures are principally simple, but they are complex to compute, within at least $O(n^2)$ time\cite{KIM20082637}. This is not the only problem. An upper-bound of the complexity $m_{cu} = n^{1.68}-10$ was introduced by Kim and Wilhelm\cite{KIM20082637} to normalise the complexity. However, from the simulation, we found that this may not be the actual upper-bound of the different subgraph measures.
 
 \begin{figure}[ht]
-    \includegraphics[width=\textwidth]{subgraph_measures.png}
+    \includegraphics[width=\textwidth]{subgraph_measures.eps}
     \caption{Different subgraph measure of $G(n,m)$ random graphs, with $n$ = 15.}
     \label{fig:subgraph_measure}
 \end{figure}
@@ -148,7 +165,7 @@ The core of different subgraph measure is to compare the cofactor($C_{1e,st}$)/s
 A unique problem with $C_{2e,spec}$ is the value is not properly normalised for small graphs.
 
 \begin{figure}[ht]
-    \includegraphics[width = \textwidth]{c2espec.png}
+    \includegraphics[width = \textwidth]{c2espec.eps}
     \caption{$C_{2e,spec}$ complexities for n = 6,7,8 respectively.}
     \centering
 \end{figure}
@@ -158,7 +175,7 @@ The upper-bound of $C_{2e,spec}$ is 0.5 while $ n\leq7 $. To have an upper-bound
 \section{Result}
 \clearpage
 \begin{figure}[ht]
-    \includegraphics[width=\textwidth]{complexities_n=7.png}
+    \includegraphics[width=\textwidth]{complexities.eps}
     \centering
     \caption{results of implemented methods of graphs with n =7. Methods from top-left to bottom-right are: $C_{1e,st}$, $C_{1e,spec}$, $C_{2e,spec}$, $OdC$, $MAg$, $Cr$, $Cr$ and $MAri$.}
 \end{figure}

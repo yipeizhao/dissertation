@@ -4,6 +4,7 @@
 \usepackage{biblatex}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\newtheorem{theorem}{Theorem}
 \addbibresource{bib.bib}
 \graphicspath{ {./figures/} }
 
@@ -46,8 +47,17 @@
 \end{titlepage}
 \section{Introduction}
 In my literature review, several complexity measures were introduced, includes the theory and the difference between them. 
+\subsection{Random graphs and graph properties}
+We have many real networks in the actual world, but defining or observing every one of them is not feasible. For simulation and comparison reason, network scientists introduced the idea of random network. They are also known as Erdos-Renyi network in honour of two mathematicians: Pal Erdos and Alfred Renyi. They have important contributions to understand the properties of a random network\cite{barabási2016network}\\
+\noindent
+There are two definitions of a random graph:
+\begin{itemize}
+    \item $G(n,p)$ network. A graph with $n$ nodes will be initialised, there will be at most $(n)(n-1)/2$ edges. Every edge will have a probability $p$ to be instantiate. This approach brings a randomness propertyto the graph; number of edges $m$. A $G(n,p)$ graph returns a fixed $n$ but a different $m$ everytime. The expectation of $m$ is $p(n)(n-1)/2$., but usually comes with a small difference.
+    \item $G(n,m)$ or $G(n,L)$ network. A graph with $n$ nodes will be initialised, $m/L$ edges will be connected from a random node to another random node. Due to the non-randomness of $G(n,m)$ networks, they are used to simulate the behaviour of a random network in this thesis.
+\end{itemize}
 
-\section{Method}
+
+\section{Methods}
 \subsection{Implemeted methods}
 In the literature review, 9 methods were introduced, 7 methods were succesfully implemented and tested with a new method MAri based on MAg. The implemented methods are:
 \begin{itemize}
@@ -127,7 +137,7 @@ During the simulation, a few unnormalization cases were found, they are:\\
     \label{fig:mari_execption}
 \end{figure}
 \noindent
-These outliers are only found for small graphs, for larger graphs, complexities are normalised. Therefore, a solution is proposed.\\
+These exceptions are only found for small graphs, for larger graphs, complexities are normalised. Therefore, a solution is proposed.\\
 Observing the equation \ref{eq:mari}, the extremes are fixed for $n$, $R$ and $I$ are the variables. Also, $R$ and $I$ are negatively correlated with correlation coefficent equal to -1.\\
 \begin{equation}
     \label{eq:ricorrelation}
@@ -170,9 +180,11 @@ A unique problem with $C_{2e,spec}$ is the value is not properly normalised for 
     \centering
 \end{figure}
 \noindent
-The upper-bound of $C_{2e,spec}$ is 0.5 while $ n\leq7 $. To have an upper-bound at 1, the complexity value have to be scaled by 2. However, scale by 2 will cause the complexity to exceed 1 for larger graphs. Thus, they are not scaled and maintaining an upperbound at 0.5 for $n \leq 7$.
+The upper-bound of $C_{2e,spec}$ is 0.5 while $ n\leq7 $. To have an upper-bound at 1, the complexity value have to be scaled by 2. However, scale by 2 will cause the complexity to exceed 1 for larger graphs. Thus, we sticked to the original normalisation and $C_{2e,spec}$ will have an upperbound at 0.5 for $n \leq 7$.
 
 \section{Result}
+
+
 \clearpage
 \begin{figure}[ht]
     \includegraphics[width=\textwidth]{complexities.eps}

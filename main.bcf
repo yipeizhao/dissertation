@@ -2344,10 +2344,11 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">KIM20082637</bcf:citekey>
+    <bcf:citekey order="1">barabási2016network</bcf:citekey>
     <bcf:citekey order="2">KIM20082637</bcf:citekey>
     <bcf:citekey order="3">KIM20082637</bcf:citekey>
-    <bcf:citekey order="4">floating_point</bcf:citekey>
+    <bcf:citekey order="4">KIM20082637</bcf:citekey>
+    <bcf:citekey order="5">floating_point</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

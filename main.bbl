@@ -35,6 +35,42 @@
       \verb https://docs.python.org/3.8/tutorial/floatingpoint.html
       \endverb
     \endentry
+    \entry{barabási2016network}{book}{}
+      \name{author}{2}{}{%
+        {{hash=9d9e97f70c4fb27df81a7d25f58aa128}{%
+           family={Barabási},
+           familyi={B\bibinitperiod},
+           given={A.L.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a298bbde7dc19d90fd6194d6de7954b8}{%
+           family={PÃ3sfai},
+           familyi={P\bibinitperiod},
+           given={M.Ã.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{3d869b541b9655d48787bcc10cb460e2}
+      \strng{fullhash}{3d869b541b9655d48787bcc10cb460e2}
+      \strng{bibnamehash}{3d869b541b9655d48787bcc10cb460e2}
+      \strng{authorbibnamehash}{3d869b541b9655d48787bcc10cb460e2}
+      \strng{authornamehash}{3d869b541b9655d48787bcc10cb460e2}
+      \strng{authorfullhash}{3d869b541b9655d48787bcc10cb460e2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781107076266}
+      \field{title}{Network Science}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://books.google.co.uk/books?id=iLtGDQAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.co.uk/books?id=iLtGDQAAQBAJ
+      \endverb
+    \endentry
     \entry{KIM20082637}{article}{}
       \name{author}{2}{}{%
         {{hash=fe06c63cd689a75f7a6251424aaf3489}{%

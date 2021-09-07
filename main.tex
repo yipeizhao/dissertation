@@ -47,7 +47,7 @@
 \end{titlepage}
 \section{Introduction}
 In my literature review, several complexity measures were introduced, includes the theory and the difference between them. 
-\subsection{Random graphs and graph properties}
+\subsection{Random graphs}
 We have many real networks in the actual world, but defining or observing every one of them is not feasible. For simulation and comparison reason, network scientists introduced the idea of random network. They are also known as Erdos-Renyi network in honour of two mathematicians: Pal Erdos and Alfred Renyi. They have important contributions to understand the properties of a random network\cite{barabási2016network}\\
 \noindent
 There are two definitions of a random graph:
@@ -55,7 +55,7 @@ There are two definitions of a random graph:
     \item $G(n,p)$ network. A graph with $n$ nodes will be initialised, there will be at most $(n)(n-1)/2$ edges. Every edge will have a probability $p$ to be instantiate. This approach brings a randomness propertyto the graph; number of edges $m$. A $G(n,p)$ graph returns a fixed $n$ but a different $m$ everytime. The expectation of $m$ is $p(n)(n-1)/2$., but usually comes with a small difference.
     \item $G(n,m)$ or $G(n,L)$ network. A graph with $n$ nodes will be initialised, $m/L$ edges will be connected from a random node to another random node. Due to the non-randomness of $G(n,m)$ networks, they are used to simulate the behaviour of a random network in this thesis.
 \end{itemize}
-
+\subsubsection{Random graphs property}
 
 \section{Methods}
 \subsection{Implemeted methods}

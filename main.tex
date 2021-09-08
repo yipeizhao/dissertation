@@ -55,7 +55,10 @@ There are two definitions of a random graph:
     \item $G(n,p)$ network. A graph with $n$ nodes will be initialised, there will be at most $(n)(n-1)/2$ edges. Every edge will have a probability $p$ to be instantiate. This approach brings a randomness propertyto the graph; number of edges $m$. A $G(n,p)$ graph returns a fixed $n$ but a different $m$ everytime. The expectation of $m$ is $p(n)(n-1)/2$., but usually comes with a small difference.
     \item $G(n,m)$ or $G(n,L)$ network. A graph with $n$ nodes will be initialised, $m/L$ edges will be connected from a random node to another random node. Due to the non-randomness of $G(n,m)$ networks, they are used to simulate the behaviour of a random network in this thesis.
 \end{itemize}
-\subsubsection{Random graphs property}
+\subsubsection{Random graphs parameter}
+In the literature review, we introduced the idea of clustering coefficient and average distance. For a random graph, the clustering coefficient and average distance can be calculated using formulas.\cite{barabási2016network} The average clustering coefficient of a random graph is $p$, or $2m/((n)(n-1))$(number of instantiated links divided by total number of possible links). Clustering coefficient is used to illustrate the ratio between connected links and possible links. If there are $k$ neighbours of a node, there can be at most $k(k-1)/2$ between the neighbours. In these $k(k-1)/2$ links, only $p$ of them will be instantiated. Thus, the ratio of connected links and possible links becomes $\frac{pk(k-1)/2}{k(k-1)/2}=p$. Additionally, average distance of a random graph is $\langle d\rangle \approx \frac{ln(n)}{ln\bar (k)}\approx \frac{ln(n)}{ln(2m/n)}$. To be noticed, both parameters are expectation/approximated, they won't be exact for a random graph.
+
+\subsection{Small world}
 
 \section{Methods}
 \subsection{Implemeted methods}

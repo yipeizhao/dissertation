@@ -2346,10 +2346,12 @@
   <bcf:section number="0">
     <bcf:citekey order="1">barabási2016network</bcf:citekey>
     <bcf:citekey order="2">barabási2016network</bcf:citekey>
-    <bcf:citekey order="3">KIM20082637</bcf:citekey>
-    <bcf:citekey order="4">KIM20082637</bcf:citekey>
+    <bcf:citekey order="3">milgram1967small</bcf:citekey>
+    <bcf:citekey order="4">wsmodel</bcf:citekey>
     <bcf:citekey order="5">KIM20082637</bcf:citekey>
-    <bcf:citekey order="6">floating_point</bcf:citekey>
+    <bcf:citekey order="6">KIM20082637</bcf:citekey>
+    <bcf:citekey order="7">KIM20082637</bcf:citekey>
+    <bcf:citekey order="8">floating_point</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

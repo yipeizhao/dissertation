@@ -20,13 +20,11 @@
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
     \entry{floating_point}{online}{}
-      \list{publisher}{1}{%
-        {Date accessed:01/09/2021}%
-      }
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{journaltitle}{15. Floating Point Arithmetic: Issues and Limitations - Python 3.8.11 documentation}
+      \field{note}{Date accessed:01/09/2021}
       \field{title}{15. floating point ARITHMETIC: Issues and Limitations}
       \verb{urlraw}
       \verb https://docs.python.org/3.8/tutorial/floatingpoint.html
@@ -36,27 +34,22 @@
       \endverb
     \endentry
     \entry{barabási2016network}{book}{}
-      \name{author}{2}{}{%
+      \name{author}{1}{}{%
         {{hash=9d9e97f70c4fb27df81a7d25f58aa128}{%
            family={Barabási},
            familyi={B\bibinitperiod},
            given={A.L.},
            giveni={A\bibinitperiod}}}%
-        {{hash=a298bbde7dc19d90fd6194d6de7954b8}{%
-           family={PÃ3sfai},
-           familyi={P\bibinitperiod},
-           given={M.Ã.},
-           giveni={M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Cambridge University Press}%
       }
-      \strng{namehash}{3d869b541b9655d48787bcc10cb460e2}
-      \strng{fullhash}{3d869b541b9655d48787bcc10cb460e2}
-      \strng{bibnamehash}{3d869b541b9655d48787bcc10cb460e2}
-      \strng{authorbibnamehash}{3d869b541b9655d48787bcc10cb460e2}
-      \strng{authornamehash}{3d869b541b9655d48787bcc10cb460e2}
-      \strng{authorfullhash}{3d869b541b9655d48787bcc10cb460e2}
+      \strng{namehash}{9d9e97f70c4fb27df81a7d25f58aa128}
+      \strng{fullhash}{9d9e97f70c4fb27df81a7d25f58aa128}
+      \strng{bibnamehash}{9d9e97f70c4fb27df81a7d25f58aa128}
+      \strng{authorbibnamehash}{9d9e97f70c4fb27df81a7d25f58aa128}
+      \strng{authornamehash}{9d9e97f70c4fb27df81a7d25f58aa128}
+      \strng{authorfullhash}{9d9e97f70c4fb27df81a7d25f58aa128}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -64,12 +57,6 @@
       \field{isbn}{9781107076266}
       \field{title}{Network Science}
       \field{year}{2016}
-      \verb{urlraw}
-      \verb https://books.google.co.uk/books?id=iLtGDQAAQBAJ
-      \endverb
-      \verb{url}
-      \verb https://books.google.co.uk/books?id=iLtGDQAAQBAJ
-      \endverb
     \endentry
     \entry{KIM20082637}{article}{}
       \name{author}{2}{}{%
@@ -101,6 +88,72 @@
       \field{year}{2008}
       \field{pages}{2637\bibrangedash 2652}
       \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.physa.2008.01.015
+      \endverb
+    \endentry
+    \entry{milgram1967small}{article}{}
+      \name{author}{1}{}{%
+        {{hash=647e77469dede3f1d7ed99198d6e59e9}{%
+           family={Milgram},
+           familyi={M\bibinitperiod},
+           given={Stanley},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {New York}%
+      }
+      \strng{namehash}{647e77469dede3f1d7ed99198d6e59e9}
+      \strng{fullhash}{647e77469dede3f1d7ed99198d6e59e9}
+      \strng{bibnamehash}{647e77469dede3f1d7ed99198d6e59e9}
+      \strng{authorbibnamehash}{647e77469dede3f1d7ed99198d6e59e9}
+      \strng{authornamehash}{647e77469dede3f1d7ed99198d6e59e9}
+      \strng{authorfullhash}{647e77469dede3f1d7ed99198d6e59e9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychology today}
+      \field{number}{1}
+      \field{title}{The small world problem}
+      \field{volume}{2}
+      \field{year}{1967}
+      \field{pages}{60\bibrangedash 67}
+      \range{pages}{8}
+    \endentry
+    \entry{wsmodel}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8749174d8ea73cb9cc7eda222618b353}{%
+           family={Watts},
+           familyi={W\bibinitperiod},
+           given={Duncan\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b0115f77df78376c68429033349375fc}{%
+           family={Strogatz},
+           familyi={S\bibinitperiod},
+           given={Steven\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{61ec8115bb61a3bd19135c7c8b217c6a}
+      \strng{fullhash}{61ec8115bb61a3bd19135c7c8b217c6a}
+      \strng{bibnamehash}{61ec8115bb61a3bd19135c7c8b217c6a}
+      \strng{authorbibnamehash}{61ec8115bb61a3bd19135c7c8b217c6a}
+      \strng{authornamehash}{61ec8115bb61a3bd19135c7c8b217c6a}
+      \strng{authorfullhash}{61ec8115bb61a3bd19135c7c8b217c6a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{6684}
+      \field{title}{Collective dynamics of ‘small-world’ networks}
+      \field{volume}{393}
+      \field{year}{1998}
+      \field{pages}{440\bibrangedash 442}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1038/30918
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1631295062 "main.bcf" "main.bbl" "main" 1631302706
-  "bib.bib" 1631295059 1234 aefe129fd0086ef53555388e3a04b1bc ""
-  "main.bcf" 1631296945 107298 d0eb91c70491af7999477fa257fa2378 "pdflatex"
+["biber main"] 1631365694 "main.bcf" "main.bbl" "main" 1631368526
+  "bib.bib" 1631364412 1841 47a22b00e4f98411fd4d0eddf4497a39 ""
+  "main.bcf" 1631368525 107410 6821102041cb852d24d6b75a12c15eab "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1631296920 "c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex" "main.pdf" "main" 1631302706
+["pdflatex"] 1631368514 "c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex" "main.pdf" "main" 1631368526
   "C:/Users/zhaoy/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1630865913 14064 cf14d397fa2c3e82224729122220099c ""
   "C:/Users/zhaoy/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1629463041 9742851 b1764638a8083f3c619da44f0103eddc ""
   "C:/Users/zhaoy/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1630939635 113589 1b4437940481cfc5e7f7e2c6f0bf6b7e ""
@@ -86,21 +86,23 @@
   "C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.def" 1280941015 1620 fb1c32b818f2058eca187e5c41dfae77 ""
   "C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.sty" 1280941015 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
   "C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex" 1631301224 14087 2fdd29010fbfad16d9f4f79db8eb31ec ""
+  "c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex" 1631368495 15671 c5d4896b206baf76213d965535f7aed8 ""
   "figures//c2espec.eps" 1630943478 68142 5e6fb0f8917ba4d4ac266f4d8f0e6105 ""
   "figures//complexities.eps" 1630945444 165083 c2735eeb8ce52df85757456da27a09a2 ""
+  "figures//degree_distribution.eps" 1631368020 40157 532086593720e7469ad392b3ebc32ef3 ""
   "figures//mag&mari.eps" 1630943530 218497 9d25dcc1967d3d490af75134a3c81fa2 ""
   "figures//mag.eps" 1630943526 117658 ae22e5eef8129f0c6c362545be651464 ""
   "figures//mari_exception.eps" 1630943533 16602 72f947c32ef4435ac62ed2d82297f23d ""
+  "figures//small_world_network_model.eps" 1631362638 39803 15a2251cdd40132fdb12a497d2f7302b ""
   "figures//subgraph_measures.eps" 1630941782 31564 90771a858c1b7355312f422e59ddebe3 ""
   "figures//university.png" 1618501736 36230 d0f0dd3ecf2f8781443c9acb70226232 ""
-  "main.aux" 1631296945 4812 19e82066c95207020f0fe90278d4a447 "pdflatex"
-  "main.bbl" 1631295073 6087 3d13d8882c57fec2311b8b809f380cea "biber main"
-  "main.run.xml" 1631296945 2298 e2b5a0bf95f708a24f98c9fec4266b14 "pdflatex"
-  "main.tex" 1631301224 14087 2fdd29010fbfad16d9f4f79db8eb31ec ""
+  "main.aux" 1631368525 5272 8ab66aae1d97b48b3bef46602742230a "pdflatex"
+  "main.bbl" 1631365709 7718 03312e6f1f49e4986acbb6d1373a20a1 "biber main"
+  "main.run.xml" 1631368525 2298 e2b5a0bf95f708a24f98c9fec4266b14 "pdflatex"
+  "main.tex" 1631368495 15671 c5d4896b206baf76213d965535f7aed8 ""
   (generated)
-  "main.bcf"
-  "main.aux"
-  "main.pdf"
   "main.run.xml"
+  "main.pdf"
+  "main.aux"
+  "main.bcf"
   "main.log"

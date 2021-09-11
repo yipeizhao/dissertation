@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.20)  10 SEP 2021 19:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.20)  11 SEP 2021 14:55
 entering extended mode
 **c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex
 (c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex
@@ -458,12 +458,47 @@ Package pdftex.def Info: ./figures//university.png  used on input line 38.
  [1
 
 {C:/Users/zhaoy/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./figures//university.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 62--65
 
  []
 
-[1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 99--102
+[1]
+Package epstopdf Info: Source file: <./figures//small_world_network_model.eps>
+(epstopdf)                    date: 2021-09-11 13:17:18
+(epstopdf)                    size: 39803 bytes
+(epstopdf)             Output file: <./figures//small_world_network_model-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-11 13:18:12
+(epstopdf)                    size: 20679 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//small_world_network_model-eps-converted-to.pdf ./figures//small_world_network_model.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//small_world_network_model-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//small_world_network_model-eps-converted-to.pdf, id=20, 1084.05pt x 722.7pt>
+File: ./figures//small_world_network_model-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//small_world_network_model-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//small_world_network_model-eps-converted-to.pdf  used on input line 67.
+(pdftex.def)             Requested size: 433.62001pt x 289.07487pt.
+Package epstopdf Info: Source file: <./figures//degree_distribution.eps>
+(epstopdf)                    date: 2021-09-11 14:47:00
+(epstopdf)                    size: 40157 bytes
+(epstopdf)             Output file: <./figures//degree_distribution-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-11 14:50:45
+(epstopdf)                    size: 23913 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//degree_distribution-eps-converted-to.pdf ./figures//degree_distribution.eps>
+(epstopdf)             \includegraphics on input line 76.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//degree_distribution-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//degree_distribution-eps-converted-to.pdf, id=21, 722.7pt x 722.7pt>
+File: ./figures//degree_distribution-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//degree_distribution-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//degree_distribution-eps-converted-to.pdf  used on input line 76.
+(pdftex.def)             Requested size: 303.53267pt x 303.53192pt.
+[2] [3 <./figures//small_world_network_model-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
 
  []
 
@@ -474,16 +509,17 @@ Package epstopdf Info: Source file: <./figures//mag.eps>
 (epstopdf)                    date: 2021-09-06 17:03:44
 (epstopdf)                    size: 55540 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//mag-eps-converted-to.pdf ./figures//mag.eps>
-(epstopdf)             \includegraphics on input line 104.
+(epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//mag-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//mag-eps-converted-to.pdf, id=23, 1445.4pt x 361.35pt>
+<./figures//mag-eps-converted-to.pdf, id=40, 1445.4pt x 361.35pt>
 File: ./figures//mag-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//mag-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//mag-eps-converted-to.pdf  used on input line 104.
+Package pdftex.def Info: ./figures//mag-eps-converted-to.pdf  used on input line 117.
 (pdftex.def)             Requested size: 433.62001pt x 108.40584pt.
+[4 <./figures//degree_distribution-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures//mag&mari.eps>
 (epstopdf)                    date: 2021-09-06 16:52:10
 (epstopdf)                    size: 218497 bytes
@@ -491,15 +527,15 @@ Package epstopdf Info: Source file: <./figures//mag&mari.eps>
 (epstopdf)                    date: 2021-09-06 17:03:48
 (epstopdf)                    size: 295241 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//mag&mari-eps-converted-to.pdf ./figures//mag&mari.eps>
-(epstopdf)             \includegraphics on input line 118.
+(epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//mag&mari-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//mag&mari-eps-converted-to.pdf, id=24, 1445.4pt x 361.35pt>
+<./figures//mag&mari-eps-converted-to.pdf, id=72, 1445.4pt x 361.35pt>
 File: ./figures//mag&mari-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//mag&mari-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//mag&mari-eps-converted-to.pdf  used on input line 118.
+Package pdftex.def Info: ./figures//mag&mari-eps-converted-to.pdf  used on input line 131.
 (pdftex.def)             Requested size: 433.62001pt x 108.40584pt.
 Package epstopdf Info: Source file: <./figures//mari_exception.eps>
 (epstopdf)                    date: 2021-09-06 16:52:13
@@ -508,28 +544,28 @@ Package epstopdf Info: Source file: <./figures//mari_exception.eps>
 (epstopdf)                    date: 2021-09-06 17:03:51
 (epstopdf)                    size: 11180 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//mari_exception-eps-converted-to.pdf ./figures//mari_exception.eps>
-(epstopdf)             \includegraphics on input line 143.
+(epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//mari_exception-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//mari_exception-eps-converted-to.pdf, id=25, 722.7pt x 722.7pt>
+<./figures//mari_exception-eps-converted-to.pdf, id=73, 722.7pt x 722.7pt>
 File: ./figures//mari_exception-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//mari_exception-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//mari_exception-eps-converted-to.pdf  used on input line 143.
+Package pdftex.def Info: ./figures//mari_exception-eps-converted-to.pdf  used on input line 156.
 (pdftex.def)             Requested size: 303.53267pt x 303.53192pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--150
+Underfull \hbox (badness 10000) in paragraph at lines 135--163
 
  []
 
-[3 <./figures//mag-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+[5 <./figures//mag-eps-converted-to.pdf> <./figures//mag&mari-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
 
  []
 
-[4 <./figures//mag&mari-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+[6 <./figures//mari_exception-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
@@ -540,22 +576,22 @@ Package epstopdf Info: Source file: <./figures//subgraph_measures.eps>
 (epstopdf)                    date: 2021-09-06 17:00:52
 (epstopdf)                    size: 41147 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//subgraph_measures-eps-converted-to.pdf ./figures//subgraph_measures.eps>
-(epstopdf)             \includegraphics on input line 170.
+(epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//subgraph_measures-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//subgraph_measures-eps-converted-to.pdf, id=88, 1084.05pt x 361.35pt>
+<./figures//subgraph_measures-eps-converted-to.pdf, id=150, 1084.05pt x 361.35pt>
 File: ./figures//subgraph_measures-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//subgraph_measures-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//subgraph_measures-eps-converted-to.pdf  used on input line 170.
+Package pdftex.def Info: ./figures//subgraph_measures-eps-converted-to.pdf  used on input line 183.
 (pdftex.def)             Requested size: 433.62001pt x 144.53743pt.
 
-Overfull \hbox (21.69127pt too wide) in paragraph at lines 174--178
+Overfull \hbox (21.69127pt too wide) in paragraph at lines 187--191
 \OT1/cmr/m/n/12 The core of dif-fer-ent sub-graph mea-sure is to com-pare the cofactor($\OML/cmm/m/it/12 C[]$\OT1/cmr/m/n/12 )/spectrum($\OML/cmm/m/it/12 C[]$
  []
 
-[5 <./figures//mari_exception-eps-converted-to.pdf>] [6 <./figures//subgraph_measures-eps-converted-to.pdf>]
+[7 <./figures//subgraph_measures-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures//c2espec.eps>
 (epstopdf)                    date: 2021-09-06 16:51:18
 (epstopdf)                    size: 68142 bytes
@@ -563,17 +599,17 @@ Package epstopdf Info: Source file: <./figures//c2espec.eps>
 (epstopdf)                    date: 2021-09-06 17:03:55
 (epstopdf)                    size: 108302 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//c2espec-eps-converted-to.pdf ./figures//c2espec.eps>
-(epstopdf)             \includegraphics on input line 186.
+(epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//c2espec-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//c2espec-eps-converted-to.pdf, id=133, 1084.05pt x 361.35pt>
+<./figures//c2espec-eps-converted-to.pdf, id=176, 1084.05pt x 361.35pt>
 File: ./figures//c2espec-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//c2espec-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//c2espec-eps-converted-to.pdf  used on input line 186.
+Package pdftex.def Info: ./figures//c2espec-eps-converted-to.pdf  used on input line 199.
 (pdftex.def)             Requested size: 433.62001pt x 144.53743pt.
-[7 <./figures//c2espec-eps-converted-to.pdf>]
+[8 <./figures//c2espec-eps-converted-to.pdf>] [9]
 Package epstopdf Info: Source file: <./figures//complexities.eps>
 (epstopdf)                    date: 2021-09-06 17:24:04
 (epstopdf)                    size: 165083 bytes
@@ -581,48 +617,53 @@ Package epstopdf Info: Source file: <./figures//complexities.eps>
 (epstopdf)                    date: 2021-09-06 17:25:57
 (epstopdf)                    size: 202719 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//complexities-eps-converted-to.pdf ./figures//complexities.eps>
-(epstopdf)             \includegraphics on input line 198.
+(epstopdf)             \includegraphics on input line 211.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//complexities-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//complexities-eps-converted-to.pdf, id=164, 722.7pt x 1156.32pt>
+<./figures//complexities-eps-converted-to.pdf, id=210, 722.7pt x 1156.32pt>
 File: ./figures//complexities-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//complexities-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//complexities-eps-converted-to.pdf  used on input line 198.
+Package pdftex.def Info: ./figures//complexities-eps-converted-to.pdf  used on input line 211.
 (pdftex.def)             Requested size: 433.62001pt x 693.79736pt.
 
-LaTeX Warning: Float too large for page by 115.7229pt on input line 201.
+LaTeX Warning: Float too large for page by 115.7229pt on input line 214.
 
 
-Overfull \hbox (18.93675pt too wide) in paragraph at lines 205--205
+Overfull \hbox (18.93675pt too wide) in paragraph at lines 218--218
 []\OT1/cmr/m/it/12 15. float-ing point ARITH-METIC: Is-sues and Lim-i-ta-tions\OT1/cmr/m/n/12 . Date ac-cessed:01/09/2021.
  []
 
 
-Overfull \hbox (40.42276pt too wide) in paragraph at lines 205--205
+Overfull \hbox (40.42276pt too wide) in paragraph at lines 218--218
 []\OT1/cmr/m/n/12 A.L. Barabasi. \OT1/cmr/m/it/12 Net-work Sci-ence\OT1/cmr/m/n/12 . Cam-bridge Uni-ver-sity Press, 2016. \OT1/cmr/m/sc/12 isbn\OT1/cmr/m/n/12 : 9781107076266. 
  []
 
-[8
 
-] [9 <./figures//complexities-eps-converted-to.pdf>] (main.aux)
+Overfull \hbox (7.52158pt too wide) in paragraph at lines 218--218
+\OT1/cmtt/m/n/12 https : / / www . sciencedirect . com / science / article / pii / S0375960199007574$\OT1/cmr/m/n/12 . 
+ []
+
+[10
+
+] [11 <./figures//complexities-eps-converted-to.pdf>] (main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10219 strings out of 478864
- 189057 string characters out of 2848660
- 915363 words of memory out of 3000000
- 28048 multiletter control sequences out of 15000+600000
+ 10238 strings out of 478864
+ 189978 string characters out of 2848660
+ 914414 words of memory out of 3000000
+ 28065 multiletter control sequences out of 15000+600000
  411790 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,9n,66p,1082b,1236s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,9n,66p,1240b,1244s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\zhaoy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (10 pages, 936410 bytes).
+Output written on main.pdf (12 pages, 981737 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
+ 335 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

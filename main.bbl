@@ -121,6 +121,47 @@
       \field{pages}{60\bibrangedash 67}
       \range{pages}{8}
     \endentry
+    \entry{nwmodel}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4bf3b98e94373b42e6f6e6dfddaf4daa}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={M.E.J.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5b4d12393c6ea7932bda21084c762349}{%
+           family={Watts},
+           familyi={W\bibinitperiod},
+           given={D.J.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{90b748f3b0ed3bbf8e82d894fb1980b2}
+      \strng{fullhash}{90b748f3b0ed3bbf8e82d894fb1980b2}
+      \strng{bibnamehash}{90b748f3b0ed3bbf8e82d894fb1980b2}
+      \strng{authorbibnamehash}{90b748f3b0ed3bbf8e82d894fb1980b2}
+      \strng{authornamehash}{90b748f3b0ed3bbf8e82d894fb1980b2}
+      \strng{authorfullhash}{90b748f3b0ed3bbf8e82d894fb1980b2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0375-9601}
+      \field{journaltitle}{Physics Letters A}
+      \field{number}{4}
+      \field{title}{Renormalization group analysis of the small-world network model}
+      \field{volume}{263}
+      \field{year}{1999}
+      \field{pages}{341\bibrangedash 346}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0375-9601(99)00757-4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0375960199007574
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0375960199007574
+      \endverb
+    \endentry
     \entry{wsmodel}{article}{}
       \name{author}{2}{}{%
         {{hash=8749174d8ea73cb9cc7eda222618b353}{%

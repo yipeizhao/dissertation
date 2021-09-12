@@ -58,6 +58,38 @@
       \field{title}{Network Science}
       \field{year}{2016}
     \endentry
+    \entry{broido_clauset_2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b2d12afe2a5731d9df81eca0f1ed633a}{%
+           family={Broido},
+           familyi={B\bibinitperiod},
+           given={Anna\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=42b12665bdf3534fb7bb76c73fc17ebe}{%
+           family={Clauset},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e35209b75348ff1c7fad28e9b3f8fbb4}
+      \strng{fullhash}{e35209b75348ff1c7fad28e9b3f8fbb4}
+      \strng{bibnamehash}{e35209b75348ff1c7fad28e9b3f8fbb4}
+      \strng{authorbibnamehash}{e35209b75348ff1c7fad28e9b3f8fbb4}
+      \strng{authornamehash}{e35209b75348ff1c7fad28e9b3f8fbb4}
+      \strng{authorfullhash}{e35209b75348ff1c7fad28e9b3f8fbb4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{number}{1}
+      \field{title}{Scale-free networks are rare}
+      \field{volume}{10}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1038/s41467-019-08746-5
+      \endverb
+    \endentry
     \entry{KIM20082637}{article}{}
       \name{author}{2}{}{%
         {{hash=fe06c63cd689a75f7a6251424aaf3489}{%

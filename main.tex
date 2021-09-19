@@ -4,6 +4,7 @@
 \usepackage{biblatex}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage[center]{caption}
 \newtheorem{theorem}{Theorem}
 \addbibresource{bib.bib}
 \graphicspath{ {./figures/} }
@@ -183,6 +184,16 @@ Thus, using equation \ref{c_max}, we can define a new measure $MA_{RI}$, which i
 \begin{equation}
     MA_{RI} = \frac{4(R-R_{path})(I-I_{clique})}{(ln(2m)-I_{clique}-R_{path})^2}
 \end{equation}
+\noindent
+The complexity of $MA_{RI}$ is identical to $MA_g$, which can be calculated in $O(m)$ time.\\
+As shown in figure \ref{fig:mariandmag}, $MA_{RI}$ gives higher coplexity to sparser graphs but less complexity when approaching to medium number of links. Additionally, it decreases almost linearly with $m$ once the peak is reached.
+\clearpage
+\begin{figure}[ht]
+    \label{fig:mariandmag}
+    \centering
+    \includegraphics[width=\textwidth]{mariandmag.eps}
+    \caption{$MA_g$ and $MA_{RI}$ complexity of $G(n,m)$ models, where $n=20$ and 1000 samples with random $m$ have been generated.}
+\end{figure}
 
 \subsection{Potential problems and solutions of different subgraph measures}
 \label{problem}
@@ -215,9 +226,11 @@ The upper-bound of $C_{2e,spec}$ is 0.5 while $ n\leq7 $. To have an upper-bound
 
 \section{Result}
 \subsection{Complexity measures on small graphs}
-As shown in figure \ref{fig:small_graphs}, we simulated similar results as Kim and Wilhelm in \cite{KIM20082637}. Except $C_{2e,spec}$, as mentioned in section \ref{problem}, there is a scaling problem.
+To test the performance of implemented measures, we tried all meausres on $G(n,m)$ random graphs with $n=7$ where 50 samples are generated for each $m$. As shown in figure \ref{fig:small_graphs}, we reproduced results as Kim and Wilhelm did in \cite{KIM20082637}. Except $C_{2e,spec}$, as mentioned in section \ref{problem}, there is a scaling problem. Most of the methods reaches its maximum with medium number of links. Low complexity are given to highly connected graphs and relatively sparse graphs.
 \\
-\clearpage
+Different subgraph measures perform similarly, there is a big difference between the maximum and minimum with same $m$. Thus, it is very difficult to predict the complexity of a graph with given $m$ and $n$. The highest complexity is reached at $m=15$ for $C_{1e,st}$ and $C_{1e,spec}$ and $m=14$ for $C_{2e,spec}$. There is a miss in the plot: $C_{1e,spec}$ and $C_{2e,spec}$ plot does not contain a data point at (6,0). There is a very small proabbility for $G(n,m)$ model to generate a star graph(n-1 nodes are connected to 1 node, in total of n-1 edges), which will result in 0 complexity using $C_{1e,spec}$ and $C_{2e,spec}$ measure. We recommend to use different subgraph measure for small graphs as it is relatively independent of $m$, but not for large graphs due to its complexity.\\
+$OdC$ is highly based on the degree distribution of a graph.\cite{odc} Thus, it spreads across the space and has little relationship with $m$. $OdC$ assigns a lot of graphs with 6 edges high complexity than desired. $OdC$ is "hierarchy sensitive", it may not create big difference between graphs when the graphs are small.\\
+All 4 product measures are similar, gives higher complexity value at medium number of edges and less at both tails.
 \begin{figure}[ht]
     \includegraphics[width=0.7\textwidth]{complexities.eps}
     \centering

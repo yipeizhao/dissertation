@@ -16,10 +16,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}$MA_{RI}$}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Potential problems and solutions of different subgraph measures}{7}{}%
+\contentsline {subsection}{\numberline {2.3}Potential problems and solutions of different subgraph measures}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Result}{9}{}%
+\contentsline {section}{\numberline {3}Result}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Complexity measures on small graphs}{9}{}%
+\contentsline {subsection}{\numberline {3.1}Complexity measures on small graphs}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Conclusion}{10}{}%
+\contentsline {section}{\numberline {4}Conclusion}{11}{}%

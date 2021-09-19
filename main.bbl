@@ -86,9 +86,35 @@
       \field{title}{Scale-free networks are rare}
       \field{volume}{10}
       \field{year}{2019}
-      \verb{doi}
-      \verb 10.1038/s41467-019-08746-5
-      \endverb
+    \endentry
+    \entry{odc}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3d349e85b4ae681990075948f5556ac4}{%
+           family={Claussen},
+           familyi={C\bibinitperiod},
+           given={Jens\bibnamedelima Christian},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{3d349e85b4ae681990075948f5556ac4}
+      \strng{fullhash}{3d349e85b4ae681990075948f5556ac4}
+      \strng{bibnamehash}{3d349e85b4ae681990075948f5556ac4}
+      \strng{authorbibnamehash}{3d349e85b4ae681990075948f5556ac4}
+      \strng{authornamehash}{3d349e85b4ae681990075948f5556ac4}
+      \strng{authorfullhash}{3d349e85b4ae681990075948f5556ac4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{number}{1}
+      \field{title}{Offdiagonal complexity: A computationally quick complexity measure for graphs and networks}
+      \field{volume}{375}
+      \field{year}{2007}
+      \field{pages}{365\bibrangedash 373}
+      \range{pages}{9}
     \endentry
     \entry{network_rewiring}{article}{}
       \name{author}{5}{}{%
@@ -132,9 +158,7 @@
       \field{number}{1}
       \field{title}{Network rewiring is an important mechanism of gene essentiality change}
       \field{volume}{2}
-      \verb{doi}
-      \verb 10.1038/srep00900
-      \endverb
+      \field{year}{2012}
     \endentry
     \entry{KIM20082637}{article}{}
       \name{author}{2}{}{%
@@ -166,9 +190,6 @@
       \field{year}{2008}
       \field{pages}{2637\bibrangedash 2652}
       \range{pages}{16}
-      \verb{doi}
-      \verb 10.1016/j.physa.2008.01.015
-      \endverb
     \endentry
     \entry{milgram1967small}{article}{}
       \name{author}{1}{}{%
@@ -222,7 +243,6 @@
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0375-9601}
       \field{journaltitle}{Physics Letters A}
       \field{number}{4}
       \field{title}{Renormalization group analysis of the small-world network model}
@@ -230,15 +250,6 @@
       \field{year}{1999}
       \field{pages}{341\bibrangedash 346}
       \range{pages}{6}
-      \verb{doi}
-      \verb https://doi.org/10.1016/S0375-9601(99)00757-4
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0375960199007574
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0375960199007574
-      \endverb
     \endentry
     \entry{wsmodel}{article}{}
       \name{author}{2}{}{%
@@ -270,9 +281,6 @@
       \field{year}{1998}
       \field{pages}{440\bibrangedash 442}
       \range{pages}{3}
-      \verb{doi}
-      \verb 10.1038/30918
-      \endverb
     \endentry
   \enddatalist
 \endrefsection

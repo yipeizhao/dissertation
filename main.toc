@@ -10,18 +10,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4}Scale-free network}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Methods}{5}{}%
+\contentsline {subsection}{\numberline {1.5}Generated graphs}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Implemeted methods}{5}{}%
+\contentsline {section}{\numberline {2}Methods}{6}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Implemeted methods}{6}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}$MA_{RI}$}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Potential problems and solutions of different subgraph measures}{8}{}%
+\contentsline {subsection}{\numberline {2.3}Potential problems and solutions of different subgraph measures}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Result}{10}{}%
+\contentsline {section}{\numberline {3}Result}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Complexity measures on small random graphs}{10}{}%
+\contentsline {subsection}{\numberline {3.1}Complexity measures on small random graphs}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}BA,WS and NW model}{11}{}%
+\contentsline {subsection}{\numberline {3.2}BA,WS and NW model}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Conclusion}{14}{}%
+\contentsline {subsection}{\numberline {3.3}Complexity correlation}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Complement graphs}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Conclusion}{17}{}%

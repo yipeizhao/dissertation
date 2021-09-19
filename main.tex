@@ -56,7 +56,7 @@ We have many real networks in the actual world, but defining or observing all of
 There are two definitions of a random network:
 \begin{itemize}
     \item $G(n,p)$ network. A network with $n$ nodes will be initialised, there will be at most $(n)(n-1)/2$ edges. Each edge will be instantiated with probability $p$. This approach brings a randomness property to the graph; number of edges $m$. A $G(n,p)$ graph returns a fixed $n$ but a different $m$ everytime. The expectation of $m$ is equal to $p(n)(n-1)/2$.
-    \item $G(n,m)$ or $G(n,L)$ network. A graph with $n$ nodes will be initialised, $m/L$ edges will be connected from a random node to another random node. Due to the non-randomness of $G(n,m)$ networks, they are used to simulate the behaviour of a random network in this thesis.
+    \item $G(n,m)$ or $G(n,L)$ network. A graph with $n$ nodes will be initialised, $m/L$ edges will be connected from a random node to another random node. Due to the non-randomness of $G(n,m)$ networks, they are used to simulate the behaviour of a random network in this thesis. There will be also refered to random network/random graph in this report unless specified otherwise.
 \end{itemize}
 
 \noindent
@@ -225,19 +225,32 @@ A unique problem with $C_{2e,spec}$ is the value is not properly normalised for 
 The upper-bound of $C_{2e,spec}$ is 0.5 while $ n\leq7 $. To have an upper-bound at 1, the complexity values have to be scaled by 2. However, scale by 2 will cause the complexity to exceed 1 for larger graphs. Thus, we sticked to the original normalisation and $C_{2e,spec}$ will have an upperbound at 0.5 for $n \leq 7$.
 
 \section{Result}
-\subsection{Complexity measures on small graphs}
+\subsection{Complexity measures on small random graphs}
 To test the performance of implemented measures, we tried all meausres on $G(n,m)$ random graphs with $n=7$ where 50 samples are generated for each $m$. As shown in figure \ref{fig:small_graphs}, we reproduced results as Kim and Wilhelm did in \cite{KIM20082637}. Except $C_{2e,spec}$, as mentioned in section \ref{problem}, there is a scaling problem. Most of the methods reaches its maximum with medium number of links. Low complexity are given to highly connected graphs and relatively sparse graphs.
 \\
 Different subgraph measures perform similarly, there is a big difference between the maximum and minimum with same $m$. Thus, it is very difficult to predict the complexity of a graph with given $m$ and $n$. The highest complexity is reached at $m=15$ for $C_{1e,st}$ and $C_{1e,spec}$ and $m=14$ for $C_{2e,spec}$. There is a miss in the plot: $C_{1e,spec}$ and $C_{2e,spec}$ plot does not contain a data point at (6,0). There is a very small proabbility for $G(n,m)$ model to generate a star graph(n-1 nodes are connected to 1 node, in total of n-1 edges), which will result in 0 complexity using $C_{1e,spec}$ and $C_{2e,spec}$ measure. We recommend to use different subgraph measure for small graphs as it is relatively independent of $m$, but not for large graphs due to its complexity.\\
 $OdC$ is highly based on the degree distribution of a graph.\cite{odc} Thus, it spreads across the space and has little relationship with $m$. $OdC$ assigns a lot of graphs with 6 edges high complexity than desired. $OdC$ is "hierarchy sensitive", it may not create big difference between graphs when the graphs are small.\\
-All 4 product measures are similar, gives higher complexity value at medium number of edges and less at both tails.
+All 4 product measures are similar, gives higher complexity value at medium number of edges and less at both tails. There is a very small difference between graphs with same number of edges. $Ce$ and $Cr$ tends to give highest complexity to graphs with exactly $n(n-1)/4$ edges, and $MA_{RI}$ and $MA_{g}$ reach their maximum before medium number of edges as expected. Product measure are highly depending on $m$, one may guess the complexity of a graph solely based on $m$ and $n$. Network scientists may use machine learning techniques to approximate the complexity of a graph using $m$ and $n$, to calculate the complexity in an extremly small amount of time. On the other hand, product measure may not be optimal because a complexity measure should not solely based on $m$ and $n$, but the overall structure of a network.
 \begin{figure}[ht]
     \includegraphics[width=0.7\textwidth]{complexities.eps}
     \centering
-    \caption{results of implemented methods of graphs with n =7. Methods from top-left to bottom-right are: $C_{1e,st}$, $C_{1e,spec}$, $C_{2e,spec}$, $OdC$, $MAg$, $Cr$, $Cr$ and $MAri$.}
+    \caption{Complexity of graphs generated using $G(7,m)$ model, 50 samples are generated for each $m$. Methods from top-left to bottom-right are: $C_{1e,st}$, $C_{1e,spec}$, $C_{2e,spec}$, $OdC$, $MAg$, $Cr$, $Cr$ and $MAri$.}
     \label{fig:small_graphs}
 \end{figure}
 
+\subsection{BA,WS and NW model}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.6\textwidth]{complexities_sp.eps}
+    \label{fig:graph_models}
+    \caption{Complexity of 500 $G(n,m)$ graphs, 100 BA graphs, 100 WS graphs and 100 NW graphs, all graphs have 20 nodes. $G(n,m)$ graphs are generated using $n=20$ and a random $m$. BA graphs are generated using parameters: $n=20$, and $m$ is a random number between 1 and $n-1$. WS and NW are created using parameters:$n=20$, a random $k$ between 1 and $n-1$, a random $p$ between 0.001 and 0.1.}
+\end{figure}
+As informed in section \ref{problem}, different subgraph measures have normalisation problem and the complextity would exceed 1.\\
+Surprisingling, diffrent subgraph measures and product measures are struggling to seperate random graphs, WS graphs and NW graphs. Only $OdC$ seperates random graphs and WS,NW model by giving random graphs higher complexity than WS and MW model with fixed $m$. This is because $OdC$ awards graphs with complicated degree correlation. On the other hand, WS and NW model generate graphs that have small degree difference between each node.\\
+BA graphs give more intrersting results. Different subgraph measures assign lower complexity to BA graphs compare to random graphs. This can be caused by the preferential attachment. Preferential attachment ensures most nodes have low degree and builds hubs(nodes with high degree) in the graph. After cutting an edge/two edges between hubs and nodes with small degree, there is a high chance an isomorphic subgraph can be found, thus lower the complexity of the graph. In another word, subgraphs resulted by cutting the edge between hubs and node with small degree are very similar and occassionally isormophic.\\
+$MA_g$ and $MA_{RI}$ perform similarly by assigning BA graphs lower value towards medium number of links. Both measures are depening on the variable $\sum_{i,j>i}d_id_j$. BA graphs ususally have less $\sum_{i,j>i}d_id_j$ because they are highly structure, causing less sum than a random graph. Contrarily, $Ce$ and $Cr$ cannot distinguish BA graphs and random graphs. $Ce$ is based on the efficiency of a graph, a highly complex graph should have small average distance with not too much links simultaneously. BA graph does not perform different than random graphs in $Ce$ measure.
+
+\clearpage
 \section{Conclusion}
 
 \printbibliography

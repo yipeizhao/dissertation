@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.20)  19 SEP 2021 18:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.20)  19 SEP 2021 22:27
 entering extended mode
 **c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex
 (c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex
@@ -617,10 +617,10 @@ Package pdftex.def Info: ./figures//c2espec-eps-converted-to.pdf  used on input 
 (pdftex.def)             Requested size: 433.62001pt x 144.53743pt.
 [9 <./figures//subgraph_measures-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures//complexities.eps>
-(epstopdf)                    date: 2021-09-19 14:51:08
+(epstopdf)                    date: 2021-09-19 17:20:17
 (epstopdf)                    size: 157592 bytes
 (epstopdf)             Output file: <./figures//complexities-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-19 14:53:00
+(epstopdf)                    date: 2021-09-19 21:58:20
 (epstopdf)                    size: 202868 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//complexities-eps-converted-to.pdf ./figures//complexities.eps>
 (epstopdf)             \includegraphics on input line 235.
@@ -634,16 +634,36 @@ File: ./figures//complexities-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures//complexities-eps-converted-to.pdf  used on input line 235.
 (pdftex.def)             Requested size: 303.53267pt x 485.6511pt.
 [10 <./figures//c2espec-eps-converted-to.pdf>]
-Overfull \hbox (18.93675pt too wide) in paragraph at lines 244--244
+Package epstopdf Info: Source file: <./figures//complexities_sp.eps>
+(epstopdf)                    date: 2021-09-15 11:25:38
+(epstopdf)                    size: 178509 bytes
+(epstopdf)             Output file: <./figures//complexities_sp-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-19 20:26:53
+(epstopdf)                    size: 541035 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//complexities_sp-eps-converted-to.pdf ./figures//complexities_sp.eps>
+(epstopdf)             \includegraphics on input line 244.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//complexities_sp-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//complexities_sp-eps-converted-to.pdf, id=203, 722.7pt x 1156.32pt>
+File: ./figures//complexities_sp-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//complexities_sp-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//complexities_sp-eps-converted-to.pdf  used on input line 244.
+(pdftex.def)             Requested size: 260.17465pt x 416.27489pt.
+[11] [12 <./figures//complexities-eps-converted-to.pdf>] [13 <./figures//complexities_sp-eps-converted-to.pdf>]
+Overfull \hbox (18.93675pt too wide) in paragraph at lines 257--257
 []\OT1/cmr/m/it/12 15. float-ing point ARITH-METIC: Is-sues and Lim-i-ta-tions\OT1/cmr/m/n/12 . Date ac-cessed:01/09/2021.
  []
 
 
-Overfull \hbox (40.42276pt too wide) in paragraph at lines 244--244
+Overfull \hbox (40.42276pt too wide) in paragraph at lines 257--257
 []\OT1/cmr/m/n/12 A.L. Barabasi. \OT1/cmr/m/it/12 Net-work Sci-ence\OT1/cmr/m/n/12 . Cam-bridge Uni-ver-sity Press, 2016. \OT1/cmr/m/sc/12 isbn\OT1/cmr/m/n/12 : 9781107076266. 
  []
 
-[11] [12 <./figures//complexities-eps-converted-to.pdf>] (main.aux)
+[14
+
+] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -652,17 +672,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11483 strings out of 478864
- 213959 string characters out of 2848660
- 937956 words of memory out of 3000000
- 29302 multiletter control sequences out of 15000+600000
+ 11492 strings out of 478864
+ 214330 string characters out of 2848660
+ 938003 words of memory out of 3000000
+ 29310 multiletter control sequences out of 15000+600000
  411790 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,7n,66p,1216b,1227s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\zhaoy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (13 pages, 786260 bytes).
+Output written on main.pdf (15 pages, 1330884 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
+ 355 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

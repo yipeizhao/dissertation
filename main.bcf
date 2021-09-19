@@ -2346,18 +2346,19 @@
   <bcf:section number="0">
     <bcf:citekey order="1">barabási2016network</bcf:citekey>
     <bcf:citekey order="2">barabási2016network</bcf:citekey>
-    <bcf:citekey order="3">milgram1967small</bcf:citekey>
-    <bcf:citekey order="4">wsmodel</bcf:citekey>
-    <bcf:citekey order="5">nwmodel</bcf:citekey>
-    <bcf:citekey order="6">barabási2016network</bcf:citekey>
+    <bcf:citekey order="3">network_rewiring</bcf:citekey>
+    <bcf:citekey order="4">milgram1967small</bcf:citekey>
+    <bcf:citekey order="5">wsmodel</bcf:citekey>
+    <bcf:citekey order="6">nwmodel</bcf:citekey>
     <bcf:citekey order="7">barabási2016network</bcf:citekey>
-    <bcf:citekey order="8">broido_clauset_2019</bcf:citekey>
-    <bcf:citekey order="9">barabási2016network</bcf:citekey>
-    <bcf:citekey order="10">KIM20082637</bcf:citekey>
+    <bcf:citekey order="8">barabási2016network</bcf:citekey>
+    <bcf:citekey order="9">broido_clauset_2019</bcf:citekey>
+    <bcf:citekey order="10">barabási2016network</bcf:citekey>
     <bcf:citekey order="11">KIM20082637</bcf:citekey>
     <bcf:citekey order="12">KIM20082637</bcf:citekey>
-    <bcf:citekey order="13">floating_point</bcf:citekey>
-    <bcf:citekey order="14">KIM20082637</bcf:citekey>
+    <bcf:citekey order="13">KIM20082637</bcf:citekey>
+    <bcf:citekey order="14">floating_point</bcf:citekey>
+    <bcf:citekey order="15">KIM20082637</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -90,6 +90,52 @@
       \verb 10.1038/s41467-019-08746-5
       \endverb
     \endentry
+    \entry{network_rewiring}{article}{}
+      \name{author}{5}{}{%
+        {{hash=afcfea51c97949d46d85998af1283dd8}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jinho},
+           giveni={J\bibinitperiod}}}%
+        {{hash=76123d315f0b74a9f1ce3157fa01bfc5}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Inhae},
+           giveni={I\bibinitperiod}}}%
+        {{hash=60b5df7e0e2af8b9579cce23ffd8f875}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Seong\bibnamedelima Kyu},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=348ccb666db3ee2cb510830238e5991b}{%
+           family={Bowie},
+           familyi={B\bibinitperiod},
+           given={James\bibnamedelima U.},
+           giveni={J\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+        {{hash=f8f4ceafb99515e807f3e83e4c8f9c4e}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sanguk},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{17ec9adf5d96dfa57a08618203cfae6b}
+      \strng{fullhash}{02c113a003139bd207507c6956553753}
+      \strng{bibnamehash}{17ec9adf5d96dfa57a08618203cfae6b}
+      \strng{authorbibnamehash}{17ec9adf5d96dfa57a08618203cfae6b}
+      \strng{authornamehash}{17ec9adf5d96dfa57a08618203cfae6b}
+      \strng{authorfullhash}{02c113a003139bd207507c6956553753}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{number}{1}
+      \field{title}{Network rewiring is an important mechanism of gene essentiality change}
+      \field{volume}{2}
+      \verb{doi}
+      \verb 10.1038/srep00900
+      \endverb
+    \endentry
     \entry{KIM20082637}{article}{}
       \name{author}{2}{}{%
         {{hash=fe06c63cd689a75f7a6251424aaf3489}{%

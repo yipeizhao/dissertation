@@ -1,0 +1,633 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.20)  19 SEP 2021 12:40
+entering extended mode
+**c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex
+(c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01> (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+(C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count190
+\Gm@cntv=\count191
+\c@Gm@tempcnt=\count192
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks19
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count193
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count194
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count195
+\c@listtotal=\count196
+\c@listcount=\count197
+\c@liststart=\count198
+\c@liststop=\count199
+\c@citecount=\count266
+\c@citetotal=\count267
+\c@multicitecount=\count268
+\c@multicitetotal=\count269
+\c@instcount=\count270
+\c@maxnames=\count271
+\c@minnames=\count272
+\c@maxitems=\count273
+\c@minitems=\count274
+\c@citecounter=\count275
+\c@maxcitecounter=\count276
+\c@savedcitecounter=\count277
+\c@uniquelist=\count278
+\c@uniquename=\count279
+\c@refsection=\count280
+\c@refsegment=\count281
+\c@maxextratitle=\count282
+\c@maxextratitleyear=\count283
+\c@maxextraname=\count284
+\c@maxextradate=\count285
+\c@maxextraalpha=\count286
+\c@abbrvpenalty=\count287
+\c@highnamepenalty=\count288
+\c@lownamepenalty=\count289
+\c@maxparens=\count290
+\c@parenlevel=\count291
+\blx@tempcnta=\count292
+\blx@tempcntb=\count293
+\blx@tempcntc=\count294
+\blx@maxsection=\count295
+\blx@maxsegment@0=\count296
+\blx@notetype=\count297
+\blx@parenlevel@text=\count298
+\blx@parenlevel@foot=\count299
+\blx@sectionciteorder@0=\count300
+\blx@entrysetcounter=\count301
+\blx@biblioinstance=\count302
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language79
+\c@mincomprange=\count303
+\c@maxcomprange=\count304
+\c@mincompwidth=\count305
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count306
+\c@savedafterword=\count307
+\c@annotator=\count308
+\c@savedannotator=\count309
+\c@author=\count310
+\c@savedauthor=\count311
+\c@bookauthor=\count312
+\c@savedbookauthor=\count313
+\c@commentator=\count314
+\c@savedcommentator=\count315
+\c@editor=\count316
+\c@savededitor=\count317
+\c@editora=\count318
+\c@savededitora=\count319
+\c@editorb=\count320
+\c@savededitorb=\count321
+\c@editorc=\count322
+\c@savededitorc=\count323
+\c@foreword=\count324
+\c@savedforeword=\count325
+\c@holder=\count326
+\c@savedholder=\count327
+\c@introduction=\count328
+\c@savedintroduction=\count329
+\c@namea=\count330
+\c@savednamea=\count331
+\c@nameb=\count332
+\c@savednameb=\count333
+\c@namec=\count334
+\c@savednamec=\count335
+\c@translator=\count336
+\c@savedtranslator=\count337
+\c@shortauthor=\count338
+\c@savedshortauthor=\count339
+\c@shorteditor=\count340
+\c@savedshorteditor=\count341
+\c@labelname=\count342
+\c@savedlabelname=\count343
+\c@institution=\count344
+\c@savedinstitution=\count345
+\c@lista=\count346
+\c@savedlista=\count347
+\c@listb=\count348
+\c@savedlistb=\count349
+\c@listc=\count350
+\c@savedlistc=\count351
+\c@listd=\count352
+\c@savedlistd=\count353
+\c@liste=\count354
+\c@savedliste=\count355
+\c@listf=\count356
+\c@savedlistf=\count357
+\c@location=\count358
+\c@savedlocation=\count359
+\c@organization=\count360
+\c@savedorganization=\count361
+\c@origlocation=\count362
+\c@savedoriglocation=\count363
+\c@origpublisher=\count364
+\c@savedorigpublisher=\count365
+\c@publisher=\count366
+\c@savedpublisher=\count367
+\c@language=\count368
+\c@savedlanguage=\count369
+\c@origlanguage=\count370
+\c@savedoriglanguage=\count371
+\c@pageref=\count372
+\c@savedpageref=\count373
+\shorthandwidth=\skip57
+\shortjournalwidth=\skip58
+\shortserieswidth=\skip59
+\shorttitlewidth=\skip60
+\shortauthorwidth=\skip61
+\shorteditorwidth=\skip62
+\locallabelnumberwidth=\skip63
+\locallabelalphawidth=\skip64
+\localshorthandwidth=\skip65
+\localshortjournalwidth=\skip66
+\localshortserieswidth=\skip67
+\localshorttitlewidth=\skip68
+\localshortauthorwidth=\skip69
+\localshorteditorwidth=\skip70
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count374
+\c@textcitetotal=\count375
+\c@textcitemaxnames=\count376
+\c@biburlbigbreakpenalty=\count377
+\c@biburlbreakpenalty=\count378
+\c@biburlnumpenalty=\count379
+\c@biburlucpenalty=\count380
+\c@biburllcpenalty=\count381
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count382
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count383
+\c@bbx:relatedtotal=\count384
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip71
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen149
+)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count385
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count386
+\leftroot@=\count387
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count388
+\DOTSCASE@=\count389
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count390
+\c@MaxMatrixCols=\count391
+\dotsspace@=\muskip21
+\c@parentequation=\count392
+\dspbrk@lvl=\count393
+\tag@help=\toks21
+\row@=\count394
+\column@=\count395
+\maxfields@=\count396
+\andhelp@=\toks22
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks23
+\multlinegap=\skip72
+\multlinetaggap=\skip73
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+\c@theorem=\count397
+\@quotelevel=\count398
+\@quotereset=\count399
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count400
+\l__pdf_internal_box=\box52
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot 
+* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62001pt
+* \textheight=620.43001pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-38.6pt
+* \headheight=13.6pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-06-01 L3 programming layer (loader) 
+)
+Package biblatex Info: ... and expl3
+(biblatex)             2021-06-01 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2021-06-01 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl)
+Package biblatex Info: Reference section=0 on input line 15.
+Package biblatex Info: Reference segment=0 on input line 15.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count401
+\scratchdimen=\dimen158
+\scratchbox=\box53
+\nofMPsegments=\count402
+\nofMParguments=\count403
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count404
+\MPscratchDim=\dimen159
+\MPnumerator=\count405
+\makeMPintoPDFobject=\count406
+\everyMPtoPDFconversion=\toks26
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+<./figures//university.png, id=1, 843.90282pt x 356.83313pt>
+File: ./figures//university.png Graphic file (type png)
+<use ./figures//university.png>
+Package pdftex.def Info: ./figures//university.png  used on input line 38.
+(pdftex.def)             Requested size: 173.44534pt x 73.33638pt.
+ [1
+
+{C:/Users/zhaoy/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./figures//university.png>] (main.toc)
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [1]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
+
+ []
+
+[3]
+Package epstopdf Info: Source file: <./figures//small_world_network_model.eps>
+(epstopdf)                    date: 2021-09-11 13:17:18
+(epstopdf)                    size: 39803 bytes
+(epstopdf)             Output file: <./figures//small_world_network_model-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-11 13:18:12
+(epstopdf)                    size: 20679 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//small_world_network_model-eps-converted-to.pdf ./figures//small_world_network_model.eps>
+(epstopdf)             \includegraphics on input line 80.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//small_world_network_model-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//small_world_network_model-eps-converted-to.pdf, id=26, 1084.05pt x 722.7pt>
+File: ./figures//small_world_network_model-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//small_world_network_model-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//small_world_network_model-eps-converted-to.pdf  used on input line 80.
+(pdftex.def)             Requested size: 433.62001pt x 289.07487pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+Package epstopdf Info: Source file: <./figures//degree_distribution.eps>
+(epstopdf)                    date: 2021-09-12 13:24:15
+(epstopdf)                    size: 47902 bytes
+(epstopdf)             Output file: <./figures//degree_distribution-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-12 13:24:59
+(epstopdf)                    size: 36404 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//degree_distribution-eps-converted-to.pdf ./figures//degree_distribution.eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//degree_distribution-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//degree_distribution-eps-converted-to.pdf, id=27, 1084.05pt x 433.62pt>
+File: ./figures//degree_distribution-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//degree_distribution-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//degree_distribution-eps-converted-to.pdf  used on input line 91.
+(pdftex.def)             Requested size: 433.62001pt x 173.44492pt.
+[4 <./figures//small_world_network_model-eps-converted-to.pdf>] [5 <./figures//degree_distribution-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 146--150
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 166--170
+
+ []
+
+
+Overfull \hbox (3.59506pt too wide) detected at line 176
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--183
+
+ []
+
+Package epstopdf Info: Source file: <./figures//subgraph_measures.eps>
+(epstopdf)                    date: 2021-09-06 16:23:02
+(epstopdf)                    size: 31564 bytes
+(epstopdf)             Output file: <./figures//subgraph_measures-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-06 17:00:52
+(epstopdf)                    size: 41147 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//subgraph_measures-eps-converted-to.pdf ./figures//subgraph_measures.eps>
+(epstopdf)             \includegraphics on input line 193.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//subgraph_measures-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//subgraph_measures-eps-converted-to.pdf, id=108, 1084.05pt x 361.35pt>
+File: ./figures//subgraph_measures-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//subgraph_measures-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//subgraph_measures-eps-converted-to.pdf  used on input line 193.
+(pdftex.def)             Requested size: 433.62001pt x 144.53743pt.
+
+Overfull \hbox (21.69127pt too wide) in paragraph at lines 197--201
+\OT1/cmr/m/n/12 The core of dif-fer-ent sub-graph mea-sure is to com-pare the cofactor($\OML/cmm/m/it/12 C[]$\OT1/cmr/m/n/12 )/spectrum($\OML/cmm/m/it/12 C[]$
+ []
+
+[7] [8 <./figures//subgraph_measures-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures//c2espec.eps>
+(epstopdf)                    date: 2021-09-06 16:51:18
+(epstopdf)                    size: 68142 bytes
+(epstopdf)             Output file: <./figures//c2espec-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-06 17:03:55
+(epstopdf)                    size: 108302 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//c2espec-eps-converted-to.pdf ./figures//c2espec.eps>
+(epstopdf)             \includegraphics on input line 209.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//c2espec-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//c2espec-eps-converted-to.pdf, id=137, 1084.05pt x 361.35pt>
+File: ./figures//c2espec-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//c2espec-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//c2espec-eps-converted-to.pdf  used on input line 209.
+(pdftex.def)             Requested size: 433.62001pt x 144.53743pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+
+ []
+
+[9 <./figures//c2espec-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures//complexities.eps>
+(epstopdf)                    date: 2021-09-19 11:40:22
+(epstopdf)                    size: 167035 bytes
+(epstopdf)             Output file: <./figures//complexities-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-19 12:14:53
+(epstopdf)                    size: 209780 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//complexities-eps-converted-to.pdf ./figures//complexities.eps>
+(epstopdf)             \includegraphics on input line 222.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//complexities-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//complexities-eps-converted-to.pdf, id=168, 722.7pt x 1156.32pt>
+File: ./figures//complexities-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//complexities-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//complexities-eps-converted-to.pdf  used on input line 222.
+(pdftex.def)             Requested size: 303.53267pt x 485.6511pt.
+
+Overfull \hbox (18.93675pt too wide) in paragraph at lines 231--231
+[]\OT1/cmr/m/it/12 15. float-ing point ARITH-METIC: Is-sues and Lim-i-ta-tions\OT1/cmr/m/n/12 . Date ac-cessed:01/09/2021.
+ []
+
+
+Overfull \hbox (40.42276pt too wide) in paragraph at lines 231--231
+[]\OT1/cmr/m/n/12 A.L. Barabasi. \OT1/cmr/m/it/12 Net-work Sci-ence\OT1/cmr/m/n/12 . Cam-bridge Uni-ver-sity Press, 2016. \OT1/cmr/m/sc/12 isbn\OT1/cmr/m/n/12 : 9781107076266. 
+ []
+
+
+Overfull \hbox (7.52158pt too wide) in paragraph at lines 231--231
+\OT1/cmtt/m/n/12 https : / / www . sciencedirect . com / science / article / pii / S0375960199007574$\OT1/cmr/m/n/12 . 
+ []
+
+[10
+
+] [11 <./figures//complexities-eps-converted-to.pdf>] (main.aux)
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10231 strings out of 478864
+ 189469 string characters out of 2848660
+ 916595 words of memory out of 3000000
+ 28057 multiletter control sequences out of 15000+600000
+ 411790 words of font info for 56 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,7n,66p,1216b,1242s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\zhaoy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (12 pages, 649354 bytes).
+PDF statistics:
+ 293 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

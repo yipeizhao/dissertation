@@ -285,60 +285,61 @@ Definition of a complement graph is fairly simple: an edge list is created using
 \end{figure}
 
 \subsection{$MA_{RI}$ on real networks}
-To test our new measure $MA_{RI}$, 12 real networks are collected. To ensure comprehensive evaluation, various types of networks are used. To be applicable, we collected and processed bus networks in 6 cities. Bus networks are very different to other real networks. Bus networks contain extraordinary amount of nodes with degree 2. For simplification and general interest, we also inroduced modified bus networks. In modified bus networks, all nodes with $k=2$ are removed, whereas the edges are preserved. For instance, node $b$ is only conneted to $a$ and $c$. Node $b$ will be removed and a new edge $(a,c)$ will be added to the network. This will significantly decrease the distance of bus networks. Moreover, generated graphs are also added to be evaluated and compared.\\
+To test our new measure $MA_{RI}$, 6 real networks are collected. To ensure comprehensive evaluation, various types of networks are used. To be applicable, we collected and processed bus networks in 6 cities. Bus networks are very different to other real networks. Bus networks contain extraordinary amount of nodes with degree 2. For simplification and general interest, we also inroduced modified bus networks. In modified bus networks, all nodes with $k=2$ are removed, whereas the edges are preserved. For instance, node $b$ is only conneted to $a$ and $c$. Node $b$ will be removed and a new edge $(a,c)$ will be added to the network. This will significantly decrease the distance of bus networks. Moreover, generated graphs are also added to be evaluated and compared.\\
+To be mentioned, we will refer these non-bus networks as real networks, for convinience.
 
 
 \begin{table}[ht]
     \noindent\makebox[\textwidth]{
-        \begin{tabular}{|c|c|c|c|c|c|c|c|}
+        \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
             \hline
-            Label & Name & Type & n & m& L & $L_r$ &$MA_{RI}$\\
+            Label & Name & Type & n & m& L & $L_r$ &$MA_{RI}$&$OdC$\\
             \hline
-            \multicolumn{8}{|c|}{Real networks}\\
+            \multicolumn{9}{|c|}{Real networks}\\
             \hline
-            1 &  Dolphins\cite{dolphins} & Animal interaction & 62 & 159 & 3.357 & 2.524 & 0.999\\
+            1 &  Dolphins\cite{dolphins} & Animal interaction & 62 & 159 & 3.357 & 2.524 & 0.999 & 0.517\\
             \hline
-            2 &  PDZBase \cite{pdzbase}& protein interaction & 161 &209 & 5.326 & 5.326 & 0.824\\
+            2 &  PDZBase \cite{pdzbase}& protein interaction & 161 &209 & 5.326 & 5.326 & 0.824 & 0.310\\
             \hline
-            3&  Hamsterster\cite{hamster} & Online social network & 874 & 4003 & 3.217 & 3.058 & 0.963\\
+            3&  Hamsterster\cite{hamster} & Online social network & 874 & 4003 & 3.217 & 3.058 & 0.963 & 0.532\\
             \hline
-            4& Roget's Thesaurus \cite{roget}& Thesaurus network &994 & 3640 & 4.075 & 3.466 & 0.960\\
+            4& Roget's Thesaurus \cite{roget}& Thesaurus network &994 & 3640 & 4.075 & 3.466 & 0.960 & 0.392\\
             \hline
-            5 & Flight\cite{flight} & Public transport & 3397 & 19230 & 4.103 & 3.350& 0.948\\
+            5 & Flight\cite{flight} & Public transport & 3397 & 19230 & 4.103 & 3.350& 0.948 & 0.525\\
             \hline
-            6 & UK train \cite{GBPT}& UK train network & 2490 & 4377 & 10.384&6.220 & 0.664\\
+            6 & UK train \cite{GBPT}& UK train network & 2490 & 4377 & 10.384&6.220 & 0.664 & 0.233\\
             \hline
-            \multicolumn{8}{|c|}{Bus networks}\\
+            \multicolumn{9}{|c|}{Bus networks}\\
             \hline
-            7&\multicolumn{2}{c|}{London}&8653&12285&32.338&8.687&0.38\\ 
+            7&\multicolumn{2}{c|}{London\cite{GBPT}}&8653&12285&32.338&8.687&0.38&0.127\\ 
             \hline
-            8&\multicolumn{2}{c|}{Paris}&10644&12309&47.631&11.059&0.173\\ 
+            8&\multicolumn{2}{c|}{Paris\cite{bus_collection}}&10644&12309&47.631&11.059&0.173&0.065\\ 
             \hline
-            9&\multicolumn{2}{c|}{Berlin}&4316&5869&33.284&8.366&0.358\\ 
+            9&\multicolumn{2}{c|}{Berlin\cite{bus_collection}}&4316&5869&33.284&8.366&0.358&0.134\\ 
             \hline
-            10&\multicolumn{2}{c|}{Sydney}&22659&26720&36.131&11.688&0.173\\ 
+            10&\multicolumn{2}{c|}{Sydney\cite{bus_collection}}&22659&26720&36.131&11.688&0.173&0.064\\ 
             \hline
-            11&\multicolumn{2}{c|}{Detroit}&5683&5946&70.513&11.708&0.062\\ 
+            11&\multicolumn{2}{c|}{Detroit\cite{bus_collection}}&5683&5946&70.513&11.708&0.062&0.020\\ 
             \hline
-            12&\multicolumn{2}{c|}{Beijing}&9249&14058&27.891&8.214&0.441\\ 
+            12&\multicolumn{2}{c|}{Beijing\cite{beijing}}&9249&14058&27.891&8.214&0.441&0.167\\ 
             \hline
-            \multicolumn{8}{|c|}{Modified Bus}\\
+            \multicolumn{9}{|c|}{Modified Bus}\\
             \hline
-            13&\multicolumn{2}{c|}{London}&3417&6018&18.308&6.462&0.553\\ 
+            13&\multicolumn{2}{c|}{London}&3417&6018&18.308&6.462&0.553&0.128\\ 
             \hline
-            14&\multicolumn{2}{c|}{Paris}&2762&4301&15.386&6.975&0.468\\ 
+            14&\multicolumn{2}{c|}{Paris}&2762&4301&15.386&6.975&0.468&0.106\\ 
             \hline
-            15&\multicolumn{2}{c|}{Berlin}&1662&2941&18.36&5.867&0.586\\ 
+            15&\multicolumn{2}{c|}{Berlin}&1662&2941&18.36&5.867&0.586&0.149\\ 
             \hline
-            16&\multicolumn{2}{c|}{Sydney}&4834&8358&17.665&6.838&0.49\\ 
+            16&\multicolumn{2}{c|}{Sydney}&4834&8358&17.665&6.838&0.49&0.089\\ 
             \hline
-            17&\multicolumn{2}{c|}{Detroit}&295&483&6.341&4.794&0.643\\ 
+            17&\multicolumn{2}{c|}{Detroit}&295&483&6.341&4.794&0.643&0.117\\ 
             \hline
-            18&\multicolumn{2}{c|}{Beijing}&4072&8325&14.864&5.902&0.64\\ 
+            18&\multicolumn{2}{c|}{Beijing}&4072&8325&14.864&5.902&0.64&0.195\\ 
             \hline
         \end{tabular}
     }
-    \caption{Label and description of used networks} 
+    \caption{Label,description and parameters of used networks} 
     \label{tb:descriptions}
 \end{table}
 
@@ -352,17 +353,33 @@ After careful consideration, we choosed average distance ratio $L/L_r$ to be the
 To discuss the cause of increase of $MA_{RI}$ complexity after modified, we need to consider about the parameter $MA_{RI}$ focusing on. $\sum_{i,j>i}d_id_j$ is the only variable that affects the complexity of a graph. The essence of the measure is calculating the average $d_id_j$. By removing nodes with degree 2, average $d_id_j$ will be increased, and leads to an increase of the $MA_{RI}$ complexity.
 
 \subsection{Rewiring on real networks}
-As recommened in section \ref{rewiring}, rewiring is an important technique to monitor the behaviour of a network. Hence, we rewired real networks and modified bus networks to record their behaviour. Both single link rewiring and pairwise rewiring will be used. The reason we are going to use $OdC$ instead of $MA_{RI}$ is that pairwise rewiring will keep the degree distribution, and $MA_{RI}$ cannot detect unchanged degree.
+As recommened in section \ref{rewiring}, rewiring is an important technique to monitor the behaviour of a network. Hence, we rewired real networks and modified bus networks to record their behaviour. Both single link rewiring and pairwise rewiring will be used. The reason we are going to use $OdC$ instead of $MA_{RI}$ is that pairwise rewiring will keep the degree distribution, and $MA_{RI}$ cannot detect unchanged degree.\\
+How we rewire graphs:
+\begin{itemize}
+    \item The rewiring is done gradually. Initially, graph $G$ will be rewired with probability $p=0.05$. After recording the results, we rewire it with probability $p=0.05$ again. This step will be repeated 20 times.
+    \item Both rewiring have been simulated on all graphs more than 10 times("dolphins" and "PDZBase" have been rewired more than 100 times, as they are relatively small), to generate smoother curves/lines.
+\end{itemize}
 \begin{figure}[ht]
     \centering
     \includegraphics[width=\textwidth]{rewiring.eps}
-    \caption{Change of complexity respect to rewiring porobability.}
+    \caption{Change of $OdC$ complexities respect to change of rewiring probaility with an error bar(one standard deviation).}
+    \label{fig:rewiring}
 \end{figure}
-
+\noindent
+From figure \ref{fig:rewiring}, we can concludes that most real networks behaves similar using rewiring. As mentioned in section \ref{rewiring}, single link rewiring results in higher randomness, because it destroys the degree distribution. In theory, when $p=1$, the graph becomes a random network. The $OdC$ decreases significantly with the increase of rewiring probability for real networks, whereas the change of complexity is not large for pairwise rewiring. This is because $OdC$ is highly sensitive to degree correlation, but pairwise rewiring does not change the degree correlation heavily. Also, the error bar for "dolphins" and "PDZBase" is large. This is simply because they are small networks, rewiring will make larger impact than these large graphs.\\
+There is an expcetion in real networks; the UK train network performs similar to bus networks rather than real networks. As public transportation networks, single link rewiring will cause the complexity to increase. Generally, the increase of complexity becomes small after $p=0.4$; almost half of the links have been rewired. As shown in table \ref{tb:descriptions}, $OdC$ complexities are very low for all the bus networks. As introduced by Claussen\cite{odc}, $OdC$ assign high complexity to graphs that have no preference for the degree of their neighbours. After destroying the degree correlation using single link rewiring, the $OdC$ complexity will increase.\\
+In contrast, pairwise rewiring will cause the complexity to decrease briefly like real networks, with similar reason.
 
 \clearpage
-\section{Conclusion}
-
+\section{Conclusion and further study}
+In this report, we discussed about the difference between complexity measures. Different complexity measure focuses on different property and parameters of a graph. For example, different subgraph measures focusing on the general structure of subgraphs, which is also the reason why it leads to a high complexity and not feasible to apply difference subgraph measure on large networks. In addition, the floating point algorithmetic is also a big problem when comparing cofactors and eigenvalues.
+On the other hand, product measures are faily simple in terms of calculation time. Espectiall $Cr$ is the easist complexity measure, which can be calculated in $O(n)$ time\cite{KIM20082637}. A drawback of product measures is that they are highly based on $m$.
+$OdC$ measure can distinguish random graphs and graphs generated using BA,WS and NW model, and within relatively small amount of time. However, the complexity value are spreaded. We suggest you to use the measure that is most suitable for you, depending on which specific parameter or property you want to study.\\
+Additionally, we constructed a new measure $MA_{RI}$ based on the idea of $MA_g$. $MA_{RI}$ assign higher complexity to sparser graph than $MA_g$. To be noticed, to calculate $MA_{RI}$, $R_{clique}$ and $I_{path}$ are not required, but $m$ is involved in the calcualtion.\\
+We also compare the difference between real networks and bus networks, and we investigated the unique property of bus networks: high average distance with low complexity.\\
+An interested fact is that the flight network is also a public transport network, however, it performs completely different to UK train network and bus networks. We are not expert in public transportation, but for those are interested, using complexity measures on different type of public transportations(flight, bus, train, ferry and more) may give different but fascinating results.\\
+We also observed fun facts: degree based measures($OdC$,$MA_g$,$MA_{RI}$) assign relatively high complexity to very sparse graphs, except $Ce$. We are not sure whether this is a coincidence or not, but this can be a topic to further discover.\\
+Overall, 
 \printbibliography
 
 \end{document}

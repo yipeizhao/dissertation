@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.20)  20 SEP 2021 11:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.20)  20 SEP 2021 16:35
 entering extended mode
 **c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex
 (c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex
@@ -747,11 +747,6 @@ File: ./figures//complement-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//complement-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures//complement-eps-converted-to.pdf  used on input line 283.
 (pdftex.def)             Requested size: 433.62001pt x 120.44786pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-
- []
-
 Package epstopdf Info: Source file: <./figures//real_networks.eps>
 (epstopdf)                    date: 2021-09-19 21:48:23
 (epstopdf)                    size: 33409 bytes
@@ -759,7 +754,7 @@ Package epstopdf Info: Source file: <./figures//real_networks.eps>
 (epstopdf)                    date: 2021-09-20 03:51:11
 (epstopdf)                    size: 18282 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//real_networks-eps-converted-to.pdf ./figures//real_networks.eps>
-(epstopdf)             \includegraphics on input line 347.
+(epstopdf)             \includegraphics on input line 348.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -767,38 +762,39 @@ pdfTeX warning: pdflatex (file ./figures//real_networks-eps-converted-to.pdf): P
 <./figures//real_networks-eps-converted-to.pdf, id=213, 1156.32pt x 578.16pt>
 File: ./figures//real_networks-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//real_networks-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//real_networks-eps-converted-to.pdf  used on input line 347.
+Package pdftex.def Info: ./figures//real_networks-eps-converted-to.pdf  used on input line 348.
 (pdftex.def)             Requested size: 433.62001pt x 216.80946pt.
+[13] [14]
 Package epstopdf Info: Source file: <./figures//rewiring.eps>
-(epstopdf)                    date: 2021-09-20 05:11:50
-(epstopdf)                    size: 168656 bytes
+(epstopdf)                    date: 2021-09-20 14:22:05
+(epstopdf)                    size: 168269 bytes
 (epstopdf)             Output file: <./figures//rewiring-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-20 05:12:40
-(epstopdf)                    size: 32813 bytes
+(epstopdf)                    date: 2021-09-20 14:25:11
+(epstopdf)                    size: 32795 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//rewiring-eps-converted-to.pdf ./figures//rewiring.eps>
-(epstopdf)             \includegraphics on input line 358.
+(epstopdf)             \includegraphics on input line 364.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//rewiring-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//rewiring-eps-converted-to.pdf, id=214, 1445.4pt x 1445.4pt>
+<./figures//rewiring-eps-converted-to.pdf, id=220, 1445.4pt x 1445.4pt>
 File: ./figures//rewiring-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//rewiring-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//rewiring-eps-converted-to.pdf  used on input line 358.
+Package pdftex.def Info: ./figures//rewiring-eps-converted-to.pdf  used on input line 364.
 (pdftex.def)             Requested size: 433.62001pt x 433.62335pt.
-[13] [14] [15 <./figures//complexities-eps-converted-to.pdf>] [16 <./figures//complexities_sp-eps-converted-to.pdf>] [17 <./figures//complexity_correlation-eps-converted-to.pdf> <./figures//complement-eps-converted-to.pdf>] [18 <./figures//real_networks-eps-converted-to.pdf>] [19 <./figures//rewiring-eps-converted-to.pdf>]
-Overfull \hbox (46.2977pt too wide) in paragraph at lines 367--367
+[15] [16 <./figures//complexities-eps-converted-to.pdf>] [17 <./figures//complexities_sp-eps-converted-to.pdf>] [18 <./figures//complexity_correlation-eps-converted-to.pdf> <./figures//complement-eps-converted-to.pdf>] [19 <./figures//real_networks-eps-converted-to.pdf>] [20 <./figures//rewiring-eps-converted-to.pdf>]
+Overfull \hbox (46.2977pt too wide) in paragraph at lines 384--384
 []\OT1/cmr/m/n/12 A.L. Barabasi. \OT1/cmr/m/it/12 Net-work Sci-ence\OT1/cmr/m/n/12 . Cam-bridge Uni-ver-sity Press, 2016. \OT1/cmr/m/sc/12 isbn\OT1/cmr/m/n/12 : 9781107076266. 
  []
 
+[21
 
-Overfull \hbox (24.81169pt too wide) in paragraph at lines 367--367
+]
+Overfull \hbox (24.81169pt too wide) in paragraph at lines 384--384
 []\OT1/cmr/m/it/12 15. float-ing point ARITH-METIC: Is-sues and Lim-i-ta-tions\OT1/cmr/m/n/12 . Date ac-cessed:01/09/2021.
  []
 
-[20
-
-] (main.aux)
+[22] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -807,17 +803,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12615 strings out of 478864
- 234899 string characters out of 2848660
- 972480 words of memory out of 3000000
- 30395 multiletter control sequences out of 15000+600000
+ 12620 strings out of 478864
+ 235087 string characters out of 2848660
+ 976592 words of memory out of 3000000
+ 30400 multiletter control sequences out of 15000+600000
  411790 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,66p,1217b,1344s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,11n,66p,1217b,1372s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\zhaoy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (21 pages, 2131317 bytes).
+Output written on main.pdf (23 pages, 2138091 bytes).
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
+ 577 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

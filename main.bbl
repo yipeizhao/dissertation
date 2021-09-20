@@ -356,6 +356,63 @@
       \field{pages}{1\bibrangedash 8}
       \range{pages}{8}
     \endentry
+    \entry{bus_collection}{article}{}
+      \name{author}{5}{}{%
+        {{hash=32aa51616ffa4cd55c8527e2d1b74048}{%
+           family={Kujala},
+           familyi={K\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5d242697c206eff305b236999e6934ca}{%
+           family={Weckström},
+           familyi={W\bibinitperiod},
+           given={Christoffer},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9a671026f53f08dd923424b0152b3377}{%
+           family={Darst},
+           familyi={D\bibinitperiod},
+           given={Richard\bibnamedelima K},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=8e7be8288c604de57fbf1dde78d21205}{%
+           family={Mladenović},
+           familyi={M\bibinitperiod},
+           given={Miloš\bibnamedelima N},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=d32b5a9bff25e830cd8827349dee6e1d}{%
+           family={Saramäki},
+           familyi={S\bibinitperiod},
+           given={Jari},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{ebaf7b9c8e3760d89f63c3a01cee0624}
+      \strng{fullhash}{d924615468880625195a1c49b0031ec2}
+      \strng{bibnamehash}{ebaf7b9c8e3760d89f63c3a01cee0624}
+      \strng{authorbibnamehash}{ebaf7b9c8e3760d89f63c3a01cee0624}
+      \strng{authornamehash}{ebaf7b9c8e3760d89f63c3a01cee0624}
+      \strng{authorfullhash}{d924615468880625195a1c49b0031ec2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific data}
+      \field{number}{1}
+      \field{title}{A collection of public transport network data sets for 25 cities}
+      \field{volume}{5}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+    \endentry
+    \entry{beijing}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.mot.gov.cn/sjkf/202005/t20200528_3333174.html}}
+      \field{note}{Accessed: 20/09/2021}
+      \field{title}{Beijing bus network}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

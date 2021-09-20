@@ -30,4 +30,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4}Complement graphs}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Conclusion}{17}{}%
+\contentsline {subsection}{\numberline {3.5}$MA_{RI}$ on real networks}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6}Rewiring on real networks}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Conclusion}{20}{}%

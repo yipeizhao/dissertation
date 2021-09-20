@@ -208,6 +208,50 @@
       \field{volume}{10}
       \field{year}{2019}
     \endentry
+    \entry{pa_test}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d3eaaa03fc3170f8196952a4f855b6c7}{%
+           family={House},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=37575987e07460b5f0ba406b58aa71eb}{%
+           family={Read},
+           familyi={R\bibinitperiod},
+           given={Jonathan\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9757cd9af115d5bebc73dc01a7d39744}{%
+           family={Danon},
+           familyi={D\bibinitperiod},
+           given={Leon},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ef6e276e952f2517a66fec7685167736}{%
+           family={Keeling},
+           familyi={K\bibinitperiod},
+           given={Matthew\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{880f2005ee5f3fe32d9ef9975fdbeccb}
+      \strng{fullhash}{816274a34ade171d253bb3a5b308f569}
+      \strng{bibnamehash}{880f2005ee5f3fe32d9ef9975fdbeccb}
+      \strng{authorbibnamehash}{880f2005ee5f3fe32d9ef9975fdbeccb}
+      \strng{authornamehash}{880f2005ee5f3fe32d9ef9975fdbeccb}
+      \strng{authorfullhash}{816274a34ade171d253bb3a5b308f569}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EPJ Data Science}
+      \field{number}{1}
+      \field{title}{Testing the hypothesis of preferential attachment in social network formation}
+      \field{volume}{4}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+    \endentry
     \entry{KIM20082637}{article}{}
       \name{author}{2}{}{%
         {{hash=fe06c63cd689a75f7a6251424aaf3489}{%
@@ -291,16 +335,16 @@
       \field{title}{Dolphins}
     \endentry
     \entry{pdzbase}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://konect.cc/networks/maayan-pdzbase/}}
       \field{note}{Accessed: 20/09/2021}
       \field{title}{PDZBase protein-protein interaction network}
     \endentry
     \entry{hamster}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://konect.cc/networks/petster-hamster-household/}}
       \field{note}{Accessed: 20/09/2021}
@@ -406,8 +450,8 @@
       \range{pages}{14}
     \endentry
     \entry{beijing}{misc}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.mot.gov.cn/sjkf/202005/t20200528_3333174.html}}
       \field{note}{Accessed: 20/09/2021}

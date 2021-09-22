@@ -8,6 +8,7 @@
 \usepackage[center]{caption}
 \usepackage{adjustbox}
 \usepackage{afterpage}
+\usepackage{listings}
 \newtheorem{theorem}{Theorem}
 \addbibresource{bib.bib}
 \graphicspath{ {./figures/} }
@@ -140,7 +141,7 @@ $I$ can be written as:
     I = ln(2m)-R
 \end{equation}
 \noindent
-$R_{path},R_{clique},I_{path}$ and $I_{clique}$ represent the lowest redundacy, highest redundancy, highest mutual information and lowest mutual information of graphs with fixed $m$ and $n$ respectively. The equations can be found in the literature review. Kim and Wilhelm suggested that network scientists may use $C=(R-R_{path})(I-I_{clique})$ as a complexity meassure, however, the upper bound cannot be found to normliase the complexity. From our study, an upper bound of $C$ can be calculated analytically.\\
+$R_{path},R_{clique},I_{path}$ and $I_{clique}$ represent the lowest redundacy, highest redundancy, highest mutual information and lowest mutual information of graphs with fixed $m$ and $n$ respectively. The equations can be found in the literature review or appendix \ref{appendixa}. Kim and Wilhelm suggested that network scientists may use $C=(R-R_{path})(I-I_{clique})$ as a complexity meassure, however, the upper bound cannot be found to normliase the complexity. From our study, an upper bound of $C$ can be calculated analytically.\\
 Assuming the upper-bound $C_{max}$ can be found, $0<C/C_{max}<1$. As suggested in equation \ref{eq:mutual_info}, $I = ln(2m)-R$, we can rewrite the complexity equation:\\
 \begin{equation}
     \label{eq:rewrite_complexity}
@@ -259,8 +260,9 @@ $MA_g$ and $MA_{RI}$ perform similarly by assigning BA graphs lower value toward
 
 \subsubsection{Configuration model}
 As introduced in section \ref{small_world}, a network is said to be scale-free if its degree distribution follows a power law distribution with $2<\gamma <3$. To generate scale-free graphs, we need a generator that can generate a degree series which follows power law, and a model that can take any given degree series and convert it to a graph. The magical model is called configuration model.\cite{barabási2016network}
-\begin{figure}
-    \includegraphics[width=\textwidth]{configuration_model.eps}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{configuration_model.eps}
     \label{fig:configuration_model}
     \caption{Complexities of graphs generated using configuration model, $n=50$. Results are average of 50 simulations.}
 \end{figure}
@@ -269,9 +271,9 @@ $OdC$ and $C_{1e,spec}$ didn't change much by varying $\gamma$. $MA_{RI}$ increa
 
 \subsection{Complexity correlation}
 Different type of measures focus on different properties/parameters of a network, monitor the correlation between measures will help us to further understand the behaviour on each measure. For this reason, we choosed three measures($C_{1e,st}$,$OdC$ and $MA_{RI}$) and monitored their behaviours on random and BA graphs.\\
-\begin{figure}[ht]
+\begin{figure}[h!]
     \makebox[\textwidth]{
-    \includegraphics[width = 1.2\textwidth]{complexity_correlation.eps}
+    \includegraphics[width = \textwidth]{complexity_correlation.eps}
     }
     \caption{Correation of complexity measures on random graphs and BA graphs with $n=25$. Generated according to the rules stated in section \ref{generate_graphs}. Colorbar represents change of $m$: higher the $m$, darker the datapoints.}
     \label{fig:correlation}
@@ -283,15 +285,15 @@ On random graphs, change of $OdC$ is not obvious, in figure \ref{fig:correlation
 
 \subsection{Complement graphs}
 Definition of a complement graph is fairly simple: an edge list is created using a set contains all possible edges subtract the edges in the original graph. Analysing the complexity correlation between the original graph and the complement graph give us more inspirations of the measure. We have choose three different measures with different types: $OdC$, $MA_{RI}$ and $C_{1e,spec}$.
-\begin{figure}[ht]
+\begin{figure}[h!]
     \makebox[\textwidth]{
-    \includegraphics[width = 1.2\textwidth]{complement.eps}
+    \includegraphics[width = \textwidth]{complement.eps}
     }
     \caption{Complexities of the original graphs and complement graphs with $n=20$. There are two types of graphs are generated: 500 $G(n,m)$ random graphs and 100 BA graphs.}
     \label{fig:complement}
 \end{figure}
 
-\subsection{$MA_{RI}$ on real networks}
+\subsection{Applying $MA_{RI}$ on real networks}
 To test our new measure $MA_{RI}$, 6 real networks are collected. To ensure comprehensive evaluation, various types of networks are used. To be applicable, we collected and processed bus networks in 6 cities. Bus networks are very different to other real networks. Bus networks contain extraordinary amount of nodes with degree 2. For simplification and general interest, we also inroduced modified bus networks. In modified bus networks, all nodes with $k=2$ are removed, whereas the edges are preserved. For instance, node $b$ is only conneted to $a$ and $c$. Node $b$ will be removed and a new edge $(a,c)$ will be added to the network. This will significantly decrease the distance of bus networks. Moreover, generated graphs are also added to be evaluated and compared.\\
 To be mentioned, we will refer these non-bus networks as real networks, for convinience.
 
@@ -387,6 +389,65 @@ An interested fact is that the flight network is also a public transport network
 We also observed fun facts: degree based measures($OdC$,$MA_g$,$MA_{RI}$) assign relatively high complexity to very sparse graphs, except $Ce$. We are not sure whether this is a coincidence or not, but this can be a topic to further discover.\\
 Overall, we are working hard to contribute to the network complexity community. The definition of complexity is already difficult to be properly determined. A good complexity measure should be able to distinguish: random graphs, scale-free graphs and real networks. In addition, distributes highest complexity to graphs with number of edges slightly less than the medium. Our work can be useful to build a optimal complexity measure in the future.
 
+\section{Appendix}
+\subsection{Appendix A: Redundancy and mutual information}
+\label{appendixa}
+\begin{itemize}
+    \item Highest redundancy: $R_{clique} = 2ln(n-1)$
+    \item Lowest redundancy: $R_{path} = 2(\frac{n-2}{n-1})ln(2)$
+    \item Highest mutual information: $I_{path} = ln(n-1)-(\frac{n-3}{n-1})ln2$
+    \item Lowest mutual information: $I_{clique}=ln(\frac{n}{n-1})$
+\end{itemize}
+\subsection{Appendix B: Implementation of $MA_{RI}$ in Python}
+\label{maricode}
+G is a NetworkX Graph object.\\
+Ran in the following version:
+\begin{itemize}
+    \item Python version: 3.8.8
+    \item NetworkX version: 2.5
+\end{itemize}
+Code:
+
+\begin{lstlisting}[language=Python]
+from math import log
+import networkx as nx
+def mutual_info(G):
+    edges = list(G.edges)
+    m = len(edges)
+    I = 0
+    for item in edges:
+        d0 = len(list(G.neighbors(item[0])))
+        d1 = len(list(G.neighbors(item[1]))) 
+        I = I + log(2*m/(d0*d1))
+    return I/m
+
+def redundancy(G):
+    edges = list(G.edges)
+    m = len(edges)
+    R = 0
+    for item in edges:
+        d0 = len(list(G.neighbors(item[0])))
+        d1 = len(list(G.neighbors(item[1]))) 
+        R = R + log((d0*d1))
+    return R/m
+
+def MAri(G,normalisation=True):
+n = len(G.nodes)
+R = redundancy(G)
+I = mutual_info(G)
+R_p = 2*log(2)*(n-2)/(n-1)
+R_c = 2*log(n-1)
+I_p = log(n-1)-log(2)*(n-3)/(n-1)
+I_c = log(n/(n-1))
+m=len(G.edges)
+numerator_1 = (R-R_p)
+numerator_2 = (I-I_c)
+denominator = 0.25*(log(2*m)-R_p-I_c)**2
+if normalisation == True:
+    return numerator_1*numerator_2/denominator
+else:
+    return R*I
+\end{lstlisting}
 \printbibliography
 
 \end{document}

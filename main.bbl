@@ -19,6 +19,53 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{litreview}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d0e2ff996439e2fe9a6a0217e4637a9b}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yipei},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0e2ff996439e2fe9a6a0217e4637a9b}
+      \strng{fullhash}{d0e2ff996439e2fe9a6a0217e4637a9b}
+      \strng{bibnamehash}{d0e2ff996439e2fe9a6a0217e4637a9b}
+      \strng{authorbibnamehash}{d0e2ff996439e2fe9a6a0217e4637a9b}
+      \strng{authornamehash}{d0e2ff996439e2fe9a6a0217e4637a9b}
+      \strng{authorfullhash}{d0e2ff996439e2fe9a6a0217e4637a9b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Aston University}
+      \field{title}{Complexity measures for network}
+      \field{year}{2021}
+    \endentry
+    \entry{renyi1959random}{article}{}
+      \name{author}{1}{}{%
+        {{hash=81503a10f5177725e56f063118c6d3c6}{%
+           family={Renyi},
+           familyi={R\bibinitperiod},
+           given={Erdős},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{81503a10f5177725e56f063118c6d3c6}
+      \strng{fullhash}{81503a10f5177725e56f063118c6d3c6}
+      \strng{bibnamehash}{81503a10f5177725e56f063118c6d3c6}
+      \strng{authorbibnamehash}{81503a10f5177725e56f063118c6d3c6}
+      \strng{authornamehash}{81503a10f5177725e56f063118c6d3c6}
+      \strng{authorfullhash}{81503a10f5177725e56f063118c6d3c6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publicationes Mathematicate}
+      \field{title}{On random graph}
+      \field{volume}{6}
+      \field{year}{1959}
+      \field{pages}{290\bibrangedash 297}
+      \range{pages}{8}
+    \endentry
     \entry{barabási2016network}{book}{}
       \name{author}{1}{}{%
         {{hash=9d9e97f70c4fb27df81a7d25f58aa128}{%
@@ -36,8 +83,8 @@
       \strng{authorbibnamehash}{9d9e97f70c4fb27df81a7d25f58aa128}
       \strng{authornamehash}{9d9e97f70c4fb27df81a7d25f58aa128}
       \strng{authorfullhash}{9d9e97f70c4fb27df81a7d25f58aa128}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9781107076266}
@@ -78,8 +125,8 @@
       \strng{authorbibnamehash}{17ec9adf5d96dfa57a08618203cfae6b}
       \strng{authornamehash}{17ec9adf5d96dfa57a08618203cfae6b}
       \strng{authorfullhash}{02c113a003139bd207507c6956553753}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific Reports}
@@ -105,8 +152,8 @@
       \strng{authorbibnamehash}{647e77469dede3f1d7ed99198d6e59e9}
       \strng{authornamehash}{647e77469dede3f1d7ed99198d6e59e9}
       \strng{authorfullhash}{647e77469dede3f1d7ed99198d6e59e9}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Psychology today}
@@ -136,8 +183,8 @@
       \strng{authorbibnamehash}{61ec8115bb61a3bd19135c7c8b217c6a}
       \strng{authornamehash}{61ec8115bb61a3bd19135c7c8b217c6a}
       \strng{authorfullhash}{61ec8115bb61a3bd19135c7c8b217c6a}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -167,8 +214,8 @@
       \strng{authorbibnamehash}{90b748f3b0ed3bbf8e82d894fb1980b2}
       \strng{authornamehash}{90b748f3b0ed3bbf8e82d894fb1980b2}
       \strng{authorfullhash}{90b748f3b0ed3bbf8e82d894fb1980b2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physics Letters A}
@@ -198,8 +245,8 @@
       \strng{authorbibnamehash}{e35209b75348ff1c7fad28e9b3f8fbb4}
       \strng{authornamehash}{e35209b75348ff1c7fad28e9b3f8fbb4}
       \strng{authorfullhash}{e35209b75348ff1c7fad28e9b3f8fbb4}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Communications}
@@ -207,6 +254,45 @@
       \field{title}{Scale-free networks are rare}
       \field{volume}{10}
       \field{year}{2019}
+    \endentry
+    \entry{albert1999diameter}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d85e8d2b76e8626b1a45373f4e027914}{%
+           family={Albert},
+           familyi={A\bibinitperiod},
+           given={Réka},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f0f51cd5afc669d57dbff9b8e913c55c}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Hawoong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=15bacd7ddfc866c5dd96976d4b0244d5}{%
+           family={Barabási},
+           familyi={B\bibinitperiod},
+           given={Albert-László},
+           giveni={A\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{bf79a88c4a5a18ebb3c929448cd04193}
+      \strng{fullhash}{bf79a88c4a5a18ebb3c929448cd04193}
+      \strng{bibnamehash}{bf79a88c4a5a18ebb3c929448cd04193}
+      \strng{authorbibnamehash}{bf79a88c4a5a18ebb3c929448cd04193}
+      \strng{authornamehash}{bf79a88c4a5a18ebb3c929448cd04193}
+      \strng{authorfullhash}{bf79a88c4a5a18ebb3c929448cd04193}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{nature}
+      \field{number}{6749}
+      \field{title}{Diameter of the world-wide web}
+      \field{volume}{401}
+      \field{year}{1999}
+      \field{pages}{130\bibrangedash 131}
+      \range{pages}{2}
     \endentry
     \entry{pa_test}{article}{}
       \name{author}{4}{}{%
@@ -284,8 +370,8 @@
       \range{pages}{16}
     \endentry
     \entry{floating_point}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{journaltitle}{15. Floating Point Arithmetic: Issues and Limitations - Python 3.8.11 documentation}
       \field{note}{Date accessed:01/09/2021}
@@ -314,8 +400,8 @@
       \strng{authorbibnamehash}{3d349e85b4ae681990075948f5556ac4}
       \strng{authornamehash}{3d349e85b4ae681990075948f5556ac4}
       \strng{authorfullhash}{3d349e85b4ae681990075948f5556ac4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
@@ -327,8 +413,8 @@
       \range{pages}{9}
     \endentry
     \entry{dolphins}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://konect.cc/networks/dolphins/}}
       \field{note}{Accessed: 20/09/2021}
@@ -437,8 +523,8 @@
       \strng{authorbibnamehash}{ebaf7b9c8e3760d89f63c3a01cee0624}
       \strng{authornamehash}{ebaf7b9c8e3760d89f63c3a01cee0624}
       \strng{authorfullhash}{d924615468880625195a1c49b0031ec2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific data}
@@ -456,6 +542,78 @@
       \field{howpublished}{\url{https://www.mot.gov.cn/sjkf/202005/t20200528_3333174.html}}
       \field{note}{Accessed: 20/09/2021}
       \field{title}{Beijing bus network}
+    \endentry
+    \entry{emmert-streib_dehmer_2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c366d0d37b00e25cc0c52232b4966ca9}{%
+           family={Emmert-Streib},
+           familyi={E\bibinithyphendelim S\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=05330ee0b485bcd55ec422c84ed865ed}{%
+           family={Dehmer},
+           familyi={D\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f44fa498bf882eb72befffe5f349ace}
+      \strng{fullhash}{2f44fa498bf882eb72befffe5f349ace}
+      \strng{bibnamehash}{2f44fa498bf882eb72befffe5f349ace}
+      \strng{authorbibnamehash}{2f44fa498bf882eb72befffe5f349ace}
+      \strng{authornamehash}{2f44fa498bf882eb72befffe5f349ace}
+      \strng{authorfullhash}{2f44fa498bf882eb72befffe5f349ace}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS ONE}
+      \field{number}{5}
+      \field{title}{Exploring Statistical and Population Aspects of Network Complexity}
+      \field{volume}{7}
+      \field{year}{2012}
+      \field{pages}{e34523}
+      \range{pages}{-1}
+    \endentry
+    \entry{dehmer_barbarini_varmuza_graber_2009}{article}{}
+      \name{author}{4}{}{%
+        {{hash=05330ee0b485bcd55ec422c84ed865ed}{%
+           family={Dehmer},
+           familyi={D\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c266b8b4cd48e37b67a077ea227f9e17}{%
+           family={Barbarini},
+           familyi={B\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+        {{hash=5244b6fdbae98ee63baf9f067b7e1262}{%
+           family={Varmuza},
+           familyi={V\bibinitperiod},
+           given={Kurt},
+           giveni={K\bibinitperiod}}}%
+        {{hash=dc7dd84b3426b1975b707ff19c6b17af}{%
+           family={Graber},
+           familyi={G\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2edd7a39bdb7a3912f9ca503037a5f67}
+      \strng{fullhash}{711dd8810c7106d87b3ebc516557d4e2}
+      \strng{bibnamehash}{2edd7a39bdb7a3912f9ca503037a5f67}
+      \strng{authorbibnamehash}{2edd7a39bdb7a3912f9ca503037a5f67}
+      \strng{authornamehash}{2edd7a39bdb7a3912f9ca503037a5f67}
+      \strng{authorfullhash}{711dd8810c7106d87b3ebc516557d4e2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS ONE}
+      \field{number}{12}
+      \field{title}{A Large Scale Analysis of Information-Theoretic Network Complexity Measures Using Chemical Structures}
+      \field{volume}{4}
+      \field{year}{2009}
+      \field{pages}{e8057}
+      \range{pages}{-1}
     \endentry
   \enddatalist
 \endrefsection

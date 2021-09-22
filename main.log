@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.20)  22 SEP 2021 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.20)  22 SEP 2021 18:12
 entering extended mode
 **c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex
 (c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex
@@ -230,3 +230,613 @@ Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 \c@textcitecount=\count374
+\c@textcitetotal=\count375
+\c@textcitemaxnames=\count376
+\c@biburlbigbreakpenalty=\count377
+\c@biburlbreakpenalty=\count378
+\c@biburlnumpenalty=\count379
+\c@biburlucpenalty=\count380
+\c@biburllcpenalty=\count381
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count382
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count383
+\c@bbx:relatedtotal=\count384
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip71
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen149
+)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count385
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count386
+\leftroot@=\count387
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count388
+\DOTSCASE@=\count389
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count390
+\c@MaxMatrixCols=\count391
+\dotsspace@=\muskip21
+\c@parentequation=\count392
+\dspbrk@lvl=\count393
+\tag@help=\toks21
+\row@=\count394
+\column@=\count395
+\maxfields@=\count396
+\andhelp@=\toks22
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks23
+\multlinegap=\skip72
+\multlinetaggap=\skip73
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen158
+\captionmargin@=\dimen159
+\captionwidth=\dimen160
+\caption@tempdima=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count397
+\c@continuedfloat=\count398
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+)
+\XKV@depth=\count399
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box52
+)
+\tc@llx=\dimen165
+\tc@lly=\dimen166
+\tc@urx=\dimen167
+\tc@ury=\dimen168
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen169
+\adjbox@Height=\dimen170
+\adjbox@Depth=\dimen171
+\adjbox@Totalheight=\dimen172
+\adjbox@pwidth=\dimen173
+\adjbox@pheight=\dimen174
+\adjbox@pdepth=\dimen175
+\adjbox@ptotalheight=\dimen176
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count400
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box53
+\sift@deathcycles=\count401
+\@vwid@loff=\dimen177
+\@vwid@roff=\dimen178
+)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks27
+\AP@partial=\box54
+\AP@footins=\box55
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count402
+\lst@gtempboxa=\box56
+\lst@token=\toks28
+\lst@length=\count403
+\lst@currlwidth=\dimen179
+\lst@column=\count404
+\lst@pos=\count405
+\lst@lostspace=\dimen180
+\lst@width=\dimen181
+\lst@newlines=\count406
+\lst@lineno=\count407
+\lst@maxwidth=\dimen182
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count408
+\lst@skipnumbers=\count409
+\lst@framebox=\box57
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+\c@theorem=\count410
+\@quotelevel=\count411
+\@quotereset=\count412
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count413
+\l__pdf_internal_box=\box58
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot 
+* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
+* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=505.89pt
+* \textheight=692.7pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
+* \topmargin=-74.735pt
+* \headheight=13.6pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-06-01 L3 programming layer (loader) 
+)
+Package biblatex Info: ... and expl3
+(biblatex)             2021-06-01 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2021-06-01 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl)
+Package biblatex Info: Reference section=0 on input line 19.
+Package biblatex Info: Reference segment=0 on input line 19.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count414
+\scratchdimen=\dimen183
+\scratchbox=\box59
+\nofMPsegments=\count415
+\nofMParguments=\count416
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count417
+\MPscratchDim=\dimen184
+\MPnumerator=\count418
+\makeMPintoPDFobject=\count419
+\everyMPtoPDFconversion=\toks30
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count420
+ [1
+
+{C:/Users/zhaoy/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (main.toc)
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+[3]
+Package epstopdf Info: Source file: <./figures//small_world_network_model.eps>
+(epstopdf)                    date: 2021-09-22 12:36:23
+(epstopdf)                    size: 39923 bytes
+(epstopdf)             Output file: <./figures//small_world_network_model-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-22 13:50:37
+(epstopdf)                    size: 20704 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//small_world_network_model-eps-converted-to.pdf ./figures//small_world_network_model.eps>
+(epstopdf)             \includegraphics on input line 60.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//small_world_network_model-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//small_world_network_model-eps-converted-to.pdf, id=20, 1084.05pt x 722.7pt>
+File: ./figures//small_world_network_model-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//small_world_network_model-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//small_world_network_model-eps-converted-to.pdf  used on input line 60.
+(pdftex.def)             Requested size: 404.71353pt x 269.80983pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
+
+ []
+
+[4 <./figures//small_world_network_model-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+Package epstopdf Info: Source file: <./figures//degree_distribution.eps>
+(epstopdf)                    date: 2021-09-22 12:36:36
+(epstopdf)                    size: 47318 bytes
+(epstopdf)             Output file: <./figures//degree_distribution-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-22 13:50:45
+(epstopdf)                    size: 36152 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//degree_distribution-eps-converted-to.pdf ./figures//degree_distribution.eps>
+(epstopdf)             \includegraphics on input line 75.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//degree_distribution-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//degree_distribution-eps-converted-to.pdf, id=35, 1084.05pt x 433.62pt>
+File: ./figures//degree_distribution-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//degree_distribution-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//degree_distribution-eps-converted-to.pdf  used on input line 75.
+(pdftex.def)             Requested size: 505.89pt x 202.35242pt.
+[5 <./figures//degree_distribution-eps-converted-to.pdf>] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 142--146
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 162--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
+
+ []
+
+Package epstopdf Info: Source file: <./figures//mariandmag.eps>
+(epstopdf)                    date: 2021-09-22 12:36:53
+(epstopdf)                    size: 51733 bytes
+(epstopdf)             Output file: <./figures//mariandmag-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-22 13:50:56
+(epstopdf)                    size: 141205 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//mariandmag-eps-converted-to.pdf ./figures//mariandmag.eps>
+(epstopdf)             \includegraphics on input line 184.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//mariandmag-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//mariandmag-eps-converted-to.pdf, id=105, 433.62pt x 289.08pt>
+File: ./figures//mariandmag-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//mariandmag-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//mariandmag-eps-converted-to.pdf  used on input line 184.
+(pdftex.def)             Requested size: 354.12144pt x 236.09435pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--190
+
+ []
+
+[8 <./figures//mariandmag-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures//subgraph_measures.eps>
+(epstopdf)                    date: 2021-09-22 11:25:29
+(epstopdf)                    size: 31456 bytes
+(epstopdf)             Output file: <./figures//subgraph_measures-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-22 13:51:04
+(epstopdf)                    size: 36268 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//subgraph_measures-eps-converted-to.pdf ./figures//subgraph_measures.eps>
+(epstopdf)             \includegraphics on input line 199.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//subgraph_measures-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//subgraph_measures-eps-converted-to.pdf, id=139, 1084.05pt x 361.35pt>
+File: ./figures//subgraph_measures-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//subgraph_measures-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//subgraph_measures-eps-converted-to.pdf  used on input line 199.
+(pdftex.def)             Requested size: 505.89pt x 168.62701pt.
+[9 <./figures//subgraph_measures-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures//c2espec.eps>
+(epstopdf)                    date: 2021-09-22 12:14:50
+(epstopdf)                    size: 68376 bytes
+(epstopdf)             Output file: <./figures//c2espec-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-22 13:51:08
+(epstopdf)                    size: 106626 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//c2espec-eps-converted-to.pdf ./figures//c2espec.eps>
+(epstopdf)             \includegraphics on input line 215.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//c2espec-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//c2espec-eps-converted-to.pdf, id=165, 1084.05pt x 361.35pt>
+File: ./figures//c2espec-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//c2espec-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//c2espec-eps-converted-to.pdf  used on input line 215.
+(pdftex.def)             Requested size: 505.89pt x 168.62701pt.
+[10 <./figures//c2espec-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures//complexities.eps>
+(epstopdf)                    date: 2021-09-22 11:10:25
+(epstopdf)                    size: 158396 bytes
+(epstopdf)             Output file: <./figures//complexities-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-22 11:15:09
+(epstopdf)                    size: 202907 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//complexities-eps-converted-to.pdf ./figures//complexities.eps>
+(epstopdf)             \includegraphics on input line 228.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//complexities-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//complexities-eps-converted-to.pdf, id=196, 722.7pt x 1156.32pt>
+File: ./figures//complexities-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//complexities-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//complexities-eps-converted-to.pdf  used on input line 228.
+(pdftex.def)             Requested size: 430.00958pt x 688.01013pt.
+Package epstopdf Info: Source file: <./figures//complexities_sp.eps>
+(epstopdf)                    date: 2021-09-22 15:55:10
+(epstopdf)                    size: 181008 bytes
+(epstopdf)             Output file: <./figures//complexities_sp-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-22 15:56:11
+(epstopdf)                    size: 536200 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//complexities_sp-eps-converted-to.pdf ./figures//complexities_sp.eps>
+(epstopdf)             \includegraphics on input line 240.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//complexities_sp-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//complexities_sp-eps-converted-to.pdf, id=197, 722.7pt x 1156.32pt>
+File: ./figures//complexities_sp-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//complexities_sp-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//complexities_sp-eps-converted-to.pdf  used on input line 240.
+(pdftex.def)             Requested size: 430.00958pt x 688.01013pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--260
+
+ []
+
+Package epstopdf Info: Source file: <./figures//configuration_model.eps>
+(epstopdf)                    date: 2021-09-20 21:00:20
+(epstopdf)                    size: 7125 bytes
+(epstopdf)             Output file: <./figures//configuration_model-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-22 11:15:21
+(epstopdf)                    size: 8182 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//configuration_model-eps-converted-to.pdf ./figures//configuration_model.eps>
+(epstopdf)             \includegraphics on input line 265.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//configuration_model-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//configuration_model-eps-converted-to.pdf, id=198, 485.815pt x 485.815pt>
+File: ./figures//configuration_model-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//configuration_model-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//configuration_model-eps-converted-to.pdf  used on input line 265.
+(pdftex.def)             Requested size: 303.53708pt x 303.53726pt.
+[11
+
+] [12
+
+ <./figures//complexities-eps-converted-to.pdf>] [13 <./figures//complexities_sp-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures//complexity_correlation.eps>
+(epstopdf)                    date: 2021-09-22 11:30:55
+(epstopdf)                    size: 389117 bytes
+(epstopdf)             Output file: <./figures//complexity_correlation-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-22 13:51:14
+(epstopdf)                    size: 398073 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//complexity_correlation-eps-converted-to.pdf ./figures//complexity_correlation.eps>
+(epstopdf)             \includegraphics on input line 277.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//complexity_correlation-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//complexity_correlation-eps-converted-to.pdf, id=279, 1589.94pt x 505.89pt>
+File: ./figures//complexity_correlation-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//complexity_correlation-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//complexity_correlation-eps-converted-to.pdf  used on input line 277.
+(pdftex.def)             Requested size: 505.89pt x 160.96179pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <./figures//complement.eps>
+(epstopdf)                    date: 2021-09-22 11:11:59
+(epstopdf)                    size: 374971 bytes
+(epstopdf)             Output file: <./figures//complement-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-22 11:15:42
+(epstopdf)                    size: 337182 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//complement-eps-converted-to.pdf ./figures//complement.eps>
+(epstopdf)             \includegraphics on input line 291.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//complement-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//complement-eps-converted-to.pdf, id=280, 1300.86pt x 361.35pt>
+File: ./figures//complement-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//complement-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//complement-eps-converted-to.pdf  used on input line 291.
+(pdftex.def)             Requested size: 505.89pt x 140.52342pt.
+[14 <./figures//configuration_model-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures//real_networks.eps>
+(epstopdf)                    date: 2021-09-22 11:09:46
+(epstopdf)                    size: 33373 bytes
+(epstopdf)             Output file: <./figures//real_networks-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-22 11:15:52
+(epstopdf)                    size: 18484 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//real_networks-eps-converted-to.pdf ./figures//real_networks.eps>
+(epstopdf)             \includegraphics on input line 356.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//real_networks-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//real_networks-eps-converted-to.pdf, id=293, 1156.32pt x 578.16pt>
+File: ./figures//real_networks-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//real_networks-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//real_networks-eps-converted-to.pdf  used on input line 356.
+(pdftex.def)             Requested size: 505.89pt x 252.94437pt.
+[15 <./figures//complexity_correlation-eps-converted-to.pdf> <./figures//complement-eps-converted-to.pdf>] [16]
+Overfull \hbox (6.20055pt too wide) in paragraph at lines 368--369
+[]\OT1/cmr/m/n/12 Both rewiring have been sim-u-lated on all graphs more than 10 times("dolphins" and "PDZBase"
+ []
+
+Package epstopdf Info: Source file: <./figures//rewiring.eps>
+(epstopdf)                    date: 2021-09-22 11:03:27
+(epstopdf)                    size: 168206 bytes
+(epstopdf)             Output file: <./figures//rewiring-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-22 11:15:58
+(epstopdf)                    size: 32805 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures//rewiring-eps-converted-to.pdf ./figures//rewiring.eps>
+(epstopdf)             \includegraphics on input line 372.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures//rewiring-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures//rewiring-eps-converted-to.pdf, id=395, 1445.4pt x 1445.4pt>
+File: ./figures//rewiring-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures//rewiring-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures//rewiring-eps-converted-to.pdf  used on input line 372.
+(pdftex.def)             Requested size: 505.89pt x 505.87553pt.
+[17 <./figures//real_networks-eps-converted-to.pdf>] [18 <./figures//rewiring-eps-converted-to.pdf>] [19
+
+] (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) [20] [21] (main.aux)
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 14465 strings out of 478864
+ 259989 string characters out of 2848660
+ 1007003 words of memory out of 3000000
+ 32226 multiletter control sequences out of 15000+600000
+ 410877 words of font info for 53 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,11n,74p,1265b,1372s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\zhaoy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (21 pages, 2096125 bytes).
+PDF statistics:
+ 582 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

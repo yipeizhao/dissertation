@@ -18,7 +18,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}$MA_{RI}$}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Potential problems and solutions of different subgraph measures}{9}{}%
+\contentsline {subsection}{\numberline {2.3}Potential problems and solutions of different subgraph measures}{8}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Result}{10}{}%
 \defcounter {refsection}{0}\relax 
@@ -40,6 +40,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Appendix}{19}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Appendix A: Redundancy and mutual information}{19}{}%
+\contentsline {subsection}{\numberline {5.1}Appendix A: Redundancy and mutual information\cite {KIM20082637}}{19}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2}Appendix B: Implementation of $MA_{RI}$ in Python}{19}{}%

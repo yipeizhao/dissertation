@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1632325693 "main.bcf" "main.bbl" "main" 1632326751
-  "bib.bib" 1632164876 4638 0d3445afcdb00914ec6b09875589b84b ""
-  "main.bcf" 1632326749 107687 4fb86f0d970f0799776725bb35335ae4 "pdflatex"
+["biber main"] 1632330585 "main.bcf" "main.bbl" "main" 1632330784
+  "bib.bib" 1632330549 5926 a508606d91f99fa22057cccbb8c7c501 ""
+  "main.bcf" 1632330781 108101 9829f46cf53a7cb45d371d36d8e40dda "pdflatex"
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1632326739 "c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex" "main.pdf" "main" 1632326751
+["pdflatex"] 1632330767 "c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex" "main.pdf" "main" 1632330784
   "C:/Users/zhaoy/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1630865913 14064 cf14d397fa2c3e82224729122220099c ""
   "C:/Users/zhaoy/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1629463041 9742851 b1764638a8083f3c619da44f0103eddc ""
   "C:/Users/zhaoy/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1630939635 113589 1b4437940481cfc5e7f7e2c6f0bf6b7e ""
@@ -103,7 +103,7 @@
   "C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1623005690 4902 efb3d66683a2da2a232f71e3a571a899 ""
-  "c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex" 1632326734 39823 cfa05670836ba25257f9a1dc628d15e8 ""
+  "c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex" 1632330764 40190 fcd92c429ddde0e6c624b7acc2b2e376 ""
   "figures//c2espec.eps" 1632309290 68376 cccf8939b0c12edf8c3eda92953ad34d ""
   "figures//complement.eps" 1632305519 374971 55b859928d840c711a463748717561fe ""
   "figures//complexities.eps" 1632305425 158396 2151fac2ea1f49442e10416a9f44869e ""
@@ -116,15 +116,15 @@
   "figures//rewiring.eps" 1632305007 168206 2eb025c7b1a0ed92d8c193b410657ea2 ""
   "figures//small_world_network_model.eps" 1632310583 39923 bde799f169f624c04ed061a7dc30fb49 ""
   "figures//subgraph_measures.eps" 1632306329 31456 9174b1600a9cc3c2d91f19e22ce2cb9b ""
-  "main.aux" 1632326749 12299 a8169742c440ffca86a4ff9e1b302ed3 "pdflatex"
-  "main.bbl" 1632325713 18818 7b09053753e76938d72d728c106bf129 "biber main"
-  "main.run.xml" 1632326749 2298 e2b5a0bf95f708a24f98c9fec4266b14 "pdflatex"
-  "main.tex" 1632326734 39823 cfa05670836ba25257f9a1dc628d15e8 ""
-  "main.toc" 1632326749 2491 4be8edd4f1b8073a8ef30030e83e38e2 "pdflatex"
+  "main.aux" 1632330781 13221 db60624d9ff6e124a5dcc67867f0742c "pdflatex"
+  "main.bbl" 1632330602 25325 90e8d379c7ddfb3ae66d7a40c532f4c3 "biber main"
+  "main.run.xml" 1632330781 2298 e2b5a0bf95f708a24f98c9fec4266b14 "pdflatex"
+  "main.tex" 1632330764 40190 fcd92c429ddde0e6c624b7acc2b2e376 ""
+  "main.toc" 1632330781 2519 e6f830d360851aff29f3d4ddb9d8285d "pdflatex"
   (generated)
+  "main.bcf"
+  "main.log"
   "main.aux"
   "main.run.xml"
-  "main.bcf"
   "main.pdf"
-  "main.log"
   "main.toc"

@@ -78,7 +78,7 @@ A controversial topic of network science is wether real networks are usually sca
     \label{fig:degree_dist}
 \end{figure}
 \noindent
-Suggested by Barabási\cite{barabási2016network}, the degree distribution of a random graph is expected to follow a Poisson distribution. However, Poisson distribution is not the ideal distribution of a real network. A controversial idea that hasn't yet been proven in network science community is: are real networks' degree distribution follows a power-law distribution? A power-law distribution follows: $P(k) \sim k^{-\gamma }$, the parameter $\gamma$ is typically in the range $2<\gamma<3$. If the degree distrution of a graph follows power-law distribution, the graph is said to be a scale-free network. Even though there are counter-examples, many network scientists still believe that real networks are scale-free. In order to further simulate the behaviour of real networks, Barabási introduced the Barabási-Albert(BA) model to create scale-free networks.\cite{barabási2016network}.\\
+Suggested by Barabási\cite{barabási2016network}, the degree distribution of a random graph is expected to follow a binomial distribution. However, binomial distribution is not the ideal distribution of a real network. A controversial idea that hasn't yet been proven in network science community is: are real networks' degree distribution follows a power-law distribution? A power-law distribution follows: $P(k) \sim k^{-\gamma }$, the parameter $\gamma$ is typically in the range $2<\gamma<3$. If the degree distrution of a graph follows power-law distribution, the graph is said to be a scale-free network. Even though there are counter-examples, many network scientists still believe that real networks are scale-free. In order to further simulate the behaviour of real networks, Barabási introduced the Barabási-Albert(BA) model to create scale-free networks.\cite{barabási2016network}.\\
 The BA model requires two parameters: $n$ and $m$. Initally, only one node is created. Whenever a node is added into the network, it will connect to $m$ nodes. The logic of connection is the key of this model. Nodes are more likely to connect to nodes with more edges than nodes with less edges. For instance, a node has been added to the network, it is more likely to connect to a node with 7 edges than a node with 3 edges. This logic of connection is called preferential attachment. Essentially, like in real world, nodes are more likely to connect to another node that has more impact on the network.\cite{pa_test} The BA model ensures most of the nodes have low degree, whereas only a few nodes have exceptionally high degree, as shown in figure \ref{fig:degree_dist}. An ideal way to fit the power-law distribution is using a linear regression to fit the data in log-log scale.
 
 \subsection{Generating graphs}
@@ -221,6 +221,7 @@ The upper-bound of $C_{2e,spec}$ is 0.5 while $ n\leq7 $. To have an upper-bound
 
 \section{Result}
 \subsection{Complexity measures on small random graphs}
+\label{complexity}
 To test the performance of implemented measures, we tried all meausres on $G(n,m)$ random graphs with $n=7$ where 50 samples are generated for each $m$. As shown in figure \ref{fig:small_graphs}, we reproduced results as Kim and Wilhelm did in \cite{KIM20082637}. Except $C_{2e,spec}$, as mentioned in section \ref{problem}, there is a scaling problem. Most of the methods reaches its maximum with medium number of links. Low complexity are given to highly connected graphs and sparse graphs.
 \clearpage
 \newpage
@@ -259,7 +260,8 @@ BA graphs give more intrersting results. Different subgraph measures assign lowe
 $MA_g$ and $MA_{RI}$ perform similarly by assigning BA graphs lower value towards medium number of links. Both measures are depening on the variable $\sum_{i,j>i}d_id_j$. BA graphs ususally have less $\sum_{i,j>i}d_id_j$ because they are highly structure, causing less sum than a random graph. Contrarily, $Ce$ and $Cr$ cannot distinguish BA graphs and random graphs. $Ce$ is based on the efficiency of a graph, a highly complex graph should have small average distance with not too much edges simultaneously. BA graph does not perform different than random graphs in $Ce$ measure.\\
 
 \subsubsection{Configuration model}
-As introduced in section \ref{small_world}, a network is said to be scale-free if its degree distribution follows a power law distribution with $2<\gamma <3$. To generate scale-free graphs, we need a generator that can generate a degree series which follows power law, and a model that can take any given degree series and convert it to a graph. The magical model is called configuration model.\cite{barabási2016network}
+\label{configuration_model}
+As introduced in section \ref{small_world}, a network is said to be scale-free if its degree distribution follows a power law distribution with $2<\gamma <3$. To observe how the change of $\gamma$ would affect the complexity of a network, we need a model that can generate the graph with given $\gamma$. A configuration model \cite{newmanbook} is able to turn a given degree series into a graph, which has the exact degree distribution as the given degree series. 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.6\textwidth]{configuration_model.eps}
@@ -267,20 +269,23 @@ As introduced in section \ref{small_world}, a network is said to be scale-free i
     \caption{Complexities of graphs generated using configuration model, $n=50$. Results are average of 50 simulations.}
 \end{figure}
 \noindent
-$OdC$ and $C_{1e,spec}$ didn't change much by varying $\gamma$. $MA_{RI}$ increases slightly as it is very sensitive to the change of degrees of nodes. Overall, varying $\gamma$ does not impact the complexity by a lot.
+$OdC$ and $C_{1e,spec}$ didn't change much by varying $\gamma$. $MA_{RI}$ increases slightly as it is very sensitive to the change of degrees of nodes. Overall, varying $\gamma$ does not impact the complexity by a lot. Due to the exist implementation of codes, we can only generate a degree distribution within the range $2.7<\gamma<3.3$, by varying $\gamma$ in a larger range, and adding a new variable $n$ in the model, it can be more suggestful. 
 
 \subsection{Complexity correlation}
-Different type of measures focus on different properties/parameters of a network, monitor the correlation between measures will help us to further understand the behaviour on each measure. For this reason, we choosed three measures($C_{1e,st}$,$OdC$ and $MA_{RI}$) and monitored their behaviours on random and BA graphs.\\
+Different type of measures focus on different properties/parameters of a network, monitor the correlation between measures will help us to further understand the behaviour on each measure. Additioanlly, network scientists may use more than one complexity measure on a network to determine whether they are truly "complex" or not. It is vital to be aware that measures are focus on one or a few properties of a network. Combining complexity measures on networks will allow network scientists to comment on the network complexity from different aspect. For these reasons, we choosed three measures($C_{1e,st}$,$OdC$ and $MA_{RI}$) and monitored their behaviours on random and BA graphs.\\
 \begin{figure}[h!]
     \makebox[\textwidth]{
     \includegraphics[width = \textwidth]{complexity_correlation.eps}
     }
-    \caption{Correation of complexity measures on random graphs and BA graphs with $n=25$. Generated according to the rules stated in section \ref{generate_graphs}. Colorbar represents change of $m$: higher the $m$, darker the datapoints.}
+    \caption{Correation of complexity measures on 1000 random graphs and 200 BA graphs with $n=25$. Generated according to the rules stated in section \ref{generate_graphs}. Colorbar represents change of $m$: higher the $m$, darker the datapoints.}
     \label{fig:correlation}
 \end{figure}
 
 \noindent
-On random graphs, change of $OdC$ is not obvious, in figure \ref{fig:correlation}, $OdC$ values are spreaded whereas $C_{1e,st}$ increses as $m$ increses. In contrast, $OdC$ value of BA graphs increase as $C_{1e,st}$ value increases. 
+As figure \ref{fig:correlation} suggests, the correlation between complexity measures are difficult to observe, since they are trying to address different things. As $C{1e,st}$ value increases, $OdC$ also increases. We indicated in section \ref{complexity}, $m$ is not an important factor for $OdC$. On the other hand, $C_{1e,st}$ is, the complexity increases linearly with $m$, and then complexity drops quickly after reaching the maximum. By constructing a correlation between $C_{1e,st}$ and $OdC$, we cannot distinguish random graphs and BA graphs.\\
+However, we may be able to seperate random graphs and BA graphs by constructing a correlation between $C_{1e,st}$ and $MA_{RI}$. Since both complexity measure are heavily depend on $m$, thus we can observe a linear decreasing trend. We can detect a very unique distribution of the BA graphs: a shape between ellipse and half-moon. This is because both $MA_{RI}$ and $C_{1e,st}$ assign lower complexity values to some of the BA graphs, compare to other BA graphs with same number of edges. Therefore, error will be caused if we try to build a correlation between these 2 measures to seperate random graphs and BA graphs.\\
+The correlation between $OdC$ and $MA_{RI}$ of random graph seems simple: as $m$ decrease, $MA_{RI}$ decrease speedly but $OdC$ change unnoticeably until the graph is highly connected. On the other hand, the correlation between $OdC$ and $MA_{RI}$ on BA graphs perform slightly different. As suggested, $MA_{RI}$ distributes lower complexity to some BA graphs, and $OdC$ is very consistent. In section \ref{configuration_model}, we did not observe a big change of complexity by varying $\gamma$. To observe a better result, using larger graph is optimal(for instance $n=1000$), due to the technical issue(time complexity), they are not used here.
+
 
 
 \subsection{Complement graphs}

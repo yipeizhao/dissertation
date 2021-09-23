@@ -412,6 +412,31 @@
       \field{pages}{365\bibrangedash 373}
       \range{pages}{9}
     \endentry
+    \entry{newmanbook}{book}{}
+      \name{author}{1}{}{%
+        {{hash=91c825ea422365e0f6cb2597658def75}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press Inc.}%
+      }
+      \strng{namehash}{91c825ea422365e0f6cb2597658def75}
+      \strng{fullhash}{91c825ea422365e0f6cb2597658def75}
+      \strng{bibnamehash}{91c825ea422365e0f6cb2597658def75}
+      \strng{authorbibnamehash}{91c825ea422365e0f6cb2597658def75}
+      \strng{authornamehash}{91c825ea422365e0f6cb2597658def75}
+      \strng{authorfullhash}{91c825ea422365e0f6cb2597658def75}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780199206650}
+      \field{title}{Networks: An Introduction}
+      \field{year}{2010}
+    \endentry
     \entry{dolphins}{misc}{}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}

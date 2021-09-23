@@ -30,7 +30,7 @@ In my literature review\cite{litreview}, several complexity measures were introd
     \item No multi-edges. There will be at most one edge between two nodes.
     \item No self-links. Nodes are not allowed to connect to themselves. 
 \end{itemize}
-In order to evaluate different complexity measures, we need to introduce some models that can be used to simulate the real world problems.
+In order to evaluate different complexity measures, we need to introduce some graph models that are commonly used to model real world problems.
 \subsection{Random graphs}
 We have many real networks in the actual world, but defining or observing all of them is not feasible. For simulations and comparisons, network scientists introduced the idea of random networks. They are also known as Erd\H{o}s-R\'{e}nyi network in honour of two mathematicians: Paul Erd\H{o}s and Alfr\'{e}d R\'{e}nyi. They have important contributions to understand the properties of a random network\cite{renyi1959random}.\\
 \noindent
@@ -86,8 +86,8 @@ The BA model requires two parameters: $n$ and $m$. Initally, only one node is cr
 All graph generators are utilized as below(unless specified):
 \begin{itemize}
     \item $G(n,m)$ random graphs/networks or random graphs/networks. With given $n$, $m$ will be randomly selected between $n-1$ to $n(n-1)/2$.
-    \item For WS and NW graphs, three parameters are required. Given parameter $n$, $k$ will be randomly selected between 1 and $(n-1)$. $p$ is also randomize, within the range 0.01 and 0.1 to simulate small-world network as mentioned in section \ref{small_world}.
-    \item Two parameters are needed for BA graphs, given $n$, $m$ will be randomize between 1 and $(n-1)$.
+    \item For WS and NW graphs, three parameters are required. Given parameter $n$, $k$ will be randomly selected between 1 and $(n-1)$ to give a larger range of $m$. $p$ is also randomize, within the range 0.01 and 0.1 to simulate small-world network as mentioned in section \ref{small_world}.
+    \item Two parameters are needed for BA graphs, given $n$, $m$ will be randomize between 1 and $(n-1)$, so we can generate samples with different number of edges.
 \end{itemize}
 
 \section{Methods}
@@ -151,7 +151,7 @@ Assuming the upper-bound $C_{max}$ can be found, $0<C/C_{max}<1$. As suggested i
     \label{eq:rewrite_complexity_1}
     C = -R^2+(ln(2m)-I_{clique}+R_{path})R+(-R_{path}ln(2m)+R_{path}I_{clique})
 \end{equation}
-By observing equation \ref{eq:rewrite_complexity_1}, we can conclude that the complexity function is a quadratic function, which means, there is one and only one extrema. Considering the nature of complexity measure, it's safe to assume that the extrema is a maxima. To find the extrema, we can differentiate the function respect to $R$ where the function's slope is 0:
+By observing equation \ref{eq:rewrite_complexity_1}, we can conclude that the complexity function is a quadratic function, which means, there is one and only one extreme. Considering the nature of complexity measure, it's safe to assume that the extreme is a maxima. To find the extreme, we can differentiate the function respect to $R$ where the function's slope is 0:
 \begin{equation}
     \label{eq:mari_diff}
         \frac{dC}{dR} = -2R_{max}+ln(2m)-I_{clique}+R_{path} = 0\\
@@ -161,7 +161,7 @@ By observing equation \ref{eq:rewrite_complexity_1}, we can conclude that the co
     R_{max} = \frac{ln(2m)-I_{clique}+R_{path}}{2}
 \end{equation}
 \noindent
-Even without assumption, $d^2C/dR^2 = -2$ implies the extrema is a maxima. We found $R_{max}$ where $C$ reaches its maxima. 
+Even without assumption, $d^2C/dR^2 = -2$ implies the extreme is a maxima. We found $R_{max}$ where $C$ reaches its maxima. 
 Substitutes equation \ref{eq:rmax} into equation \ref{eq:rewrite_complexity}:\\
 \begin{equation}
     \begin{gathered}
@@ -297,6 +297,8 @@ Definition of a complement graph is fairly simple: an edge list is created using
     \caption{Complexities of the original graphs and complement graphs with $n=20$. There are two types of graphs are generated: 500 $G(n,m)$ random graphs and 100 BA graphs.}
     \label{fig:complement}
 \end{figure}
+$OdC$ seems to be very symmetric with respect to $m$. Since taking the completment graph is reversing the degree distribution, the consistency of node-node link relation is preserved. Causing the complexity value for original graph equal to the complement graph. As mentioned $MA_{RI}$ is highly based on the number of edges, so observing a linear function is not a surprise. This alo applies to BA grapps. Similar to $MA_{RI}$, $C1_{1e,st}$ is more keen to $m$, causing another negative correlation between the original graph and the complement graph.\\
+
 
 \subsection{Applying $MA_{RI}$ on real networks}
 To test our new measure $MA_{RI}$, 6 real networks are collected. To ensure comprehensive evaluation, various types of networks are used. To be applicable, we collected and processed bus networks in 6 cities. Bus networks are very different to other real networks. Bus networks contain extraordinary amount of nodes with degree 2. For simplification and general interest, we also inroduced modified bus networks. In modified bus networks, all nodes with $k=2$ are removed, whereas the edges are preserved. For instance, node $b$ is only conneted to $a$ and $c$. Node $b$ will be removed and a new edge $(a,c)$ will be added to the network. This will significantly decrease the distance of bus networks. Moreover, generated graphs are also added to be evaluated and compared.\\

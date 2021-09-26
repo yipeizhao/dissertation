@@ -1,10 +1,11 @@
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 
-\usepackage[left=0.75in, right=0.75in, top=0.5in, bottom=0.5in, includefoot, headheight=13.6pt]{geometry}
+\usepackage[left=35mm, right=35mm, top=35mm, bottom=15mm, includefoot]{geometry}
 \usepackage[sorting=none]{biblatex}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{times}
 \usepackage[center]{caption}
 \usepackage{adjustbox}
 \usepackage{afterpage}
@@ -15,13 +16,36 @@
 
 \title{Comparison of network complexity meausres}
 \author{Yipei Zhao}
-\date{\today}
+
+\date{October 2021}
 \begin{document}
-\maketitle
-\pagebreak
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+ 
+        {\Huge Comparison of network complexity meausres}
+ 
+        \vspace{0.5cm}
+         
+             
+        \vspace{1.5cm}
+ 
+        \textbf{Yipei Zhao}\\
+        Student number: 170145594\\
+        A thesis presented for the degree of\\
+        Master of Science Data Analytics\\
+        {\large Supervised by Jens Christian Cluassen}\\
+        October 2021
+ 
+        \vfill
+             
+
+    \end{center}
+ \end{titlepage}
 
 \tableofcontents
 \pagebreak
+\renewcommand{\familydefault}{}
 \section{Introduction}
 In my literature review\cite{litreview}, several complexity measures were introduced, includes the theory and the difference between them. To further study the nature and uniqueness of each complexity measure, simulations and experiments are performed in this project. Firstly, we want to specify what type of graph we are working on:
 \begin{itemize}
@@ -186,7 +210,7 @@ Thus, using equation \ref{c_max}, we can define a new measure $MA_{RI}$, which i
     \label{fig:marimagcompare}
 \end{figure}
 \noindent
-The complexity of $MA_{RI}$ is identical to $MA_g$, which can be calculated in $O(m)$ time.\\
+The complexity of $MA_{RI}$ is identical to $MA_g$, which can be calculated in $O(m)$ time. The measure is also implemented in Python using the NetworkX package, see appendix B.\\
 
 As shown in figure \ref{fig:marimagcompare}, $MA_{RI}$ gives higher coplexity to sparser graphs but less complexity when approaching to medium number of links. Additionally, it decreases almost linearly with $m$ once the peak is reached.
 
@@ -405,56 +429,580 @@ Overall, we are working hard to contribute to the network complexity community. 
     \item Highest mutual information: $I_{path} = ln(n-1)-(\frac{n-3}{n-1})ln2$
     \item Lowest mutual information: $I_{clique}=ln(\frac{n}{n-1})$
 \end{itemize}
-\subsection{Appendix B: Implementation of $MA_{RI}$ in Python}
-\label{maricode}
-G is a NetworkX Graph object.\\
-Ran in the following version:
-\begin{itemize}
-    \item Python version: 3.8.8
-    \item NetworkX version: 2.5
-\end{itemize}
-Code:
 
-\begin{lstlisting}[language=Python]
-from math import log
-import networkx as nx
-def mutual_info(G):
-    edges = list(G.edges)
-    m = len(edges)
-    I = 0
-    for item in edges:
-        d0 = len(list(G.neighbors(item[0])))
-        d1 = len(list(G.neighbors(item[1]))) 
-        I = I + log(2*m/(d0*d1))
-    return I/m
-
-def redundancy(G):
-    edges = list(G.edges)
-    m = len(edges)
-    R = 0
-    for item in edges:
-        d0 = len(list(G.neighbors(item[0])))
-        d1 = len(list(G.neighbors(item[1]))) 
-        R = R + log((d0*d1))
-    return R/m
-
-def MAri(G,normalisation=True):
-n = len(G.nodes)
-R = redundancy(G)
-I = mutual_info(G)
-R_p = 2*log(2)*(n-2)/(n-1)
-R_c = 2*log(n-1)
-I_p = log(n-1)-log(2)*(n-3)/(n-1)
-I_c = log(n/(n-1))
-m=len(G.edges)
-numerator_1 = (R-R_p)
-numerator_2 = (I-I_c)
-denominator = 0.25*(log(2*m)-R_p-I_c)**2
-if normalisation == True:
-    return numerator_1*numerator_2/denominator
-else:
-    return R*I
+\subsection{Appendix B: utilities}
+\begin{lstlisting}[numbers=left,language=Python,breaklines=true]
+    import networkx as nx
+    import random
+    from random import randint
+    import pandas as pd
+    import numpy as np
+    import collections
+    from scipy.stats import pearsonr
+    from itertools import combinations_with_replacement
+    import math
+    from math import log
+    import matplotlib.pyplot as plt
+    
+    
+    #   Generates a list of graphs and their corresponding parameter.
+    #   Notice the function will only return connected graphs, disconnected graphs
+    #   will not be returned. Thus the actual number of graphs returned will be less
+    #   than expected.
+    #   Parameters:
+    #   n: number of nodes
+    #   use_all_m: if this is true, then the function will generates samples using all
+    #   the edge numbers * sample_number
+    #   sample_number: number of samples for each edge if use_all_m = True
+    #   Otherwise the sample_number defines how many graphs will be returned in total
+    def random_networks(n=7,use_all_m = True,sample_number = 50):
+        #   Create a list to record all the graphs
+        graph_list = []
+        #   Max number of edges.
+        m = (n*(n-1))/2
+        m = int(m)
+        #   Create a df to store relevant information
+        column_names = ["Number_of_edges","Average_degree",
+                        "Average_distance",
+                        "Average_clustering"]
+        #   Filling the df with zeros
+        if use_all_m == True:
+            zero_list = [float(0)]*(sample_number*(m+1))
+            df = pd.DataFrame(columns = column_names)
+            for item in column_names:
+                df[item] = zero_list 
+        else:
+            zero_list = [float(0)]*(sample_number)
+            df = pd.DataFrame(columns = column_names)
+            for item in column_names:
+                df[item] = zero_list 
+        
+        #   Creating graphs using different parameters
+        #   count record the actual number of graphs generated by the function
+        count = 0
+        if use_all_m == True:
+            for i in range(m+1):
+                for j in range(sample_number):
+                    temp_graph = nx.gnm_random_graph(n,i)
+                    if nx.is_connected(temp_graph):
+                        graph_list.append(temp_graph)
+                        df["Number_of_edges"][count] = i
+                        df["Average_degree"][count] =  (2*i)/n
+                        df["Average_clustering"][count] = nx.average_clustering(temp_graph)
+                        df["Average_distance"][count] = nx.average_shortest_path_length(temp_graph)
+                        count  +=1
+    
+        else:
+            for i in range(sample_number):
+                edge_number  = randint(0,m)
+                temp_graph=nx.gnm_random_graph(n,edge_number)
+                if nx.is_connected(temp_graph):
+                    graph_list.append(temp_graph)
+                    df["Number_of_edges"][count] = edge_number
+                    df["Average_degree"][count] =  (2*edge_number)/n
+                    df["Average_clustering"][count] = nx.average_clustering(temp_graph)
+                    df["Average_distance"][count] = nx.average_shortest_path_length(temp_graph)
+                    count +=1
+        return graph_list,df
+    
+    
+    #   Return a list of subgraphs of the graph G by taking an edge off the graph
+    
+    def subgraph_one_edge_deletion(G):
+        subgraphs = []
+        for edge in list(G.edges):
+            temp_graph = G.copy()
+            temp_graph.remove_edge(edge[0],edge[1])
+            subgraphs.append(temp_graph)
+        return subgraphs
+    
+    
+    #   Return the number of spanning trees of a graph.
+    #   This calculation is based on the Kirchhoffs theorem, which is:
+    #   number of ST = det(reduced Laplacian matrix)
+    #   A reduced Laplacian matrix is the Laplacian matrix with
+    #   a random row i and column i to be removed
+    def number_of_ST(G):
+        L = nx.laplacian_matrix(G)
+        L = L.todense()
+        remove_i = randint(0,L.shape[0]-1)
+        L = np.delete(L,remove_i,0)
+        L = np.delete(L,remove_i,1)
+        sign ,det = np.linalg.slogdet(L)
+        det = sign * math.exp(det)
+        det = int(det)
+        return det
+    
+    #   Return number of isomorphic subgraphs of a graph
+    #   After taking all the one-edge-deletion subgraphs,
+    #   investigates the number of different ST will remove isomorphic subgraphs
+    def isomorphic_graphs(G):
+        subgraphs = subgraph_one_edge_deletion(G)
+        ST_result = []
+        for graph in subgraphs:
+            ST_result.append(number_of_ST(graph))
+        unique_ST = []
+        unique_subgraphs = []
+        ST_result = [str(item)[:10] for item in ST_result]
+        for i in range(len(subgraphs)):
+            if ST_result[i] not in unique_ST:
+                unique_subgraphs.append(subgraphs[i])
+                unique_ST.append(ST_result[i])
+        return unique_ST
+    
+    #   Generates a list of BA random graphs
+    #   Parameters:
+    #   n = number of nodes
+    #   sample_number = Number of samples
+    def BA_random_graphs(n,sample_number):
+        graphs = []
+        for i in range(sample_number):
+            m=randint(1,n-1)
+            temp_graph = nx.barabasi_albert_graph(n,m)
+            if nx.is_connected(temp_graph):
+                graphs.append(temp_graph)
+        return graphs
+    
+    #   Generates a list of WS random graphs
+    #   Parameters:
+    #   n = number of nodes
+    #   sample_number = Number of samples
+    def WS_random_graphs(n,sample_number):
+        graphs = []
+        for i in range(sample_number):
+            p= random.uniform(0.001,0.1)
+            k= random.randint(2,n)
+            graphs.append(nx.watts_strogatz_graph(n,k,p))
+        return graphs
+    
+    #   Generates a list of NS random graphs
+    #   Parameters:
+    #   n = number of nodes
+    #   sample_number = Number of samples
+    def NW_random_graphs(n,sample_number):
+        graphs = []
+        for i in range(sample_number):
+            p= random.uniform(0.001,0.1)
+            k= random.randint(2,n)
+            graphs.append(nx.newman_watts_strogatz_graph(n,k,p))
+        return graphs
+    
+    #   Return a list of subgraphs by taking two edges off from the graph
+    def subgraph_two_edge_deletion(G):
+        subgraphs = []
+        remove_edges = np.linspace(0,len(G.edges)-1,len(G.edges))
+        remove_edge_product = combinations_with_replacement(remove_edges,2)
+        remove_edge_tuple = []
+        for x in remove_edge_product:
+            remove_edge_tuple.append(x)
+        remove_edge_final = []
+        for i in range(len(remove_edge_tuple)):
+            if remove_edge_tuple[i][0]!= remove_edge_tuple[i][1]:
+                remove_edge_final.append(remove_edge_tuple[i])
+        
+        subgraphs = []
+        edge_list = list(G.edges)
+        for i in range(len(remove_edge_final)):
+            temp_graph = nx.Graph(G)
+            edge1 = remove_edge_final[i][0]
+            edge1 = int(edge1)
+            edge2 = remove_edge_final[i][1]
+            edge2 = int(edge2)
+            edge1_loc = edge_list[edge1]
+            edge2_loc = edge_list[edge2]
+            temp_graph.remove_edge(edge1_loc[0],edge1_loc[1])
+            temp_graph.remove_edge(edge2_loc[0],edge2_loc[1])
+            subgraphs.append(temp_graph)
+        return subgraphs
+    
+    #   Check whether a network is empty(no edges)
+    def empty_check(G):
+        if len(G.nodes()) == 0 or len(G.edges())==0:
+            return True
+        else:
+            return False
+    
+    #   Convert a dataframe to a network
+    def df_to_network(df):
+        source = [row[0] for index,row in df.iterrows()]
+        target = [row[1] for index,row in df.iterrows()]
+        G = nx.Graph()
+        [G.add_edge(item1,item2) for item1,item2 in zip(source,target)]
+        return G
+    
+    #   Finding the giant component of a network
+    def gcc(G):
+        Gcc = sorted(nx.connected_components(G), key=len, reverse=True)
+        G0 = G.subgraph(Gcc[0])
+        return G0
+    
+    #    Plotting the degree distribution of a graph
+    def plot_deg_dist(G):
+        degree_sequence = sorted([d for n, d in G.degree()],reverse = True)
+        degreeCount = collections.Counter(degree_sequence)
+        deg, cnt = zip(*degreeCount.items())
+        deg = list(deg)
+        cnt = list(cnt)
+        plt.bar(deg,cnt)
+        return 0
+    
+    #   Convert a NetworkX graph object to a dataframe
+    def network_to_df(G):
+        edges = list(G.edges())
+        source = [item[0] for item in edges]
+        target = [item[1] for item in edges]
+        df = pd.DataFrame(data = {"source":source,"target":target})
+        return df
+    
+    #   Rewire the network G with given probability prob,using pairwise rewiring
+    def pairwise_rewiring(G,prob):
+        rewire_number = int(prob*len(G.edges))
+        G1 = G.copy()
+        c = 0 
+        while c != rewire_number:
+            edges = list(G1.edges())
+            rewire_edges = random.sample(edges,2)
+            source1 = rewire_edges[0][0]
+            source2 = rewire_edges[1][0]
+            target1 = rewire_edges[0][1]
+            target2 = rewire_edges[1][1]
+            if len(set([source1,source2,target1,target2]))==4:
+                if not G1.has_edge(source1,target2) and not G1.has_edge(source2,target1):
+                    G1.remove_edge(source1,target1)
+                    G1.remove_edge(source2,target2)
+                    G1.add_edge(source1,target2)
+                    G1.add_edge(source2,target1)
+                    if nx.is_connected(G1):
+                        c = c+1
+                    else:
+                        G1.add_edge(source1,target1)
+                        G1.add_edge(source2,target2)
+                        G1.remove_edge(source1,target2)
+                        G1.remove_edge(source2,target1)
+        return G1
+    
+    #   Rewire the network G with given probability prob,using single link rewiring
+    def single_link_rewiring(G,prob):
+        G1 = G.copy()
+        rewire_number = int(prob * len(G1.edges))
+        for i in range(rewire_number):
+            flag = 0
+            while flag ==0:
+                source = random.choice(list(G1.nodes()))
+                neighbors = list(G1.neighbors(source))
+                remove_neighbor = random.choice(neighbors)
+                G1.remove_edge(source,remove_neighbor)
+                if not nx.is_connected(G1):
+                    G1.add_edge(source,remove_neighbor)
+                else:
+                    options = set(list(G1.nodes)) - set(list(G1.neighbors(source)))-set([source,remove_neighbor])
+                    rewire_to = random.choice(list(options))
+                    G1.add_edge(source,rewire_to)
+                    flag = 1
+        return G1
+    
+    #   Calculates the mutual information of a graph
+    def mutual_info(G):
+        edges = list(G.edges)
+        m = len(edges)
+        I = 0
+        for item in edges:
+            d0 = len(list(G.neighbors(item[0])))
+            d1 = len(list(G.neighbors(item[1]))) 
+            I = I + log(2*m/(d0*d1))
+        return I/m
+    
+    #   Calculates the redundancy of a graph
+    def redundancy(G):
+        edges = list(G.edges)
+        m = len(edges)
+        R = 0
+        for item in edges:
+            d0 = len(list(G.neighbors(item[0])))
+            d1 = len(list(G.neighbors(item[1]))) 
+            R = R + log((d0*d1))
+        return R/m
+    
+    #   Return the complement of a graph
+    def complement_graph(G):
+        edges = list(G.edges)
+        nodes = list(G.nodes)
+        product_list=[]
+        for i in range(len(nodes)):
+            for j in range(i+1,len(nodes)):
+                product_list.append((nodes[i],nodes[j]))
+        complement = list(set(product_list)-set(edges))
+        new_G = nx.Graph()
+        for item in complement:
+            new_G.add_edge(item[0],item[1])
+        if len(G.nodes)==len(new_G.nodes):
+            if nx.is_connected(new_G):
+                return new_G
+        return None
+    
+    #   Calculate the L_r of a graph(average distance of a random graph with given m and n)
+    def lr(G):
+        n = len(G.nodes)
+        k = 2*len(G.edges)/n
+        return log(n)/log(k)
 \end{lstlisting}
+
+\subsection{Appendix C: Complexity}
+\begin{lstlisting}[numbers=left,language=Python,breaklines=true]
+    import numpy as np
+    import networkx as nx
+    from math import cos,pi,log
+    import utilities as ut
+    from scipy.linalg import eig
+    import math
+    
+    #   All complexity measure have an optional parameter-normalisation
+    #   If normalisation = True(true by default), the normalised value will be returned
+    #   Otherwise, the unnormalized form will be returned
+    
+    #   Calculates OdC Complexity of a graph
+    def OdC(G,normalisation = True):
+        if ut.empty_check(G) == True:
+            return 0
+        else:
+            #Create a degree correlation matrix, using the max degree 
+            degree_sequence = sorted([d for n, d in G.degree()], reverse=True)
+            max_degree = max(degree_sequence)
+            degree_correlation = np.zeros((max_degree,max_degree))
+            
+            #Building the correlation matrix
+            for node in list(G.nodes):
+                #An array to store all the neighbors degrees
+                neighbors_degree = []
+                #Getting the degree of the current node
+                node_degree = G.degree(node)
+                #Stating all neighbors and finding their degrees
+                neighbors = list(G.neighbors(node))
+                neighbors_degrees_tuple=G.degree(neighbors)
+                for item in neighbors_degrees_tuple:
+                    neighbors_degree.append(item[1])
+                #For every occurence, adding one to the matrix
+                for item in neighbors_degree:
+                    if node_degree<=item:
+                        degree_correlation[node_degree-1,item-1] +=1
+                        
+            #Calculating a_k
+            a_k=[]
+            for i in range(max_degree):
+                a_k.append(sum(degree_correlation[i]))
+            A = sum(a_k)
+            if A !=0:
+                for i in range(len(a_k)):
+                    a_k[i]=a_k[i]/A
+            
+            #Calculating the complexity
+            complexity = 0
+            for item in a_k:
+                complexity -= item*ln(item)
+            
+            #Normalisation
+            if normalisation == True:
+                complexity = complexity/(ln(len(G.nodes)-1))
+            return complexity
+    
+    #   Calculates ln(x), if x=0, return 0
+    def ln(x):
+        if x == 0:
+            return 0
+        else:
+            return np.log(x)
+        
+    #   Calculates Cr complexity of a graph
+    def Cr(G,normalisation = True):
+        if ut.empty_check(G) == True:
+            return 0
+        else:
+            if not nx.is_connected(G):
+                return 0
+            adj_matrix = nx.adjacency_matrix(G)
+            adj_matrix = adj_matrix.todense()
+            eigenvalues, eigenvectors = np.linalg.eig(adj_matrix)
+            r = max(eigenvalues)
+            r = r.real
+            if normalisation == True:
+                n = len(G.nodes)
+                c_r_numerator = r-2 * cos(pi/(n+1))
+                c_r_denominator = n-1-2*cos(pi/(n+1))
+                c_r = c_r_numerator/c_r_denominator
+                Cr_complexity = 4*c_r*(1-c_r)
+                return Cr_complexity
+            else:
+                return r
+    
+    #   Calculates Ce complexity of a graph
+    def Ce(G,normalisation = True):
+        if not nx.is_connected(G):
+            return 0
+        if ut.empty_check(G):
+            return -1
+        else:
+            E = 0
+            nodes = list(G.nodes())
+            n=len(nodes)
+            for i in range(n):
+                for j in range(i+1, n):
+                    E = E + 1/nx.shortest_path_length(G,nodes[i],nodes[j])
+            E = 2* E /((n)*(n-1))
+            if normalisation ==True:
+                E_path = 0
+                for i in range(1,n):
+                    E_path = E_path + (n-i)/i
+                E_path = E_path *2/((n)*(n-1))
+                Ce = 4*(E-E_path)/(1-E_path)*(1- (E-E_path)/(1-E_path))
+                return Ce
+            else:
+                return E
+    
+    #   Calculates C_{1e,st} complexity of a graph
+    def C1est(G,normalisation = True):
+        n = len(G.nodes)
+        mcu = n**1.68-10
+        subgraphs = ut.subgraph_one_edge_deletion(G)
+        st = []
+        for item in subgraphs:
+            L = nx.laplacian_matrix(item).toarray()
+            L = np.delete(L,0,axis=0)
+            L = np.delete(L,0,axis=1)
+            _,logdet = np.linalg.slogdet(L)
+            det = math.exp(logdet)
+            det = int(det)
+            det = round(det,10)
+            if det not in st:
+                st.append(det)
+        N1est = len(st)
+        if normalisation == False:
+            return N1est
+        else:
+            return (N1est-1)/(mcu-1)
+    
+    #   Calculates C_{1e.spec} complexity of a graph
+    def C1espec(G,normalisation =True):
+        subgraphs = ut.subgraph_one_edge_deletion(G)
+        spectra = [];spectra_s = []
+        mcu = len(G.nodes())**1.68-10
+        for i in range(len(subgraphs)):
+            L = nx.laplacian_matrix(subgraphs[i]).todense()
+            A = nx.adjacency_matrix(subgraphs[i]).todense()
+            
+            eig_values,_ = eig(L)
+            eig_values = eig_values.real
+            eig_values = sorted(eig_values)
+            eig_values = [round(item,10) for item in eig_values]
+            
+            L = L + A + A
+            eig_values_s,_ = eig(L)
+            eig_values_s = eig_values_s.real
+            eig_values_s = sorted(eig_values_s)
+            eig_values_s = [round(item,10) for item in eig_values_s]
+            
+            if eig_values not in spectra and eig_values_s not in spectra_s:
+                spectra.append(eig_values)
+                spectra_s.append(eig_values_s)
+            
+        N1espec = len(spectra)
+        if normalisation == False:
+            return N1espec
+        else:
+            return (N1espec-1)/(mcu-1)
+    
+    #   Calculates C_{2e,spec} complexity of a graph
+    def C2espec(G,normalisation=True):
+        n= len(G.nodes)
+        remove_edges = []
+        for i in range(n):
+            neighbours = list(G.neighbors(i))
+            for item in neighbours:
+                if item < i:
+                    remove_edges.append([i,item])
+        
+        
+        products = []
+        for i in range(len(remove_edges)):
+            for j in range(i+1,len(remove_edges)):
+                products.append([remove_edges[i],remove_edges[j]])
+        
+        subgraphs = []
+        for item in products:
+            temp_G = G.copy()
+            temp_G.remove_edge(item[0][0],item[0][1])
+            temp_G.remove_edge(item[1][0],item[1][1])
+            subgraphs.append(temp_G)
+            
+        spectra = [];spectra_s = []
+        mcu = len(G.nodes())**1.68-10
+        for i in range(len(subgraphs)):
+            L = nx.laplacian_matrix(subgraphs[i]).todense()
+            A = nx.adjacency_matrix(subgraphs[i]).todense()
+            
+            eig_values,_ = eig(L)
+            eig_values = eig_values.real
+            eig_values = sorted(eig_values)
+            eig_values = [round(item,10) for item in eig_values]
+            
+            L = L + A + A
+            eig_values_s,_ = eig(L)
+            eig_values_s = eig_values_s.real
+            eig_values_s = sorted(eig_values_s)
+            eig_values_s = [round(item,10) for item in eig_values_s]
+            
+            if eig_values not in spectra and eig_values_s not in spectra_s:
+                spectra.append(eig_values)
+                spectra_s.append(eig_values_s)
+                
+        N2espec = len(spectra)
+        if normalisation == False:
+            return N2espec
+        else:
+            C2espec = (N2espec - 1)/(math.comb(int(mcu),2))
+            return C2espec
+    
+    #   Calculates MA_{g} of a graph
+    #   Using function mutual_info and redundancy from utilities to calcualte I and R
+    def MAg(G,normalisation = True):
+        n = len(G.nodes)
+        R = ut.redundancy(G)
+        I = ut.mutual_info(G)
+        R_p = 2*(n-2)/(n-1)*log(2)
+        R_c = 2*log(n-1)
+        I_p = log(n-1)-((n-3)/(n-1))*log(2)
+        I_c = log((n)/(n-1))
+        MAr = 4*((R-R_p)/(R_c - R_p))*(1 - (R-R_p)/(R_c-R_p))
+        MAi = 4*((I-I_c)/(I_p-I_c))*(1-(I-I_c)/(I_p-I_c))
+        if normalisation == True:
+            return MAr * MAi
+        else:
+            return R*I
+        MAr = 4*((R-R_p)/(R_c - R_p))*(1 - (R-R_p)/(R_c-R_p))
+        MAi = 4*((I-I_c)/(I_p-I_c))*(1-(I-I_c)/(I_p-I_c))
+        if normalisation == True:
+            return MAr * MAi
+        else:
+            return R*I
+    #   Calcualtes MA_{RI} complexity of a graph
+    #   Using function mutual_info and redundancy from utilities to calcualte I and R
+    def MAri(G,normalisation=True):
+        n = len(G.nodes)
+        R = ut.redundancy(G)
+        I = ut.mutual_info(G)
+        R_p = 2*log(2)*(n-2)/(n-1)
+        R_c = 2*log(n-1)
+        I_p = log(n-1)-log(2)*(n-3)/(n-1)
+        I_c = log(n/(n-1))
+        m=len(G.edges)
+        numerator_1 = (R-R_p)
+        numerator_2 = (I-I_c)
+        denominator = 0.25*(log(2*m)-R_p-I_c)**2
+        if normalisation == True:
+            return numerator_1*numerator_2/denominator
+        else:
+            return R*I    
+\end{lstlisting}
+
 \printbibliography
 
 \end{document}

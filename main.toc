@@ -38,10 +38,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Conclusion and further study}{22}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Appendix}{22}{}%
+\contentsline {section}{\numberline {A}Redundancy and mutual information\cite {KIM20082637}}{22}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Appendix A: Redundancy and mutual information\cite {KIM20082637}}{22}{}%
+\contentsline {section}{\numberline {B}utilities.py}{23}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Appendix B: utilities}{23}{}%
+\contentsline {section}{\numberline {C}Complexity.py}{31}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Appendix C: Complexity}{31}{}%
+\contentsline {section}{\numberline {D}figure\_generator.py}{37}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E}rewiring\_simulation.py}{48}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {F}configuration\_model.r and R\_functions.py}{54}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{56}{}%

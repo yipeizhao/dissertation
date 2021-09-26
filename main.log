@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.24)  26 SEP 2021 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.24)  26 SEP 2021 16:00
 entering extended mode
 **c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex
 (c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex
@@ -433,7 +433,7 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 \c@theorem=\count410
 \@quotelevel=\count411
 \@quotereset=\count412
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 21.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 20.
  (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -443,20 +443,20 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -516,12 +516,11 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 21.
-Package biblatex Info: Reference segment=0 on input line 21.
-(C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl)
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count414
 \scratchdimen=\dimen183
@@ -546,50 +545,31 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count420
  [1
 
-{C:/Users/zhaoy/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-No file main.toc.
+{C:/Users/zhaoy/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-[1]
-LaTeX Font Info:    Trying to load font information for OT1+ on input line 49.
-LaTeX Font Info:    No file OT1.fd. on input line 49.
+LaTeX Font Info:    Trying to load font information for OT1+ on input line 48.
+LaTeX Font Info:    No file OT1.fd. on input line 48.
 
 
 LaTeX Font Warning: Font shape `OT1//m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 49.
+(Font)              using `OT1/cmr/m/n' instead on input line 48.
 
+[1]
 
 LaTeX Font Warning: Font shape `OT1//b/n' undefined
-(Font)              using `OT1//m/n' instead on input line 49.
+(Font)              using `OT1//m/n' instead on input line 48.
 
-
-LaTeX Warning: Citation 'litreview' on page 2 undefined on input line 50.
-
-LaTeX Font Info:    Trying to load font information for TS1+ on input line 52.
-LaTeX Font Info:    No file TS1.fd. on input line 52.
+LaTeX Font Info:    Trying to load font information for TS1+ on input line 51.
+LaTeX Font Info:    No file TS1.fd. on input line 51.
 
 LaTeX Font Warning: Font shape `TS1//m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 52.
+(Font)              for symbol `textbullet' on input line 51.
 
-
-LaTeX Warning: Citation 'renyi1959random' on page 2 undefined on input line 59.
-
-
-LaTeX Warning: Citation 'litreview' on page 2 undefined on input line 68.
-
-
-LaTeX Warning: Citation 'barab√°si2016network' on page 2 undefined on input line 68.
-
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ° in font cmr12!
 [2]
-
-LaTeX Warning: Citation 'network_rewiring' on page 3 undefined on input line 72.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
@@ -600,52 +580,26 @@ Package epstopdf Info: Source file: <./figures//small_world_network_model.eps>
 (epstopdf)                    date: 2021-09-22 13:50:37
 (epstopdf)                    size: 20704 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//small_world_network_model-eps-converted-to.pdf ./figures//small_world_network_model.eps>
-(epstopdf)             \includegraphics on input line 84.
+(epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//small_world_network_model-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//small_world_network_model-eps-converted-to.pdf, id=18, 1084.05pt x 722.7pt>
+<./figures//small_world_network_model-eps-converted-to.pdf, id=19, 1084.05pt x 722.7pt>
 File: ./figures//small_world_network_model-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//small_world_network_model-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//small_world_network_model-eps-converted-to.pdf  used on input line 84.
+Package pdftex.def Info: ./figures//small_world_network_model-eps-converted-to.pdf  used on input line 83.
 (pdftex.def)             Requested size: 332.10184pt x 221.39911pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation 'milgram1967small' on page 3 undefined on input line 89.
-
-
-LaTeX Warning: Citation 'wsmodel' on page 3 undefined on input line 91.
-
-
-LaTeX Warning: Citation 'nwmodel' on page 3 undefined on input line 91.
-
-
-LaTeX Warning: Citation 'barab√°si2016network' on page 3 undefined on input line 91.
-
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ° in font cmr12!
-
-Overfull \hbox (30.32234pt too wide) in paragraph at lines 89--92
-\OT1/ptm/m/n/12 About 50 years ago, a fa-mous study was car-ried out by Stan-d-ley Milgram[[]]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
 
  []
 
 [3]
-
-LaTeX Warning: Citation 'broido_clauset_2019' on page 4 undefined on input line 95.
-
-
-LaTeX Warning: Citation 'albert1999diameter' on page 4 undefined on input line 95.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
@@ -656,7 +610,7 @@ Package epstopdf Info: Source file: <./figures//degree_distribution.eps>
 (epstopdf)                    date: 2021-09-22 13:50:45
 (epstopdf)                    size: 36152 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//degree_distribution-eps-converted-to.pdf ./figures//degree_distribution.eps>
-(epstopdf)             \includegraphics on input line 99.
+(epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -664,82 +618,30 @@ pdfTeX warning: pdflatex (file ./figures//degree_distribution-eps-converted-to.p
 <./figures//degree_distribution-eps-converted-to.pdf, id=25, 1084.05pt x 433.62pt>
 File: ./figures//degree_distribution-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//degree_distribution-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//degree_distribution-eps-converted-to.pdf  used on input line 99.
+Package pdftex.def Info: ./figures//degree_distribution-eps-converted-to.pdf  used on input line 98.
 (pdftex.def)             Requested size: 415.12572pt x 166.04767pt.
-
-LaTeX Warning: Citation 'barab√°si2016network' on page 4 undefined on input line 105.
-
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ° in font cmr12!
-
-LaTeX Warning: Citation 'barab√°si2016network' on page 4 undefined on input line 105.
-
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ° in font cmr12!
-
-LaTeX Warning: Citation 'pa_test' on page 4 undefined on input line 106.
-
-
-LaTeX Warning: Reference `fig:degree_dist' on page 4 undefined on input line 106.
-
-
-Overfull \hbox (2.295pt too wide) in paragraph at lines 104--107
-\OT1/ptm/m/n/12 Suggested by Barab[]asi[[]], the de-gree dis-tri-bu-tion of a ran-dom graph
- []
-
-[4 <./figures//small_world_network_model-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `small_world' on page 5 undefined on input line 113.
-
-[5 <./figures//degree_distribution-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation 'litreview' on page 6 undefined on input line 119.
-
-
-LaTeX Warning: Citation 'KIM20082637' on page 6 undefined on input line 138.
-
-[6]
-
-LaTeX Warning: Reference `appendixa' on page 7 undefined on input line 168.
-
-
-LaTeX Warning: Reference `eq:mutual_info' on page 7 undefined on input line 169.
-
-
-Overfull \hbox (1.33421pt too wide) in paragraph at lines 166--170
+[4 <./figures//small_world_network_model-eps-converted-to.pdf>] [5 <./figures//degree_distribution-eps-converted-to.pdf>] [6]
+Overfull \hbox (1.33421pt too wide) in paragraph at lines 165--169
 $\OML/cmm/m/it/12 R[]; R[]; I[]$ \OT1/ptm/m/n/12 and $\OML/cmm/m/it/12 I[]$ \OT1/ptm/m/n/12 rep-re-sent the low-est re-dun-dacy, high-est re-dun-dancy, high-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
+Underfull \hbox (badness 10000) in paragraph at lines 165--169
 
  []
 
 
-LaTeX Warning: Reference `eq:rewrite_complexity_1' on page 7 undefined on input line 178.
-
-
-LaTeX Warning: Reference `eq:rmax' on page 7 undefined on input line 189.
-
-
-LaTeX Warning: Reference `eq:rewrite_complexity' on page 7 undefined on input line 189.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--190
+Underfull \hbox (badness 10000) in paragraph at lines 185--189
 
  []
 
 
-Overfull \hbox (22.08936pt too wide) detected at line 196
+Overfull \hbox (22.08936pt too wide) detected at line 195
 [][]
  []
 
 [7]
-
-LaTeX Warning: Reference `c_max' on page 8 undefined on input line 202.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--203
+Underfull \hbox (badness 10000) in paragraph at lines 199--202
 
  []
 
@@ -750,7 +652,7 @@ Package epstopdf Info: Source file: <./figures//mariandmag.eps>
 (epstopdf)                    date: 2021-09-22 13:50:56
 (epstopdf)                    size: 141205 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//mariandmag-eps-converted-to.pdf ./figures//mariandmag.eps>
-(epstopdf)             \includegraphics on input line 208.
+(epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -758,25 +660,11 @@ pdfTeX warning: pdflatex (file ./figures//mariandmag-eps-converted-to.pdf): PDF 
 <./figures//mariandmag-eps-converted-to.pdf, id=109, 433.62pt x 289.08pt>
 File: ./figures//mariandmag-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//mariandmag-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//mariandmag-eps-converted-to.pdf  used on input line 208.
+Package pdftex.def Info: ./figures//mariandmag-eps-converted-to.pdf  used on input line 207.
 (pdftex.def)             Requested size: 290.58673pt x 193.73552pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--214
+Underfull \hbox (badness 10000) in paragraph at lines 204--213
 
- []
-
-
-LaTeX Warning: Reference `fig:marimagcompare' on page 8 undefined on input line 215.
-
-
-LaTeX Warning: Citation 'KIM20082637' on page 8 undefined on input line 220.
-
-
-LaTeX Warning: Citation 'KIM20082637' on page 8 undefined on input line 220.
-
-
-Overfull \hbox (36.226pt too wide) in paragraph at lines 219--221
-\OT1/ptm/m/n/12 bound of the com-plex-ity $\OML/cmm/m/it/12 m[] \OT1//b/n/12 = \OML/cmm/m/it/12 n[] \OMS/cmsy/m/n/12   \OT1//b/n/12 10$ \OT1/ptm/m/n/12 was in-tro-duced by Kim and Wilhelm[[]]
  []
 
 [8 <./figures//mariandmag-eps-converted-to.pdf>]
@@ -787,7 +675,7 @@ Package epstopdf Info: Source file: <./figures//subgraph_measures.eps>
 (epstopdf)                    date: 2021-09-22 13:51:04
 (epstopdf)                    size: 36268 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//subgraph_measures-eps-converted-to.pdf ./figures//subgraph_measures.eps>
-(epstopdf)             \includegraphics on input line 223.
+(epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -795,16 +683,10 @@ pdfTeX warning: pdflatex (file ./figures//subgraph_measures-eps-converted-to.pdf
 <./figures//subgraph_measures-eps-converted-to.pdf, id=143, 1084.05pt x 361.35pt>
 File: ./figures//subgraph_measures-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//subgraph_measures-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//subgraph_measures-eps-converted-to.pdf  used on input line 223.
+Package pdftex.def Info: ./figures//subgraph_measures-eps-converted-to.pdf  used on input line 222.
 (pdftex.def)             Requested size: 415.12572pt x 138.37306pt.
 
-LaTeX Warning: Reference `fig:subgraph_measure' on page 9 undefined on input line 228.
-
-
-LaTeX Warning: Citation 'floating_point' on page 9 undefined on input line 229.
-
-
-Overfull \hbox (26.77457pt too wide) in paragraph at lines 227--231
+Overfull \hbox (26.77457pt too wide) in paragraph at lines 226--230
 \OT1/ptm/m/n/12 The core of dif-fer-ent sub-graph mea-sure is to com-pare the cofactor($\OML/cmm/m/it/12 C[]$\OT1/ptm/m/n/12 ) or spectrum($\OML/cmm/m/it/12 C[]$
  []
 
@@ -816,7 +698,7 @@ Package epstopdf Info: Source file: <./figures//c2espec.eps>
 (epstopdf)                    date: 2021-09-22 13:51:08
 (epstopdf)                    size: 106626 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//c2espec-eps-converted-to.pdf ./figures//c2espec.eps>
-(epstopdf)             \includegraphics on input line 239.
+(epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -824,17 +706,8 @@ pdfTeX warning: pdflatex (file ./figures//c2espec-eps-converted-to.pdf): PDF inc
 <./figures//c2espec-eps-converted-to.pdf, id=169, 1084.05pt x 361.35pt>
 File: ./figures//c2espec-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//c2espec-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//c2espec-eps-converted-to.pdf  used on input line 239.
+Package pdftex.def Info: ./figures//c2espec-eps-converted-to.pdf  used on input line 238.
 (pdftex.def)             Requested size: 415.12572pt x 138.37306pt.
-
-LaTeX Warning: Reference `fig:small_graphs' on page 10 undefined on input line 249.
-
-
-LaTeX Warning: Citation 'KIM20082637' on page 10 undefined on input line 249.
-
-
-LaTeX Warning: Reference `problem' on page 10 undefined on input line 249.
-
 [10 <./figures//c2espec-eps-converted-to.pdf>] [11]
 Package epstopdf Info: Source file: <./figures//complexities.eps>
 (epstopdf)                    date: 2021-09-22 11:10:25
@@ -871,26 +744,14 @@ File: ./figures//complexities_sp-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures//complexities_sp-eps-converted-to.pdf  used on input line 265.
 (pdftex.def)             Requested size: 352.85939pt x 564.57271pt.
 
-LaTeX Warning: Reference `generate_graphs' on page 12 undefined on input line 267.
-
-
-LaTeX Warning: Reference `generate_graphs' on page 12 undefined on input line 267.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 
-LaTeX Warning: Citation 'odc' on page 12 undefined on input line 273.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
-
-
-LaTeX Warning: Reference `problem' on page 12 undefined on input line 281.
 
 
 Overfull \hbox (5.03357pt too wide) in paragraph at lines 280--285
@@ -907,12 +768,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--285
 ] [13
 
  <./figures//complexities-eps-converted-to.pdf>] [14 <./figures//complexities_sp-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `small_world' on page 15 undefined on input line 288.
-
-
-LaTeX Warning: Citation 'newmanbook' on page 15 undefined on input line 288.
-
 Package epstopdf Info: Source file: <./figures//configuration_model.eps>
 (epstopdf)                    date: 2021-09-20 21:00:20
 (epstopdf)                    size: 7125 bytes
@@ -947,23 +802,7 @@ File: ./figures//complexity_correlation-eps-converted-to.pdf Graphic file (type 
 <use ./figures//complexity_correlation-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures//complexity_correlation-eps-converted-to.pdf  used on input line 303.
 (pdftex.def)             Requested size: 415.12572pt x 132.08408pt.
-
-LaTeX Warning: Reference `generate_graphs' on page 15 undefined on input line 304.
-
-
-LaTeX Warning: Reference `generate_graphs' on page 15 undefined on input line 304.
-
-[15 <./figures//configuration_model-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:correlation' on page 16 undefined on input line 309.
-
-
-LaTeX Warning: Reference `complexity' on page 16 undefined on input line 309.
-
-
-LaTeX Warning: Reference `configuration_model' on page 16 undefined on input line 311.
-
-[16 <./figures//complexity_correlation-eps-converted-to.pdf>]
+[15 <./figures//configuration_model-eps-converted-to.pdf>] [16 <./figures//complexity_correlation-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures//complement.eps>
 (epstopdf)                    date: 2021-09-22 11:11:59
 (epstopdf)                    size: 374971 bytes
@@ -987,42 +826,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 316--325
  []
 
 [17 <./figures//complement-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation 'dolphins' on page 18 undefined on input line 380.
-
-
-LaTeX Warning: Citation 'pdzbase' on page 18 undefined on input line 380.
-
-
-LaTeX Warning: Citation 'hamster' on page 18 undefined on input line 380.
-
-
-LaTeX Warning: Citation 'roget' on page 18 undefined on input line 380.
-
-
-LaTeX Warning: Citation 'flight' on page 18 undefined on input line 380.
-
-
-LaTeX Warning: Citation 'GBPT' on page 18 undefined on input line 380.
-
-
-LaTeX Warning: Citation 'GBPT' on page 18 undefined on input line 380.
-
-
-LaTeX Warning: Citation 'bus_collection' on page 18 undefined on input line 380.
-
-
-LaTeX Warning: Citation 'bus_collection' on page 18 undefined on input line 380.
-
-
-LaTeX Warning: Citation 'bus_collection' on page 18 undefined on input line 380.
-
-
-LaTeX Warning: Citation 'bus_collection' on page 18 undefined on input line 380.
-
-
-LaTeX Warning: Citation 'beijing' on page 18 undefined on input line 380.
-
 Package epstopdf Info: Source file: <./figures//real_networks.eps>
 (epstopdf)                    date: 2021-09-22 11:09:46
 (epstopdf)                    size: 33373 bytes
@@ -1040,19 +843,7 @@ File: ./figures//real_networks-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//real_networks-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures//real_networks-eps-converted-to.pdf  used on input line 387.
 (pdftex.def)             Requested size: 415.12572pt x 207.55519pt.
-
-LaTeX Warning: Reference `tb:descriptions' on page 18 undefined on input line 388.
-
-
-LaTeX Warning: Reference `tb:descriptions' on page 18 undefined on input line 388.
-
-
-LaTeX Warning: Reference `fig:real_networks' on page 18 undefined on input line 391.
-
 [18]
-
-LaTeX Warning: Reference `rewiring' on page 19 undefined on input line 395.
-
 Package epstopdf Info: Source file: <./figures//rewiring.eps>
 (epstopdf)                    date: 2021-09-22 11:03:27
 (epstopdf)                    size: 168206 bytes
@@ -1071,118 +862,109 @@ File: ./figures//rewiring-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures//rewiring-eps-converted-to.pdf  used on input line 403.
 (pdftex.def)             Requested size: 415.12572pt x 415.1192pt.
 
-LaTeX Warning: Reference `fig:rewiring' on page 19 undefined on input line 408.
-
-
-LaTeX Warning: Reference `rewiring' on page 19 undefined on input line 408.
-
-
-LaTeX Warning: Reference `tb:descriptions' on page 19 undefined on input line 409.
-
-
-LaTeX Warning: Citation 'odc' on page 19 undefined on input line 409.
-
-
-Overfull \hbox (5.5156pt too wide) in paragraph at lines 407--411
-\OT1/ptm/m/n/12 From fig-ure [], we can con-cludes that most real net-works be-haves sim-i-lar us-ing rewiring.
+Overfull \hbox (6.41849pt too wide) in paragraph at lines 407--411
+\OT1/ptm/m/n/12 From fig-ure 12[], we can con-cludes that most real net-works be-haves sim-i-lar us-ing rewiring.
  []
 
-[19 <./figures//real_networks-eps-converted-to.pdf>] [20] [21 <./figures//rewiring-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation 'KIM20082637' on page 22 undefined on input line 415.
-
-
-LaTeX Warning: Citation 'emmert-streib_dehmer_2012' on page 22 undefined on input line 419.
-
-
-LaTeX Warning: Citation 'dehmer_barbarini_varmuza_graber_2009' on page 22 undefined on input line 419.
-
-
-Overfull \hbox (112.96593pt too wide) in paragraph at lines 414--422
-\OT1/ptm/m/n/12 There are more com-plex-ity measures[[]][[]]
- []
-
-
-LaTeX Warning: Citation 'KIM20082637' on page 22 undefined on input line 424.
-
-
-Overfull \hbox (14.69571pt too wide) in paragraph at lines 424--424
-[]\OT1/cmr/m/n/14.4 Appendix A: Re-dun-dancy and mu-tual information[[]] 
- []
-
-[22
+[19 <./figures//real_networks-eps-converted-to.pdf>] [20] [21 <./figures//rewiring-eps-converted-to.pdf>] [22
 
 ] (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 455.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 456.
  (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [23] [24] [25] [26] [27] [28]
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 654.
+) [23] [24] [25] [26] [27]
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 655.
  (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 654.
- [29] [30]
-
-c:/Users/zhaoy/Documents/GitHub/dissertation/main.tex:751: Package xkeyval Error: `number' undefined in families `lst'.
-
-See the xkeyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.751 ...ber=left,language=Python,breaklines=true]
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[31]
-LaTeX Font Info:    Trying to load font information for OML+ptm on input line 786.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 655.
+ [28] [29] [30] [31]
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 788.
  (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 786.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 788.
  [32] [33]
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 861.
- [34] [35] [36] [37]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 863.
+ [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
 
-LaTeX Warning: Empty bibliography on input line 1006.
+Package caption Warning: \label without proper reference on input line 292.
+See the caption package documentation for explanation.
 
-[38] (main.aux)
+
+LaTeX Warning: Reference `fig:configuration_model' on page 54 undefined on input line 1602.
+
+(C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Font shape `OML/ptm/b/n' in size <12> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 1613.
+ [54] [55]
+
+LaTeX Font Warning: Font shape `OT1//m/it' undefined
+(Font)              using `OT1//m/n' instead on input line 1677.
+
+
+Overfull \hbox (3.68417pt too wide) in paragraph at lines 1678--1678
+[]\OT1//m/it/12 Erd}os Renyi. ``On ran-dom graph''. In: Pub-li-ca-tiones Math-e-mat-i-cate 6 (1959),
+ []
+
+
+Overfull \hbox (8.7667pt too wide) in paragraph at lines 1678--1678
+\OT1//m/it/12 Phys-ica A: Sta-tis-ti-cal Me-chan-ics and its Ap-pli-ca-tions 387.11 (2008), pp. 2637{
+ []
+
+[56]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1677.
+ (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (43.58238pt too wide) in paragraph at lines 1678--1678
+[]\OT1//m/it/12 15. float-ing point ARITH-METIC: Is-sues and Lim-i-ta-tions. Date ac-cessed:01/09/2021.
+ []
+
+
+Overfull \hbox (14.49434pt too wide) in paragraph at lines 1678--1678
+\OT1//m/it/12 URL: $\OT1/pcr/m/n/12 https : / / docs . python . org / 3 . 8 / tutorial / floatingpoint .
+ []
+
+
+Overfull \hbox (3.39635pt too wide) in paragraph at lines 1678--1678
+[]\OT1//m/it/12 Roget's Th-ea-sures. $\OT1/pcr/m/n/12 http : / / vlado . fmf . uni -[] lj . si / pub / networks /
+ []
+
+[57] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14718 strings out of 478864
- 262059 string characters out of 2848660
- 1189512 words of memory out of 3000000
- 32458 multiletter control sequences out of 15000+600000
- 419685 words of font info for 61 fonts, out of 8000000 for 9000
+ 15649 strings out of 478864
+ 274976 string characters out of 2848660
+ 1240217 words of memory out of 3000000
+ 33370 multiletter control sequences out of 15000+600000
+ 420869 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,74p,1265b,1799s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\zhaoy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (39 pages, 2136138 bytes).
+ 57i,11n,74p,1265b,2312s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\zhaoy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (58 pages, 2232685 bytes).
 PDF statistics:
- 634 PDF objects out of 1000 (max. 8388607)
+ 704 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

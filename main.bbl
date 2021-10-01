@@ -53,8 +53,8 @@
       \strng{authorbibnamehash}{9127fafc65d55ac90d0c63175055afd5}
       \strng{authornamehash}{9127fafc65d55ac90d0c63175055afd5}
       \strng{authorfullhash}{05f922a2283eb77ba7b3a6fcf6e399ee}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2009 IEEE Power Energy Society General Meeting}
@@ -87,8 +87,8 @@
       \strng{authorbibnamehash}{0ffd1bead8669f3ed5ddc0247aa7184e}
       \strng{authornamehash}{0ffd1bead8669f3ed5ddc0247aa7184e}
       \strng{authorfullhash}{0ffd1bead8669f3ed5ddc0247aa7184e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Polish Journal of Management Studies}
@@ -125,8 +125,8 @@
       \strng{authorbibnamehash}{222c25dd3471207ba331f9d031dc4633}
       \strng{authornamehash}{222c25dd3471207ba331f9d031dc4633}
       \strng{authorfullhash}{222c25dd3471207ba331f9d031dc4633}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the National Academy of Sciences}
@@ -153,8 +153,8 @@
       \strng{authorbibnamehash}{904b0a62ef04c9862281a5082e9c9b4d}
       \strng{authornamehash}{904b0a62ef04c9862281a5082e9c9b4d}
       \strng{authorfullhash}{904b0a62ef04c9862281a5082e9c9b4d}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://tfl.gov.uk/maps/bus}}
@@ -193,8 +193,8 @@
       \strng{authorbibnamehash}{63defca405334b499d0df850aa3f65c1}
       \strng{authornamehash}{63defca405334b499d0df850aa3f65c1}
       \strng{authorfullhash}{62cb98c463b553052365cbb3885c88df}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Network Science}
@@ -219,8 +219,8 @@
       \strng{authorbibnamehash}{81503a10f5177725e56f063118c6d3c6}
       \strng{authornamehash}{81503a10f5177725e56f063118c6d3c6}
       \strng{authorfullhash}{81503a10f5177725e56f063118c6d3c6}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Publicationes Mathematicate}
@@ -247,8 +247,8 @@
       \strng{authorbibnamehash}{9d9e97f70c4fb27df81a7d25f58aa128}
       \strng{authornamehash}{9d9e97f70c4fb27df81a7d25f58aa128}
       \strng{authorfullhash}{9d9e97f70c4fb27df81a7d25f58aa128}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9781107076266}
@@ -289,8 +289,8 @@
       \strng{authorbibnamehash}{17ec9adf5d96dfa57a08618203cfae6b}
       \strng{authornamehash}{17ec9adf5d96dfa57a08618203cfae6b}
       \strng{authorfullhash}{02c113a003139bd207507c6956553753}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific Reports}
@@ -519,8 +519,8 @@
       \strng{authorbibnamehash}{880f2005ee5f3fe32d9ef9975fdbeccb}
       \strng{authornamehash}{880f2005ee5f3fe32d9ef9975fdbeccb}
       \strng{authorfullhash}{816274a34ade171d253bb3a5b308f569}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{EPJ Data Science}
@@ -562,20 +562,6 @@
       \field{pages}{2637\bibrangedash 2652}
       \range{pages}{16}
     \endentry
-    \entry{floating_point}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{15. Floating Point Arithmetic: Issues and Limitations - Python 3.8.11 documentation}
-      \field{note}{Date accessed:01/09/2021}
-      \field{title}{15. floating point ARITHMETIC: Issues and Limitations}
-      \verb{urlraw}
-      \verb https://docs.python.org/3.8/tutorial/floatingpoint.html
-      \endverb
-      \verb{url}
-      \verb https://docs.python.org/3.8/tutorial/floatingpoint.html
-      \endverb
-    \endentry
     \entry{odc}{article}{}
       \name{author}{1}{}{%
         {{hash=3d349e85b4ae681990075948f5556ac4}{%
@@ -604,6 +590,83 @@
       \field{year}{2007}
       \field{pages}{365\bibrangedash 373}
       \range{pages}{9}
+    \endentry
+    \entry{floating_point}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{15. Floating Point Arithmetic: Issues and Limitations - Python 3.8.11 documentation}
+      \field{note}{Date accessed:01/09/2021}
+      \field{title}{15. floating point ARITHMETIC: Issues and Limitations}
+      \verb{urlraw}
+      \verb https://docs.python.org/3.8/tutorial/floatingpoint.html
+      \endverb
+      \verb{url}
+      \verb https://docs.python.org/3.8/tutorial/floatingpoint.html
+      \endverb
+    \endentry
+    \entry{latora2003economic}{article}{}
+      \name{author}{2}{}{%
+        {{hash=078821b95c399c4ffd8297cb26a8beb5}{%
+           family={Latora},
+           familyi={L\bibinitperiod},
+           given={Vito},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4803d059c0279302131fc57239b6f779}{%
+           family={Marchiori},
+           familyi={M\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d160368d09064fe7d73f6d36c6f0e5e4}
+      \strng{fullhash}{d160368d09064fe7d73f6d36c6f0e5e4}
+      \strng{bibnamehash}{d160368d09064fe7d73f6d36c6f0e5e4}
+      \strng{authorbibnamehash}{d160368d09064fe7d73f6d36c6f0e5e4}
+      \strng{authornamehash}{d160368d09064fe7d73f6d36c6f0e5e4}
+      \strng{authorfullhash}{d160368d09064fe7d73f6d36c6f0e5e4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The European Physical Journal B-Condensed Matter and Complex Systems}
+      \field{number}{2}
+      \field{title}{Economic small-world behavior in weighted networks}
+      \field{volume}{32}
+      \field{year}{2003}
+      \field{pages}{249\bibrangedash 263}
+      \range{pages}{15}
+    \endentry
+    \entry{brouwer2011spectra}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c44c6302e4ceeec9ad7e71fe929ff825}{%
+           family={Brouwer},
+           familyi={B\bibinitperiod},
+           given={Andries\bibnamedelima E},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=fc2b54fc71a57838bfec1cc92bc42473}{%
+           family={Haemers},
+           familyi={H\bibinitperiod},
+           given={Willem\bibnamedelima H},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{a929539c7c298f5be84afc5a14171d63}
+      \strng{fullhash}{a929539c7c298f5be84afc5a14171d63}
+      \strng{bibnamehash}{a929539c7c298f5be84afc5a14171d63}
+      \strng{authorbibnamehash}{a929539c7c298f5be84afc5a14171d63}
+      \strng{authornamehash}{a929539c7c298f5be84afc5a14171d63}
+      \strng{authorfullhash}{a929539c7c298f5be84afc5a14171d63}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Spectra of graphs}
+      \field{year}{2011}
     \endentry
     \entry{newmanbook}{book}{}
       \name{author}{1}{}{%
@@ -692,8 +755,8 @@
       \strng{authorbibnamehash}{83ce5c95833345eb003b8bfb7c56db72}
       \strng{authornamehash}{83ce5c95833345eb003b8bfb7c56db72}
       \strng{authorfullhash}{83ce5c95833345eb003b8bfb7c56db72}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific data}
@@ -741,8 +804,8 @@
       \strng{authorbibnamehash}{ebaf7b9c8e3760d89f63c3a01cee0624}
       \strng{authornamehash}{ebaf7b9c8e3760d89f63c3a01cee0624}
       \strng{authorfullhash}{d924615468880625195a1c49b0031ec2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific data}
@@ -816,8 +879,8 @@
       \strng{authorbibnamehash}{2f44fa498bf882eb72befffe5f349ace}
       \strng{authornamehash}{2f44fa498bf882eb72befffe5f349ace}
       \strng{authorfullhash}{2f44fa498bf882eb72befffe5f349ace}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{PLoS ONE}
@@ -857,8 +920,8 @@
       \strng{authorbibnamehash}{2edd7a39bdb7a3912f9ca503037a5f67}
       \strng{authornamehash}{2edd7a39bdb7a3912f9ca503037a5f67}
       \strng{authorfullhash}{711dd8810c7106d87b3ebc516557d4e2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{PLoS ONE}
@@ -870,7 +933,6 @@
       \range{pages}{-1}
     \endentry
   \enddatalist
-  \missing{litreview}
 \endrefsection
 \endinput
 

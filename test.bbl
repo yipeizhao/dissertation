@@ -158,7 +158,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://tfl.gov.uk/maps/bus}}
-      \field{note}{Accessed 29/09/2021}
+      \field{note}{Date Accessed 29/09/2021}
       \field{title}{Key routes in central London}
     \endentry
     \entry{brandes_robins_mccranie_wasserman_2013}{article}{}
@@ -519,8 +519,8 @@
       \strng{authorbibnamehash}{880f2005ee5f3fe32d9ef9975fdbeccb}
       \strng{authornamehash}{880f2005ee5f3fe32d9ef9975fdbeccb}
       \strng{authorfullhash}{816274a34ade171d253bb3a5b308f569}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{EPJ Data Science}
@@ -591,19 +591,84 @@
       \field{pages}{365\bibrangedash 373}
       \range{pages}{9}
     \endentry
-    \entry{floating_point}{online}{}
+    \entry{priezzhev1985dimer}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1fbb36b5a65e9fb2ca2954be7070da08}{%
+           family={Priezzhev},
+           familyi={P\bibinitperiod},
+           given={Vyacheslav\bibnamedelima B},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{1fbb36b5a65e9fb2ca2954be7070da08}
+      \strng{fullhash}{1fbb36b5a65e9fb2ca2954be7070da08}
+      \strng{bibnamehash}{1fbb36b5a65e9fb2ca2954be7070da08}
+      \strng{authorbibnamehash}{1fbb36b5a65e9fb2ca2954be7070da08}
+      \strng{authornamehash}{1fbb36b5a65e9fb2ca2954be7070da08}
+      \strng{authorfullhash}{1fbb36b5a65e9fb2ca2954be7070da08}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Soviet Physics Uspekhi}
+      \field{number}{12}
+      \field{title}{The dimer problem and the Kirchhoff theorem}
+      \field{volume}{28}
+      \field{year}{1985}
+      \field{pages}{1125}
+      \range{pages}{1}
+    \endentry
+    \entry{floating_point}{misc}{}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{15. Floating Point Arithmetic: Issues and Limitations - Python 3.8.11 documentation}
-      \field{note}{Date accessed:01/09/2021}
+      \field{howpublished}{\url{https://docs.python.org/3.8/tutorial/floatingpoint.html}}
+      \field{note}{Date Accessed: 01/09/2021}
       \field{title}{15. floating point ARITHMETIC: Issues and Limitations}
-      \verb{urlraw}
-      \verb https://docs.python.org/3.8/tutorial/floatingpoint.html
-      \endverb
-      \verb{url}
-      \verb https://docs.python.org/3.8/tutorial/floatingpoint.html
-      \endverb
+    \endentry
+    \entry{python_int}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://docs.python.org/3/library/stdtypes.html}}
+      \field{note}{Date Accessed: 15/09/2021}
+      \field{title}{Built-in Types}
+    \endentry
+    \entry{wilhelm2007information}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5ee01926b4dd5a44241d5a17b2aedaf2}{%
+           family={Wilhelm},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=188a55c911c86e1787ed72f76a4b4482}{%
+           family={Hollunder},
+           familyi={H\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f8a62529c52c9d54d944a461b52b75bc}
+      \strng{fullhash}{f8a62529c52c9d54d944a461b52b75bc}
+      \strng{bibnamehash}{f8a62529c52c9d54d944a461b52b75bc}
+      \strng{authorbibnamehash}{f8a62529c52c9d54d944a461b52b75bc}
+      \strng{authornamehash}{f8a62529c52c9d54d944a461b52b75bc}
+      \strng{authorfullhash}{f8a62529c52c9d54d944a461b52b75bc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{number}{1}
+      \field{title}{Information theoretic description of networks}
+      \field{volume}{385}
+      \field{year}{2007}
+      \field{pages}{385\bibrangedash 396}
+      \range{pages}{12}
     \endentry
     \entry{latora2003economic}{article}{}
       \name{author}{2}{}{%
@@ -627,8 +692,8 @@
       \strng{authorbibnamehash}{d160368d09064fe7d73f6d36c6f0e5e4}
       \strng{authornamehash}{d160368d09064fe7d73f6d36c6f0e5e4}
       \strng{authorfullhash}{d160368d09064fe7d73f6d36c6f0e5e4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The European Physical Journal B-Condensed Matter and Complex Systems}
@@ -661,8 +726,8 @@
       \strng{authorbibnamehash}{a929539c7c298f5be84afc5a14171d63}
       \strng{authornamehash}{a929539c7c298f5be84afc5a14171d63}
       \strng{authorfullhash}{a929539c7c298f5be84afc5a14171d63}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Spectra of graphs}
@@ -698,39 +763,39 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://konect.cc/networks/dolphins/}}
-      \field{note}{Accessed: 20/09/2021}
+      \field{note}{Date Accessed: 20/09/2021}
       \field{title}{Dolphins}
     \endentry
     \entry{pdzbase}{misc}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://konect.cc/networks/maayan-pdzbase/}}
-      \field{note}{Accessed: 20/09/2021}
+      \field{note}{Date Accessed: 20/09/2021}
       \field{title}{PDZBase protein-protein interaction network}
     \endentry
     \entry{hamster}{misc}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://konect.cc/networks/petster-hamster-household/}}
-      \field{note}{Accessed: 20/09/2021}
+      \field{note}{Date Accessed: 20/09/2021}
       \field{title}{Hamsterster online socil network}
     \endentry
     \entry{roget}{misc}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://vlado.fmf.uni-lj.si/pub/networks/data/dic/roget/Roget.htm}}
-      \field{note}{Accessed: 20/09/2021}
+      \field{note}{Date Accessed: 20/09/2021}
       \field{title}{Roget's Theasures}
     \endentry
     \entry{flight}{misc}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://openflights.org/data.html}}
-      \field{note}{Accessed: 20/09/2021}
+      \field{note}{Date Accessed: 20/09/2021}
       \field{title}{Flight network}
     \endentry
     \entry{GBPT}{article}{}
@@ -817,11 +882,11 @@
       \range{pages}{14}
     \endentry
     \entry{beijing}{misc}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.mot.gov.cn/sjkf/202005/t20200528_3333174.html}}
-      \field{note}{Accessed: 20/09/2021}
+      \field{note}{Date Accessed: 20/09/2021}
       \field{title}{Beijing bus network}
     \endentry
     \entry{zhixing2021recent}{article}{}
@@ -851,8 +916,8 @@
       \strng{authorbibnamehash}{3063b82501fe19718f2cc9a2bf80eef7}
       \strng{authornamehash}{3063b82501fe19718f2cc9a2bf80eef7}
       \strng{authorfullhash}{3063b82501fe19718f2cc9a2bf80eef7}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Complexity}

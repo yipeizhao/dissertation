@@ -1,6 +1,6 @@
-PWD /home/yipei/project/dissertation
+PWD /home/yipei/Documents/GitHub/dissertation
 INPUT /home/yipei/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /home/yipei/project/dissertation/main.tex
+INPUT /home/yipei/Documents/GitHub/dissertation/main.tex
 OUTPUT main.log
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/base/article.cls
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/base/article.cls

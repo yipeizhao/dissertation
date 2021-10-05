@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.24)  2 OCT 2021 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.10.5)  5 OCT 2021 17:53
 entering extended mode
-**c:/Users/zhaoy/Documents/GitHub/dissertation/test.tex
-(c:/Users/zhaoy/Documents/GitHub/dissertation/test.tex
-LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01> (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+**/home/yipei/project/dissertation/main.tex
+(/home/yipei/project/dissertation/main.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-08-27> (/home/yipei/.miktex/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
-(C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(/home/yipei/.miktex/texmfs/install/tex/latex/base/size12.clo
 File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count182
@@ -19,18 +19,18 @@ File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (/home/yipei/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+) (/home/yipei/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (/home/yipei/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count190
@@ -45,33 +45,33 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen145
 \Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks19
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+ (/home/yipei/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg)) (/home/yipei/.miktex/texmfs/install/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+ (/home/yipei/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (/home/yipei/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+) (/home/yipei/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count193
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+ (/home/yipei/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+)) (/home/yipei/.miktex/texmfs/install/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count194
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+ (/home/yipei/.miktex/texmfs/install/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+)) (/home/yipei/.miktex/texmfs/install/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -127,13 +127,13 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip56
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language79
+\blx@langwohyphens=\language1
 \c@mincomprange=\count303
 \c@maxcomprange=\count304
 \c@mincompwidth=\count305
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+ (/home/yipei/.miktex/texmfs/install/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
@@ -222,12 +222,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip70
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+ (/home/yipei/.miktex/texmfs/install/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+ (/home/yipei/.miktex/texmfs/install/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 \c@textcitecount=\count374
 \c@textcitetotal=\count375
@@ -245,18 +245,18 @@ File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+ (/home/yipei/.miktex/texmfs/install/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+ (/home/yipei/.miktex/texmfs/install/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count383
 \c@bbx:relatedtotal=\count384
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+ (/home/yipei/.miktex/texmfs/install/tex/latex/biblatex/cbx/numeric.cbx
 File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -272,38 +272,38 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+ (/home/yipei/.miktex/texmfs/install/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+)) (/home/yipei/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (/home/yipei/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (/home/yipei/.miktex/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (/home/yipei/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (/home/yipei/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen147
 \Gin@req@width=\dimen148
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip71
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(/home/yipei/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (/home/yipei/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen149
-)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (/home/yipei/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen150
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count385
@@ -343,18 +343,18 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
 
 
 Package tocbibind Note: Using section or other style headings.
 
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+ (/home/yipei/.miktex/texmfs/install/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen158
 \captionmargin@=\dimen159
@@ -367,21 +367,21 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count397
 \c@continuedfloat=\count398
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+ (/home/yipei/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+ (/home/yipei/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex (/home/yipei/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks25
 \XKV@tempa@toks=\toks26
 )
 \XKV@depth=\count399
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+)) (/home/yipei/.miktex/texmfs/install/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+ (/home/yipei/.miktex/texmfs/install/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box52
 )
@@ -390,7 +390,7 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@urx=\dimen167
 \tc@ury=\dimen168
 Package trimclip Info: Using driver 'tc-pdftex.def'.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+ (/home/yipei/.miktex/texmfs/install/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen169
@@ -401,23 +401,23 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 \adjbox@pheight=\dimen174
 \adjbox@pdepth=\dimen175
 \adjbox@ptotalheight=\dimen176
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+ (/home/yipei/.miktex/texmfs/install/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count400
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box53
 \sift@deathcycles=\count401
 \@vwid@loff=\dimen177
 \@vwid@roff=\dimen178
-)) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+)) (/home/yipei/.miktex/texmfs/install/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks27
 \AP@partial=\box54
 \AP@footins=\box55
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/listings/listings.sty
 \lst@mode=\count402
 \lst@gtempboxa=\box56
 \lst@token=\toks28
@@ -430,12 +430,12 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 \lst@newlines=\count406
 \lst@lineno=\count407
 \lst@maxwidth=\dimen182
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+ (/home/yipei/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count408
 \lst@skipnumbers=\count409
 \lst@framebox=\box57
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+) (/home/yipei/.miktex/texmfs/install/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
@@ -443,14 +443,14 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 \@quotelevel=\count411
 \@quotereset=\count412
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 22.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+ (/home/yipei/.miktex/texmfs/install/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+) (/home/yipei/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count413
 \l__pdf_internal_box=\box58
-) (test.aux)
-\openout1 = `test.aux'.
+) (main.aux)
+\openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -503,33 +503,33 @@ LaTeX Font Info:    ... okay on input line 22.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-(C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+(/home/yipei/.miktex/texmfs/install/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-06-01 L3 programming layer (loader) 
+ (/home/yipei/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-08-27 L3 programming layer (loader) 
 )
 Package biblatex Info: ... and expl3
-(biblatex)             2021-06-01 L3 programming layer (loader) 
+(biblatex)             2021-08-27 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2021-06-01 L3 Experimental document command parser
+ (/home/yipei/.miktex/texmfs/install/tex/latex/biblatex/blx-case-expl3.sty (/home/yipei/.miktex/texmfs/install/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2021-08-27 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
-\openout3 = `test.bcf'.
+\openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'test.bbl' found.
- (test.bbl)
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 22.
 Package biblatex Info: Reference segment=0 on input line 22.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (/home/yipei/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count414
 \scratchdimen=\dimen183
@@ -542,10 +542,10 @@ Package biblatex Info: Reference segment=0 on input line 22.
 \MPnumerator=\count418
 \makeMPintoPDFobject=\count419
 \everyMPtoPDFconversion=\toks30
-) (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (/home/yipei/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\zhaoy\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (/home/yipei/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
@@ -554,11 +554,11 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count420
  [1
 
-{C:/Users/zhaoy/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (test.toc)
+{/home/yipei/.miktex/texmfs/data/pdftex/config/pdftex.map}] (main.toc [1])
 \tf@toc=\write4
-\openout4 = `test.toc'.
+\openout4 = `main.toc'.
 
- [1]
+ [2]
 LaTeX Font Info:    Trying to load font information for OT1+ on input line 50.
 LaTeX Font Info:    No file OT1.fd. on input line 50.
 
@@ -570,370 +570,602 @@ LaTeX Font Warning: Font shape `OT1//m/n' undefined
 LaTeX Font Warning: Font shape `OT1//b/n' undefined
 (Font)              using `OT1//m/n' instead on input line 50.
 
-<./figures//key-bus-routes-in-central-london.pdf, id=12, 910.48856pt x 643.03236pt>
+<./figures//key-bus-routes-in-central-london.pdf, id=15, 910.48856pt x 643.03236pt>
 File: ./figures//key-bus-routes-in-central-london.pdf Graphic file (type pdf)
 <use ./figures//key-bus-routes-in-central-london.pdf>
-Package pdftex.def Info: ./figures//key-bus-routes-in-central-london.pdf  used on input line 58.
+Package pdftex.def Info: ./figures//key-bus-routes-in-central-london.pdf  used on input line 57.
 (pdftex.def)             Requested size: 415.12572pt x 293.17871pt.
-[2 <./figures//key-bus-routes-in-central-london.pdf>]
-LaTeX Font Info:    Trying to load font information for TS1+ on input line 73.
-LaTeX Font Info:    No file TS1.fd. on input line 73.
+[3 <./figures//key-bus-routes-in-central-london.pdf>]
+LaTeX Font Info:    Trying to load font information for TS1+ on input line 72.
+LaTeX Font Info:    No file TS1.fd. on input line 72.
 
 
 LaTeX Font Warning: Font shape `TS1//m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 73.
+(Font)              for symbol `textbullet' on input line 72.
 
 Package epstopdf Info: Source file: <./figures//path_clique.eps>
-(epstopdf)                    date: 2021-09-29 20:45:31
-(epstopdf)                    size: 8237 bytes
+(epstopdf)                    date: 2021-10-04 22:35:52
+(epstopdf)                    size: 7785 bytes
 (epstopdf)             Output file: <./figures//path_clique-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-29 20:48:48
+(epstopdf)                    date: 2021-10-04 22:35:52
 (epstopdf)                    size: 5899 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//path_clique-eps-converted-to.pdf ./figures//path_clique.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//path_clique-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//path_clique-eps-converted-to.pdf, id=85, 722.7pt x 361.35pt>
+<./figures//path_clique-eps-converted-to.pdf, id=88, 722.7pt x 361.35pt>
 File: ./figures//path_clique-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//path_clique-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//path_clique-eps-converted-to.pdf  used on input line 85.
+Package pdftex.def Info: ./figures//path_clique-eps-converted-to.pdf  used on input line 84.
 (pdftex.def)             Requested size: 332.10184pt x 166.0521pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figures//simplenetwork.png, id=86, 397.485pt x 238.64156pt>
+
+Overfull \hbox (7.56909pt too wide) in paragraph at lines 93--95
+[]\OT1/ptm/m/it/12 (Distance) Distance $\OML/cmm/m/it/12 d[]$ \OT1/ptm/m/it/12 in a undirected, unweighted graph is the minimum
+ []
+
+<./figures//simplenetwork.png, id=89, 397.485pt x 238.64156pt>
 File: ./figures//simplenetwork.png Graphic file (type png)
 <use ./figures//simplenetwork.png>
-Package pdftex.def Info: ./figures//simplenetwork.png  used on input line 99.
+Package pdftex.def Info: ./figures//simplenetwork.png  used on input line 98.
 (pdftex.def)             Requested size: 332.10184pt x 199.39424pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
-[4 <./figures//path_clique-eps-converted-to.pdf> <./figures//simplenetwork.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
-
+[5 <./figures//path_clique-eps-converted-to.pdf> <./figures//simplenetwork.png>]
+Overfull \hbox (4.4611pt too wide) in paragraph at lines 133--137
+[]\OT1/ptm/m/it/12 (Clustering coefficient) Clustering coefficient $\OML/cmm/m/it/12 C[]$ \OT1/ptm/m/it/12 illustrates the proportion
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+Overfull \hbox (0.59552pt too wide) in paragraph at lines 155--156
+[]\OT1/ptm/m/n/12 To evaluate different complexity measures, we need to introduce some graph models
+ []
+
+
+Overfull \hbox (9.0079pt too wide) in paragraph at lines 157--158
+[]\OT1/ptm/m/n/12 There are infinite numbers of real networks in the real world, but defining or observing
+ []
+
+
+Overfull \hbox (10.58148pt too wide) in paragraph at lines 157--158
+\OT1/ptm/m/n/12 all of them is not feasible. For simulations and comparisons, network scientists introduced
+ []
+
+
+Overfull \hbox (4.5348pt too wide) in paragraph at lines 157--158
+\OT1/ptm/m/n/12 of two mathematicians: Paul Erd[]os and Alfr[]ed R[]enyi. They have important contributions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 [6]
+Overfull \hbox (18.22331pt too wide) in paragraph at lines 166--167
+[]\OT1/ptm/m/n/12 Previously, the definition of clustering coefficient and average distance were introduced.
+ []
+
+
+Overfull \hbox (12.1548pt too wide) in paragraph at lines 166--167
+\OT1/ptm/m/n/12 For a given random graph, the clustering coefficient and average distance can be calculated
+ []
+
+
+Overfull \hbox (23.4107pt too wide) in paragraph at lines 166--167
+\OT1/ptm/m/n/12 using formulas.[7] The average clustering coefficient of a random graph is $\OML/cmm/m/it/12 p$\OT1/ptm/m/n/12 , or $\OT1//b/n/12 2\OML/cmm/m/it/12 m=\OT1//b/n/12 ((\OML/cmm/m/it/12 n\OT1//b/n/12 )(\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+[7]
+Overfull \hbox (1.23424pt too wide) in paragraph at lines 176--177
+\OT1/ptm/m/n/12 rewiring preserves the degree distribution. Both rewiring techniques require a parameter
+ []
+
 Package epstopdf Info: Source file: <./figures//small_world_network_model.eps>
-(epstopdf)                    date: 2021-09-22 12:36:23
-(epstopdf)                    size: 39923 bytes
+(epstopdf)                    date: 2021-10-04 22:35:52
+(epstopdf)                    size: 37762 bytes
 (epstopdf)             Output file: <./figures//small_world_network_model-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-22 13:50:37
+(epstopdf)                    date: 2021-10-04 22:35:52
 (epstopdf)                    size: 20704 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//small_world_network_model-eps-converted-to.pdf ./figures//small_world_network_model.eps>
-(epstopdf)             \includegraphics on input line 183.
+(epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//small_world_network_model-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//small_world_network_model-eps-converted-to.pdf, id=111, 1084.05pt x 722.7pt>
+<./figures//small_world_network_model-eps-converted-to.pdf, id=114, 1084.05pt x 722.7pt>
 File: ./figures//small_world_network_model-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//small_world_network_model-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//small_world_network_model-eps-converted-to.pdf  used on input line 183.
+Package pdftex.def Info: ./figures//small_world_network_model-eps-converted-to.pdf  used on input line 182.
 (pdftex.def)             Requested size: 332.10184pt x 221.39911pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
-
- []
-
-[7 <./figures//small_world_network_model-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
-
+Overfull \hbox (28.7377pt too wide) in paragraph at lines 187--188
+\OT1/ptm/m/n/12 irrelevant or distanced people? This is known as the small-world problem. As counterintuitive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+[8 <./figures//small_world_network_model-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
 Package epstopdf Info: Source file: <./figures//degree_distribution.eps>
-(epstopdf)                    date: 2021-09-22 12:36:36
-(epstopdf)                    size: 47318 bytes
+(epstopdf)                    date: 2021-10-04 22:35:52
+(epstopdf)                    size: 44788 bytes
 (epstopdf)             Output file: <./figures//degree_distribution-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-22 13:50:45
+(epstopdf)                    date: 2021-10-04 22:35:52
 (epstopdf)                    size: 36152 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//degree_distribution-eps-converted-to.pdf ./figures//degree_distribution.eps>
-(epstopdf)             \includegraphics on input line 199.
+(epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//degree_distribution-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//degree_distribution-eps-converted-to.pdf, id=126, 1084.05pt x 433.62pt>
+<./figures//degree_distribution-eps-converted-to.pdf, id=129, 1084.05pt x 433.62pt>
 File: ./figures//degree_distribution-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//degree_distribution-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//degree_distribution-eps-converted-to.pdf  used on input line 199.
+Package pdftex.def Info: ./figures//degree_distribution-eps-converted-to.pdf  used on input line 198.
 (pdftex.def)             Requested size: 415.12572pt x 166.04767pt.
-[8 <./figures//degree_distribution-eps-converted-to.pdf>] [9]
+[9 <./figures//degree_distribution-eps-converted-to.pdf>]
+Overfull \hbox (45.24756pt too wide) in paragraph at lines 218--218
+[]\OT1/ptm/m/n/12 In this project, 8 methods will be introduced, 7 of them are based on paper pubilished[16][17],
+ []
+
+[10]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 238.
+(amsmath)                 on input line 237.
 
-[10]
+
+Overfull \hbox (33.74467pt too wide) in paragraph at lines 238--239
+\OT1/ptm/m/n/12 cofactor of Laplacian matrix $\OML/cmm/m/it/12 L$\OT1/ptm/m/n/12 . By counting different number of spanning trees, isopmorphism
+ []
+
+[11]
+Overfull \hbox (1.8741pt too wide) in paragraph at lines 245--245
+[]\OT1//b/n/14.4 Potential problems and solutions of different subgraph measures 
+ []
+
 Package epstopdf Info: Source file: <./figures//subgraph_measures.eps>
-(epstopdf)                    date: 2021-09-22 11:25:29
-(epstopdf)                    size: 31456 bytes
+(epstopdf)                    date: 2021-10-04 22:35:52
+(epstopdf)                    size: 29659 bytes
 (epstopdf)             Output file: <./figures//subgraph_measures-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-22 13:51:04
+(epstopdf)                    date: 2021-10-04 22:35:52
 (epstopdf)                    size: 36268 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//subgraph_measures-eps-converted-to.pdf ./figures//subgraph_measures.eps>
-(epstopdf)             \includegraphics on input line 252.
+(epstopdf)             \includegraphics on input line 251.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//subgraph_measures-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//subgraph_measures-eps-converted-to.pdf, id=193, 1084.05pt x 361.35pt>
+<./figures//subgraph_measures-eps-converted-to.pdf, id=196, 1084.05pt x 361.35pt>
 File: ./figures//subgraph_measures-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//subgraph_measures-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//subgraph_measures-eps-converted-to.pdf  used on input line 252.
+Package pdftex.def Info: ./figures//subgraph_measures-eps-converted-to.pdf  used on input line 251.
 (pdftex.def)             Requested size: 415.12572pt x 138.37306pt.
-[11 <./figures//subgraph_measures-eps-converted-to.pdf>]
-Overfull \hbox (44.39938pt too wide) in paragraph at lines 259--260
-[]\OT1/ptm/m/n/12 The core of dif-fer-ent sub-graph mea-sure is to com-pare the cofactor($\OML/cmm/m/it/12 C[]$\OT1/ptm/m/n/12 ) or spectrum($\OML/cmm/m/it/12 C[]$
+
+Overfull \hbox (8.70772pt too wide) in paragraph at lines 257--257
+[]\OT1/ptm/m/n/12 On most machines today, numbers are represented in binary system[19]. For example,
+ []
+
+[12 <./figures//subgraph_measures-eps-converted-to.pdf>]
+Overfull \hbox (44.39938pt too wide) in paragraph at lines 258--259
+[]\OT1/ptm/m/n/12 The core of different subgraph measure is to compare the cofactor($\OML/cmm/m/it/12 C[]$\OT1/ptm/m/n/12 ) or spectrum($\OML/cmm/m/it/12 C[]$
+ []
+
+
+Overfull \hbox (7.53346pt too wide) in paragraph at lines 260--261
+\OT1/ptm/m/n/12 two numbers with relative error less than 1% can also be considered equal numbers.
+ []
+
+
+Overfull \hbox (27.24825pt too wide) in paragraph at lines 261--262
+\OT1/ptm/m/n/12 less computation time than the first solution and reduce the number of misclassification.
  []
 
 Package epstopdf Info: Source file: <./figures//c2espec.eps>
-(epstopdf)                    date: 2021-09-22 12:14:50
-(epstopdf)                    size: 68376 bytes
+(epstopdf)                    date: 2021-10-04 22:35:52
+(epstopdf)                    size: 64591 bytes
 (epstopdf)             Output file: <./figures//c2espec-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-22 13:51:08
+(epstopdf)                    date: 2021-10-04 22:35:52
 (epstopdf)                    size: 106626 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//c2espec-eps-converted-to.pdf ./figures//c2espec.eps>
-(epstopdf)             \includegraphics on input line 269.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//c2espec-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//c2espec-eps-converted-to.pdf, id=219, 1084.05pt x 361.35pt>
+<./figures//c2espec-eps-converted-to.pdf, id=223, 1084.05pt x 361.35pt>
 File: ./figures//c2espec-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//c2espec-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//c2espec-eps-converted-to.pdf  used on input line 269.
+Package pdftex.def Info: ./figures//c2espec-eps-converted-to.pdf  used on input line 268.
 (pdftex.def)             Requested size: 415.12572pt x 138.37306pt.
-[12] [13 <./figures//c2espec-eps-converted-to.pdf>]
-Overfull \hbox (3.76633pt too wide) in paragraph at lines 304--305
-\OT1/ptm/m/n/12 the net-work. Us-ing pre-vi-ous stud-ies, all eigen-val-ues of the ad-ja-cency ma-trix are real.[23]
+
+Overfull \hbox (8.8544pt too wide) in paragraph at lines 280--281
+\OT1/ptm/m/n/12 connected(clique) and minimized when the graph is least sparse and highly ordered(path). 
  []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
-
+[13]
+Overfull \hbox (17.13205pt too wide) in paragraph at lines 300--301
+[]\OT1/ptm/m/n/12 Efficiency complexity is based on the efficiency of adding shorter path in a network.[22]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--362
-
- []
-
-
-Overfull \hbox (22.08936pt too wide) detected at line 368
-[][]
- []
-
-
-Overfull \hbox (9.00746pt too wide) in paragraph at lines 372--375
-\OT1/ptm/m/n/12 Thus, us-ing equa-tion 20[], a new nor-mal-ized mea-sure $\OML/cmm/m/it/12 MA[]$ \OT1/ptm/m/n/12 can be de-fined us-ing $\OML/cmm/m/it/12 C=C[]$\OT1/ptm/m/n/12 : 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 372--375
-
+[14 <./figures//c2espec-eps-converted-to.pdf>]
+Overfull \hbox (3.76633pt too wide) in paragraph at lines 303--304
+\OT1/ptm/m/n/12 the network. Using previous studies, all eigenvalues of the adjacency matrix are real.[23]
  []
 
 [15]
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+
+ []
+
+
+Overfull \hbox (22.08936pt too wide) detected at line 367
+[][]
+ []
+
+[16]
+Overfull \hbox (9.00746pt too wide) in paragraph at lines 371--374
+\OT1/ptm/m/n/12 Thus, using equation 20[], a new normalized measure $\OML/cmm/m/it/12 MA[]$ \OT1/ptm/m/n/12 can be defined using $\OML/cmm/m/it/12 C=C[]$\OT1/ptm/m/n/12 : 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--374
+
+ []
+
 Package epstopdf Info: Source file: <./figures//mariandmag.eps>
-(epstopdf)                    date: 2021-09-22 12:36:53
-(epstopdf)                    size: 51733 bytes
+(epstopdf)                    date: 2021-10-04 22:35:52
+(epstopdf)                    size: 48941 bytes
 (epstopdf)             Output file: <./figures//mariandmag-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-22 13:50:56
+(epstopdf)                    date: 2021-10-04 22:35:52
 (epstopdf)                    size: 141205 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//mariandmag-eps-converted-to.pdf ./figures//mariandmag.eps>
-(epstopdf)             \includegraphics on input line 380.
+(epstopdf)             \includegraphics on input line 379.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//mariandmag-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//mariandmag-eps-converted-to.pdf, id=260, 433.62pt x 289.08pt>
+<./figures//mariandmag-eps-converted-to.pdf, id=263, 433.62pt x 289.08pt>
 File: ./figures//mariandmag-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//mariandmag-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//mariandmag-eps-converted-to.pdf  used on input line 380.
+Package pdftex.def Info: ./figures//mariandmag-eps-converted-to.pdf  used on input line 379.
 (pdftex.def)             Requested size: 290.58673pt x 193.73552pt.
-[16 <./figures//mariandmag-eps-converted-to.pdf>]
+[17 <./figures//mariandmag-eps-converted-to.pdf>] [18]
 Package epstopdf Info: Source file: <./figures//complexities.eps>
-(epstopdf)                    date: 2021-09-22 11:10:25
-(epstopdf)                    size: 158396 bytes
+(epstopdf)                    date: 2021-10-04 22:35:52
+(epstopdf)                    size: 149524 bytes
 (epstopdf)             Output file: <./figures//complexities-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-22 11:15:09
+(epstopdf)                    date: 2021-10-04 22:35:52
 (epstopdf)                    size: 202907 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//complexities-eps-converted-to.pdf ./figures//complexities.eps>
-(epstopdf)             \includegraphics on input line 394.
+(epstopdf)             \includegraphics on input line 393.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//complexities-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//complexities-eps-converted-to.pdf, id=294, 722.7pt x 1156.32pt>
+<./figures//complexities-eps-converted-to.pdf, id=301, 722.7pt x 1156.32pt>
 File: ./figures//complexities-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//complexities-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//complexities-eps-converted-to.pdf  used on input line 394.
+Package pdftex.def Info: ./figures//complexities-eps-converted-to.pdf  used on input line 393.
 (pdftex.def)             Requested size: 352.85939pt x 564.57271pt.
 Package epstopdf Info: Source file: <./figures//complexities_sp.eps>
-(epstopdf)                    date: 2021-09-22 15:55:10
-(epstopdf)                    size: 181008 bytes
+(epstopdf)                    date: 2021-10-04 22:35:52
+(epstopdf)                    size: 170971 bytes
 (epstopdf)             Output file: <./figures//complexities_sp-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-22 15:56:11
+(epstopdf)                    date: 2021-10-04 22:35:52
 (epstopdf)                    size: 536200 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//complexities_sp-eps-converted-to.pdf ./figures//complexities_sp.eps>
-(epstopdf)             \includegraphics on input line 406.
+(epstopdf)             \includegraphics on input line 405.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//complexities_sp-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//complexities_sp-eps-converted-to.pdf, id=295, 722.7pt x 1156.32pt>
+<./figures//complexities_sp-eps-converted-to.pdf, id=302, 722.7pt x 1156.32pt>
 File: ./figures//complexities_sp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//complexities_sp-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//complexities_sp-eps-converted-to.pdf  used on input line 406.
+Package pdftex.def Info: ./figures//complexities_sp-eps-converted-to.pdf  used on input line 405.
 (pdftex.def)             Requested size: 352.85939pt x 564.57271pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Overfull \hbox (6.65536pt too wide) in paragraph at lines 420--420
+[]\OT1/ptm/m/n/12 As informed in section 2.3[], different subgraph measures have normalisation problems
+ []
+
+
+Overfull \hbox (4.19786pt too wide) in paragraph at lines 421--422
+\OT1/ptm/m/n/12 by preferential attachment. Preferential attachment ensures most nodes have low degrees
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
 
  []
 
-[17
+[19
 
-] [18
+] [20
 
- <./figures//complexities-eps-converted-to.pdf>] [19 <./figures//complexities_sp-eps-converted-to.pdf>]
+ <./figures//complexities-eps-converted-to.pdf>] [21 <./figures//complexities_sp-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures//configuration_model.eps>
-(epstopdf)                    date: 2021-09-29 14:54:12
-(epstopdf)                    size: 7128 bytes
+(epstopdf)                    date: 2021-10-04 22:35:52
+(epstopdf)                    size: 6710 bytes
 (epstopdf)             Output file: <./figures//configuration_model-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-29 14:54:52
+(epstopdf)                    date: 2021-10-04 22:35:52
 (epstopdf)                    size: 7300 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//configuration_model-eps-converted-to.pdf ./figures//configuration_model.eps>
-(epstopdf)             \includegraphics on input line 431.
+(epstopdf)             \includegraphics on input line 430.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//configuration_model-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//configuration_model-eps-converted-to.pdf, id=376, 485.815pt x 485.815pt>
+<./figures//configuration_model-eps-converted-to.pdf, id=382, 485.815pt x 485.815pt>
 File: ./figures//configuration_model-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//configuration_model-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//configuration_model-eps-converted-to.pdf  used on input line 431.
+Package pdftex.def Info: ./figures//configuration_model-eps-converted-to.pdf  used on input line 430.
 (pdftex.def)             Requested size: 249.07796pt x 249.07446pt.
+
+Overfull \hbox (7.56703pt too wide) in paragraph at lines 427--434
+[]\OT1/ptm/m/n/12 As introduced in section 1.4[], a network is said to be scale-free if its degree distribution
+ []
+
 Package epstopdf Info: Source file: <./figures//complexity_correlation.eps>
-(epstopdf)                    date: 2021-09-23 16:21:24
-(epstopdf)                    size: 388499 bytes
+(epstopdf)                    date: 2021-10-04 22:35:52
+(epstopdf)                    size: 362269 bytes
 (epstopdf)             Output file: <./figures//complexity_correlation-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 16:22:09
+(epstopdf)                    date: 2021-10-04 22:35:52
 (epstopdf)                    size: 397632 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//complexity_correlation-eps-converted-to.pdf ./figures//complexity_correlation.eps>
-(epstopdf)             \includegraphics on input line 443.
+(epstopdf)             \includegraphics on input line 442.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//complexity_correlation-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//complexity_correlation-eps-converted-to.pdf, id=377, 1589.94pt x 505.89pt>
+<./figures//complexity_correlation-eps-converted-to.pdf, id=383, 1589.94pt x 505.89pt>
 File: ./figures//complexity_correlation-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//complexity_correlation-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//complexity_correlation-eps-converted-to.pdf  used on input line 443.
+Package pdftex.def Info: ./figures//complexity_correlation-eps-converted-to.pdf  used on input line 442.
 (pdftex.def)             Requested size: 415.12572pt x 132.08408pt.
-[20 <./figures//configuration_model-eps-converted-to.pdf>] [21 <./figures//complexity_correlation-eps-converted-to.pdf>]
+
+Overfull \hbox (57.54932pt too wide) in paragraph at lines 438--446
+\OT1/ptm/m/n/12 monitor the correlation between measures enable further understanding of the properties/parameters
+ []
+
+[22 <./figures//configuration_model-eps-converted-to.pdf>] [23 <./figures//complexity_correlation-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures//complement.eps>
-(epstopdf)                    date: 2021-09-22 11:11:59
-(epstopdf)                    size: 374971 bytes
+(epstopdf)                    date: 2021-10-04 22:35:52
+(epstopdf)                    size: 351387 bytes
 (epstopdf)             Output file: <./figures//complement-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-22 11:15:42
+(epstopdf)                    date: 2021-10-04 22:35:52
 (epstopdf)                    size: 337182 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//complement-eps-converted-to.pdf ./figures//complement.eps>
-(epstopdf)             \includegraphics on input line 460.
+(epstopdf)             \includegraphics on input line 459.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//complement-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//complement-eps-converted-to.pdf, id=435, 1300.86pt x 361.35pt>
+<./figures//complement-eps-converted-to.pdf, id=441, 1300.86pt x 361.35pt>
 File: ./figures//complement-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//complement-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//complement-eps-converted-to.pdf  used on input line 460.
+Package pdftex.def Info: ./figures//complement-eps-converted-to.pdf  used on input line 459.
 (pdftex.def)             Requested size: 415.12572pt x 115.30905pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--466
+Underfull \hbox (badness 10000) in paragraph at lines 455--465
 
  []
 
-[22 <./figures//complement-eps-converted-to.pdf>]
+
+Overfull \hbox (17.24203pt too wide) in paragraph at lines 468--468
+[]\OT1/ptm/m/n/12 To test the new measure $\OML/cmm/m/it/12 MA[]$\OT1/ptm/m/n/12 , 6 real networks are collected. To ensure comprehensive
+ []
+
+[24 <./figures//complement-eps-converted-to.pdf>]
+Overfull \hbox (21.40382pt too wide) in paragraph at lines 469--470
+[]\OT1/ptm/m/n/12 To be mentioned, we will refer these non-bus networks as real networks, for convinience. 
+ []
+
 Package epstopdf Info: Source file: <./figures//real_networks.eps>
-(epstopdf)                    date: 2021-09-28 15:38:30
-(epstopdf)                    size: 33374 bytes
+(epstopdf)                    date: 2021-10-04 22:35:52
+(epstopdf)                    size: 31613 bytes
 (epstopdf)             Output file: <./figures//real_networks-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-29 14:54:56
+(epstopdf)                    date: 2021-10-04 22:35:52
 (epstopdf)                    size: 18475 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//real_networks-eps-converted-to.pdf ./figures//real_networks.eps>
-(epstopdf)             \includegraphics on input line 538.
+(epstopdf)             \includegraphics on input line 537.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//real_networks-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//real_networks-eps-converted-to.pdf, id=487, 1156.32pt x 578.16pt>
+<./figures//real_networks-eps-converted-to.pdf, id=494, 1156.32pt x 578.16pt>
 File: ./figures//real_networks-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//real_networks-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//real_networks-eps-converted-to.pdf  used on input line 538.
+Package pdftex.def Info: ./figures//real_networks-eps-converted-to.pdf  used on input line 537.
 (pdftex.def)             Requested size: 415.12572pt x 207.55519pt.
-[23] [24 <./figures//real_networks-eps-converted-to.pdf>]
+
+Overfull \hbox (13.96896pt too wide) in paragraph at lines 542--542
+\OT1/ptm/m/n/12 average distance ratio brings less $\OML/cmm/m/it/12 MA[]$ \OT1/ptm/m/n/12 complexity. We can suggest a negative correlation
+ []
+
+[25] [26 <./figures//real_networks-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures//rewiring.eps>
-(epstopdf)                    date: 2021-09-22 11:03:27
-(epstopdf)                    size: 168206 bytes
+(epstopdf)                    date: 2021-10-04 22:35:52
+(epstopdf)                    size: 158283 bytes
 (epstopdf)             Output file: <./figures//rewiring-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-22 11:15:58
+(epstopdf)                    date: 2021-10-04 22:35:52
 (epstopdf)                    size: 32805 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures//rewiring-eps-converted-to.pdf ./figures//rewiring.eps>
-(epstopdf)             \includegraphics on input line 555.
+(epstopdf)             \includegraphics on input line 554.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures//rewiring-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//rewiring-eps-converted-to.pdf, id=541, 1445.4pt x 1445.4pt>
+<./figures//rewiring-eps-converted-to.pdf, id=547, 1445.4pt x 1445.4pt>
 File: ./figures//rewiring-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures//rewiring-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures//rewiring-eps-converted-to.pdf  used on input line 555.
+Package pdftex.def Info: ./figures//rewiring-eps-converted-to.pdf  used on input line 554.
 (pdftex.def)             Requested size: 415.12572pt x 415.1192pt.
 
-Overfull \hbox (6.41849pt too wide) in paragraph at lines 559--560
-\OT1/ptm/m/n/12 From fig-ure 15[], we can con-cludes that most real net-works be-haves sim-i-lar us-ing rewiring.
+Overfull \hbox (6.41849pt too wide) in paragraph at lines 558--559
+\OT1/ptm/m/n/12 From figure 15[], we can concludes that most real networks behaves similar using rewiring.
  []
 
-[25] [26] [27 <./figures//rewiring-eps-converted-to.pdf>] (test.aux)
+[27 <./figures//rewiring-eps-converted-to.pdf>]
+Overfull \hbox (6.67087pt too wide) in paragraph at lines 563--565
+\OT1/ptm/m/n/12 For example, different subgraph measures focusing on the general structure of subgraphs,
+ []
+
+
+Overfull \hbox (2.27432pt too wide) in paragraph at lines 566--566
+\OML/cmm/m/it/12 MA[]$ \OT1/ptm/m/n/12 assigns higher complexity to sparser graph than $\OML/cmm/m/it/12 MA[]$\OT1/ptm/m/n/12 . To be noticed, to calculate
+ []
+
+[28]
+Overfull \hbox (19.88344pt too wide) in paragraph at lines 569--569
+[]\OT1/ptm/m/n/12 An unexpected fact was observed: degree based measures($\OML/cmm/m/it/12 OdC$\OT1/ptm/m/n/12 ,$\OML/cmm/m/it/12 MA[]$\OT1/ptm/m/n/12 ,$\OML/cmm/m/it/12 MA[]$\OT1/ptm/m/n/12 ) generally
+ []
+
+
+Overfull \hbox (19.6541pt too wide) in paragraph at lines 570--571
+\OT1/ptm/m/n/12 complexity measure should be able to distinguish: random networks, small-world networks,
+ []
+
+(/home/yipei/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 598.
+ (/home/yipei/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [29] [30] [31] [32] [33] [34]
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 797.
+ (/home/yipei/.miktex/texmfs/install/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 797.
+ [35] [36] [37]
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 930.
+ (/home/yipei/.miktex/texmfs/install/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 930.
+ [38] [39]
+LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1005.
+ [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59]
+
+Package caption Warning: \label without proper reference on input line 431.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:configuration_model' on page 60 undefined on input line 1746.
+
+(/home/yipei/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (/home/yipei/.miktex/texmfs/install/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+) (/home/yipei/.miktex/texmfs/install/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2020/03/24 1.8d listings language file
+) [60]
+LaTeX Font Info:    Font shape `OML/ptm/b/n' in size <12> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 1757.
+ [61]
+
+LaTeX Font Warning: Font shape `OT1//m/it' undefined
+(Font)              using `OT1//m/n' instead on input line 1821.
+
+
+Overfull \hbox (16.15912pt too wide) in paragraph at lines 1821--1821
+\OT1//m/it/12 structure and network theory: the role of connectance and size''. In: Proceedings
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1821.
+(/home/yipei/.miktex/texmfs/install/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [62]
+Overfull \hbox (3.68417pt too wide) in paragraph at lines 1821--1821
+[]\OT1//m/it/12 Erd}os Renyi. ``On random graph''. In: Publicationes Mathematicate 6 (1959),
+ []
+
+
+Overfull \hbox (8.7667pt too wide) in paragraph at lines 1821--1821
+\OT1//m/it/12 Physica A: Statistical Mechanics and its Applications 387.11 (2008), pp. 2637{
+ []
+
+
+Overfull \hbox (5.43542pt too wide) in paragraph at lines 1821--1821
+[]\OT1//m/it/12 Built-in Types. $\OT1/pcr/m/n/12 https : / / docs . python . org / 3 / library / stdtypes .
+ []
+
+[63]
+Overfull \hbox (5.5347pt too wide) in paragraph at lines 1821--1821
+\OT1//m/it/12 weighted networks''. In: The European Physical Journal B-Condensed Matter
+ []
+
+
+Overfull \hbox (1.98436pt too wide) in paragraph at lines 1821--1821
+[]\OT1//m/it/12 Dolphins. $\OT1/pcr/m/n/12 http : / / konect . cc / networks / dolphins/$\OT1//m/it/12 . Date Accessed:
+ []
+
+
+Overfull \hbox (3.39635pt too wide) in paragraph at lines 1821--1821
+[]\OT1//m/it/12 Roget's Theasures. $\OT1/pcr/m/n/12 http : / / vlado . fmf . uni -[] lj . si / pub / networks /
+ []
+
+[64] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package logreq Info: Writing requests to 'test.run.xml'.
-\openout1 = `test.run.xml'.
+
+LaTeX Warning: There were undefined references.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14196 strings out of 478864
- 259387 string characters out of 2848660
- 1002121 words of memory out of 3000000
- 31936 multiletter control sequences out of 15000+600000
- 420134 words of font info for 61 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 57i,11n,66p,1449b,1475s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\zhaoy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/zhaoy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on test.pdf (28 pages, 2846400 bytes).
+ 15789 strings out of 480864
+ 276766 string characters out of 2904336
+ 1234120 words of memory out of 3000000
+ 33195 multiletter control sequences out of 15000+600000
+ 421965 words of font info for 67 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 57i,11n,74p,1437b,2312s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/home/yipei/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc} </home/yipei/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></home/yipei/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmib10.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/yipei/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (65 pages, 2996976 bytes).
 PDF statistics:
- 667 PDF objects out of 1000 (max. 8388607)
+ 796 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

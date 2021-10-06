@@ -30,7 +30,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.4.1}Medium articulation for graphs($MA_g$)}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2}Efficentcy complexity($Ce$)}{14}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Efficiency complexity($Ce$)}{15}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.4.3}Graph index complexity($Cr$)}{15}{}%
 \defcounter {refsection}{0}\relax 

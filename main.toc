@@ -56,14 +56,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Conclusion and further study}{28}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}utilities.py}{29}{}%
+\contentsline {section}{\numberline {A}Data}{29}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B}Complexity.py}{37}{}%
+\contentsline {section}{\numberline {B}utilities.py}{29}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C}figure\_generator.py}{44}{}%
+\contentsline {section}{\numberline {C}Complexity.py}{37}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D}rewiring\_simulation.py}{54}{}%
+\contentsline {section}{\numberline {D}figure\_generator.py}{43}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E}configuration\_model.r and R\_functions.py}{60}{}%
+\contentsline {section}{\numberline {E}rewiring\_simulation.py}{54}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {F}References}{62}{}%
+\contentsline {section}{\numberline {F}configuration\_model.r and R\_functions.py}{60}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {G}References}{62}{}%

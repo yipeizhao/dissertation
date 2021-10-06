@@ -497,6 +497,17 @@ INPUT /home/yipei/.miktex/texmfs/install/tex/latex/listings/listings.cfg
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/listings/listings.cfg
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/listings/listings.cfg
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/listings/listings.cfg
+INPUT /home/yipei/.miktex/texmfs/install/tex/latex/seqsplit/seqsplit.sty
+INPUT /home/yipei/.miktex/texmfs/install/tex/latex/seqsplit/seqsplit.sty
+INPUT /home/yipei/.miktex/texmfs/install/tex/latex/seqsplit/seqsplit.sty
+INPUT /home/yipei/.miktex/texmfs/install/tex/latex/seqsplit/seqsplit.sty
+INPUT /home/yipei/.miktex/texmfs/install/tex/latex/seqsplit/seqsplit.sty
+INPUT /home/yipei/.miktex/texmfs/install/tex/latex/seqsplit/seqsplit.sty
+INPUT /home/yipei/.miktex/texmfs/install/tex/latex/seqsplit/seqsplit.sty
+INPUT /home/yipei/.miktex/texmfs/install/tex/latex/seqsplit/seqsplit.sty
+INPUT /home/yipei/.miktex/texmfs/install/tex/latex/seqsplit/seqsplit.sty
+INPUT /home/yipei/.miktex/texmfs/install/tex/latex/seqsplit/seqsplit.sty
+INPUT /home/yipei/.miktex/texmfs/install/tex/latex/seqsplit/seqsplit.sty
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/psnfss/ot1ptm.fd
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/psnfss/ot1ptm.fd
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/psnfss/ot1ptm.fd
@@ -794,6 +805,8 @@ INPUT ./figures//rewiring-eps-converted-to.pdf
 INPUT ./figures//rewiring-eps-converted-to.pdf
 INPUT ./figures//rewiring-eps-converted-to.pdf
 INPUT ./figures//rewiring-eps-converted-to.pdf
+INPUT /home/yipei/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT /home/yipei/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
@@ -803,8 +816,8 @@ INPUT /home/yipei/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 INPUT /home/yipei/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmri8c.tfm
-INPUT /home/yipei/.miktex/texmfs/install/fonts/vf/adobe/times/ptmri8c.vf
 INPUT /home/yipei/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT /home/yipei/.miktex/texmfs/install/fonts/vf/adobe/times/ptmri8c.vf
 INPUT /home/yipei/.miktex/texmfs/install/fonts/vf/adobe/times/ptmr8c.vf
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/psnfss/omsptm.fd
 INPUT /home/yipei/.miktex/texmfs/install/tex/latex/psnfss/omsptm.fd

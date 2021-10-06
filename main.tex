@@ -11,7 +11,8 @@
 \usepackage{afterpage}
 \usepackage{indentfirst}
 \usepackage{listings}
-\newtheorem{theorem}{Theorem}[section]
+\usepackage{seqsplit}
+\newtheorem{definition}{Definition}[section]
 \addbibresource{bib.bib}
 \graphicspath{ {./figures/} }
 
@@ -74,25 +75,26 @@ To stay simple, all networks in this project have the following properties:
     \item No multi edges are allowed. There will be at most one edge between two nodes.
     \item No loops are allowed. Nodes are not allowed to connect to themselves. 
 \end{itemize}
-\begin{theorem}{(Graph/network)}
+\begin{definition}{(Graph/network)}
     A graph or network $G$ can be represented by three sets. A node set $V:\{V_1,V_2,V_3...V_n\}$ and an edge set $E:\{E_1,E_2,E_3...E_m\}$ and a function set $\iota$ such that $E\rightarrow V_\alpha\times V_\beta$ implies there is a connection between node $V_\alpha$ and node $V_\beta$.
-\end{theorem}
+\end{definition}
 \par
 In non-mathematical words, a network or a graph is a collection of nodes and edges, each node can connect to other nodes via edges. The border between the term network and graph is very ambiguous, and network scientists use them interchangeably. There are many different types of graphs. A path graph contains $n$ nodes and all nodes are connected in a sequence. A clique has all its nodes connect to all the other nodes. Since a clique is fully connected, this leads to a total number of $n(n-1)/2$ edges.
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.8\textwidth]{path_clique.eps}
     \caption{From left to right: A path with 10 nodes($n=10$) and 9 edges($m=9$); a clique with 10 nodes and 45 edges($m=45$).}
+    \label{fig:path_clique}
 \end{figure}
-\begin{theorem}{(Subgraph)}
+\begin{definition}{(Subgraph)}
     A subgraph $G'$ is a slice of a graph $G$, such that $V' \epsilon V$, $E' \epsilon E$ and $\iota'$ matches two nodes belongs to $V'$, i.e. $E'\rightarrow V'_\alpha\times V'_\beta $. All the edges must have their starting and ending points within the subgraph.
-\end{theorem}
-\begin{theorem}{(Neighbours)}
+\end{definition}
+\begin{definition}{(Neighbours)}
     If node $i$ is connected to node $j$, node $i$ is a neighbour of node $j$, vice versa. If node $i$ is connected to node $j,k,l$, the node set $\{j,k,l\}$ is said to be the neighbourhood of node $i.$
-\end{theorem}
-\begin{theorem}{(Distance)}
+\end{definition}
+\begin{definition}{(Distance)}
     Distance $d_{i,j}$ in a undirected, unweighted graph is the minimum number of edges required to connect node $i$ and $j$. Average distance $\langle d\rangle$ is defined as $\langle d \rangle = \frac{2}{n(n-1)}\sum_{i,j}d_{i,j}$.
-\end{theorem}
+\end{definition}
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.8\textwidth]{simplenetwork.png}
@@ -100,7 +102,7 @@ In non-mathematical words, a network or a graph is a collection of nodes and edg
     \label{fig:simple_network}
 \end{figure}
 \par
-Refereing to figure \ref{fig:simple_network}, distance between node 1 and 6 is 3, denoted by $d_{1,6}=d_{6,1}=3$. Distance between node $i$ and node $j$ is equal to node $j$ to node $i$: $d_{i,j}=d_{j,i}$. The average distance of the network is 1.53.
+Referring to figure \ref{fig:simple_network}, distance between node 1 and 6 is 3, denoted by $d_{1,6}=d_{6,1}=3$. Distance between node $i$ and node $j$ is equal to node $j$ to node $i$: $d_{i,j}=d_{j,i}$. The average distance of the network is 1.53.
 
 \par
 A node $i$ has degree $k_i$ if it has $k$ edges connected to other nodes. For figure \ref{fig:simple_network}, we have $k_1=2,k_2=3,k_3=3,k_4=2,k_5=4,k_6=2$. Thus, the total number of edges $L$ in a network can be calculated:
@@ -130,15 +132,16 @@ or equivalently, using formula \ref{eqn:avg_degree_1}:
 \begin{equation}
     \bar{k} = \frac{1}{6}(8*2)=\frac{8}{3}
 \end{equation}
-\begin{theorem}{(Clustering coefficient)}
-    Clustering coefficient $C_i$ illustrates the proportion of edges exists between a node $i$'s neighbours. For a given node $i$ with degree $k$, the clustering coefficient is defined as:\\
+\begin{definition}{(Clustering coefficient)}
+For a given node $i$ with degree $k$, the clustering coefficient is defined as:\\
     $C_i=\frac{2L_i}{k_i(k_i-1)}$\\
-    where $L_i$ represents the number of links exists between node $i$'s neighbours.
-\end{theorem}
+    where $L_i$ represents the number of links exists between node $i$'s neighbours.\\
+    Clustering coefficient $C_i$ illustrates the proportion of edges exists between a node $i$'s neighbours. 
+\end{definition}
 \par 
 In figure \ref{fig:simple_network}, node 2 and node 4 are node 1's neighbours. There are no edges between node 2 and node 4, so $C_1 = 0$. On the otherhand, node 3 has neighbours 2,5 and 6. There are 2 edges between node 2,5 and 6, $C_i=\frac{2*2}{3*2}=\frac{2}{3}$. Average clustering tends to suggest the average connectivity of the network.
 
-\begin{theorem}{(Laplacian Matrix)}
+\begin{definition}{(Laplacian Matrix)}
     A Laplacian matrix is defined as:
     \begin{equation}
         L_{i,j} = \begin{cases}
@@ -147,12 +150,12 @@ In figure \ref{fig:simple_network}, node 2 and node 4 are node 1's neighbours. T
             0 & \text{otherwise}
         \end{cases}
     \end{equation}
-\end{theorem}
+\end{definition}
 \par
 Diagonal elements $L_{i,i}$ suggests the degree of node $i$.A non-zero non-diagonal element $L_{i,j}$ implies a connected edge between node $i$ and $j$. Laplacian matrix allows quick calculation of the graph properties and a visulisation of the network.
 
 \par
-To evaluate different complexity measures, we need to introduce some graph models that are oftenly used to model the real world problems.
+To evaluate different complexity measures, we need to introduce some graph models that are oftenly used to model real world problems.
 \subsection{Random graphs}
 There are infinite numbers of real networks in the real world, but defining or observing all of them is not feasible. For simulations and comparisons, network scientists introduced the idea of random networks. They are also known as Erd\H{o}s-R\'{e}nyi network in honour of two mathematicians: Paul Erd\H{o}s and Alfr\'{e}d R\'{e}nyi. They have important contributions to understand the properties of a random network\cite{renyi1959random}.\\
 \par
@@ -184,9 +187,9 @@ Single link rewiring tends to give higher randomness to the network, and pairwis
     \caption{A demonstration of WS model(top) and NW model(bottom). The paramters are: $n=20$, $k=4$, $p=0,0.1,0.5$.}
     \label{fig:small_world_models}
 \end{figure}
-About 50 years ago, Standley Milgram\cite{milgram1967small} carried out a famous study in the interest of this question: how many intermediates are needed to pass a message between two irrelevant or distanced people? This is known as the small-world problem. As counterintuitive as it may seem, the medium number of intermediates needed is only 5(an average of 6)\cite{milgram1967small}. This is not an undoubtable experiment but it is almost impossible to determine the actual number of messengers needed in the real world. Nevertheless, this number would be smaller than most peoples' expectations. Mathematically, the small world problem is the study of graphs with small average distance, because network scientists believe that in a real world network, the average distance is small with a high average clustering coefficient. Previously, we introduced the formula to calculate the average distance $L_r$ of a random graph. Thus, if a graph has $L/L_r <1$ and $C/C_r>1$, this graph can be considered to have the small-world property.\\
+About 50 years ago, Standley Milgram\cite{milgram1967small} carried out a famous study in the interest of this question: how many intermediates are needed to pass a message between two irrelevant or distanced people? This is known as the small-world problem. As counterintuitive as it may seem, the medium number of intermediates needed is only 5(an average of 6)\cite{milgram1967small}. This is not an undoubtedly experiment but it is almost impossible to determine the actual number of messengers needed in the real world. Nevertheless, this number would be smaller than most peoples' expectations. Mathematically, the small world problem is the study of graphs with small average distance, because network scientists believe that in a real world network, the average distance is small with a high average clustering coefficient. Previously, we introduced the formula to calculate the average distance $L_r$ of a random graph. Thus, if a graph has $L/L_r <1$ and $C/C_r>1$, this graph can be considered to have the small-world property.\\
 \par
-A small-world network can be generated using a Watts-Strogatz(WS) model\cite{wsmodel} or a Newman-Watts(NW) model(a variant of the WS model)\cite{nwmodel}. Both models require three parameters: number of nodes $n$, number of connected closest neighbours $k$ and rewiring probability $p$. The key of both models is rewiring. The graph starts with $n$ nodes, each node is connected to $k$($k-1$ if $k$ is odd) nearest neighbours; $nk/2$ edges will be created. For each edge, there is a proability $p$ that this edge will be rewired to another ending node(single link rewiring). While rewiring, the WS model removes the edge $(u,v)$ and add a new edge $(u,w)$. Thus, the number of edges stays the same. However, the NW model maintains the edge $(u,v)$ and adding the new edge $(u,w)$, causing the expectation of number of edges after rewiring to be $nk/2+pnk/2$. Rewiring will add short paths to the network, and cause the average distance to be exceptionally smaller. Suggested by Barabási\cite{barabási2016network}, to obtain both high clustering and low average distance(properties of a small-world network), $p$ should be between 0.001 and 0.1.\\
+A small-world network can be generated using a Watts-Strogatz(WS) model\cite{wsmodel} or a Newman-Watts(NW) model(a variant of the WS model)\cite{nwmodel}. Both models require three parameters: number of nodes $n$, number of connected closest neighbours $k$ and rewiring probability $p$. The key of both models is rewiring. The graph starts with $n$ nodes, each node is connected to $k$($k-1$ if $k$ is odd) nearest neighbours; $nk/2$ edges will be created. For each edge, there is a probability $p$ that this edge will be rewired to another ending node(single link rewiring). While rewiring, the WS model removes the edge $(u,v)$ and add a new edge $(u,w)$. Thus, the number of edges stays the same. However, the NW model maintains the edge $(u,v)$ and adding the new edge $(u,w)$, causing the expectation of the number of edges after rewiring to be $nk/2+pnk/2$. Rewiring will add short paths to the network, and cause the average distance to be exceptionally smaller. Suggested by Barabási\cite{barabási2016network}, to obtain both high clustering and low average distance(properties of a small-world network), $p$ should be between 0.001 and 0.1.\\
 
 
 \subsection{Scale-free network}
@@ -202,7 +205,7 @@ real networks are usually scale-free\cite{holme2019rare}. To understand what is 
 \end{figure}
 
 Suggested by Barabási\cite{barabási2016network}, the degree distribution of a random network is expected to follow a binomial distribution. However, it might not be the actual distribution of real networks. A controversial idea that hasn't yet been proven in the network science community is: are real networks' degree distribution follows a power-law distribution? A power-law distribution follows: $P(k) \sim k^{-\gamma }$, the parameter $\gamma$ is typically in the range $2<\gamma<3$. If the degree distribution of a network follows a power-law distribution, the network is said to be a scale-free network. Even though there are counter-examples\cite{broido_clauset_2019}, many network scientists still believe that real networks are scale-free\cite{albert1999diameter}. In order to further simulate the behaviour of real networks, Barabási introduced the Barabási-Albert(BA) model to create scale-free networks.\cite{barabási2016network}.\par
-The BA model requires two parameters: $n$ and $m$. Initially, only one node is created and $n-1$ nodes will be added to the network consequently. Whenever a node is added to the network, it will connect $m$ nodes. The logic of connection is the key to this model. Nodes are more likely to link to nodes with more edges than nodes with less edges. For instance, a node has been added to the network, the node will connect to a node with degree $k=7$ with a higher probability than a node with degree $k=3$. This logic of connection is called preferential attachment. Essentially, like in the real world, nodes are more likely to connect to nodes that have more impact on the network.\cite{pa_test} The BA model ensures most of the nodes have low degrees, whereas only a few nodes have exceptionally high degrees, as shown in figure \ref{fig:degree_dist}. An ideal way to fit the power-law distribution is using the linear regression technique to fit the data in log-log scale.
+The BA model requires two parameters: $n$ and $m$. Initially, only one node is created and $n-1$ nodes will be added to the network consequently. Whenever a node is added to the network, it will connect $m$ nodes. The logic of connection is the key to this model. Nodes are more likely to link to nodes with more edges than nodes with less edges. For instance, a node has been added to the network, this node will connect to a node with degree $k=7$ with a higher probability than a node with degree $k=3$. This logic of connection is called preferential attachment. Essentially, like in the real world, nodes are more likely to connect to nodes that have more impact on the network.\cite{pa_test} The BA model ensures most of the nodes have low degrees, whereas only a few nodes have exceptionally high degrees, as shown in figure \ref{fig:degree_dist}. An ideal way to fit the power-law distribution is using the linear regression technique to fit the data in log-log scale.
 
 \subsection{Generating graphs}
 \label{generate_graphs}
@@ -210,7 +213,7 @@ All graph models are utilized as below(unless specified):
 \begin{itemize}
     \item $G(n,m)$ random graphs/networks or random graphs/networks. With given $n$, $m$ will be randomly selected between $n-1$ to $n(n-1)/2$ to create various networks with different number of $m$.
     \item For WS and NW graphs, three parameters are required. Given parameter $n$, $k$ will be randomly selected between 1 and $(n-1)$ to give a larger range of $m$. $p$ is also randomize, within the range 0.01 and 0.1 to simulate a small-world network as mentioned in section \ref{small_world}. By randomize two parameters, more diverse samples will be generated.
-    \item BA graphs require $n$, $m$ as parameters. They are randomize between 1 and $(n-1)$, so we can generate samples with different number of edges.
+    \item BA graphs require $n$, $m$ as parameters. They are randomised between 1 and $(n-1)$, so we can generate samples with a different number of edges.
 \end{itemize}
 
 \section{Methods}
@@ -235,7 +238,7 @@ To compare complexities, all complexities should be normalised within range $0<c
 \end{itemize}
 \subsection{Different subgraph measures}
 Definition of a subgraph was introduced in section \ref{graph}, so an intuitive idea of measure is to count the number of different subgraphs in a given graph. The question is: how to count subgraphs and how to determine whether they are identical or not? Different subgraphs can be created using edge deletion. There are two approaches in this project: removing one edge or remove two edges. Removing more edges is not optimal considering the complexity of calculations. Deleting one edge from a graph with $m$ edges will result in $m$ subgraphs, or ${m \choose 2}$ using two edges deletion. After obtaining $m$ or ${m \choose 2}$ subgraphs, the next step is to find the number of unique subgraphs. Two identical subgraphs are said to be isomorphic. To determine isomorphism, there are two possible methods.\par
-The first approach is to find out the number of spanning trees of a subgraph. A spanning tree contains all the nodes in a subgraph with the minimum number of edges. This can be calculated using Kirchkoff's theorem\cite{priezzhev1985dimer}: number of spanning trees = cofactor of Laplacian matrix $L$. By counting different number of spanning trees, isopmorphism can be determined: two subgraphs with same $m$, $n$ and the same number of spanning trees are isomorphic. This is a computationally cheaper approach with possible errors. A more complex but precise way to determine isomorphism is to compare the spectrum of the Laplacian matrix of subgraphs. Calculating and comparing both Laplacian matrix and the signless Laplacian matrix(all entries are positive or 0) will offer a better result. If two subgraphs with the same spectrum on both Laplacian matrix and signless Laplacian matrix, they are isomorphic. As mentioned, the complexity needs to be normalised to allow comparison. A good upper bound for both edge deletion method is $m_{cu}=n^{1.68}-10$.\cite{KIM20082637}.Three measures can be defined:
+The first approach is to find out the number of spanning trees of a subgraph. A spanning tree contains all the nodes in a subgraph with the minimum number of edges. This can be calculated using Kirchkoff's theorem\cite{priezzhev1985dimer}: number of spanning trees = cofactor of Laplacian matrix $L$. By counting different numbers of spanning trees, isomorphism can be determined: two subgraphs with the same $m$, $n$ and the same number of spanning trees are isomorphic. This is a computationally cheaper approach with possible errors. A more complex but precise way to determine isomorphism is to compare the spectrum of the Laplacian matrix of subgraphs. Calculating and comparing both the Laplacian matrix and the signless Laplacian matrix(all entries are positive or 0) will offer a better result. If two subgraphs with the same spectrum on both the Laplacian matrix and signless Laplacian matrix, they are isomorphic. As mentioned, the complexity needs to be normalised to allow comparison. A good upper bound for both edge deletion method is $m_{cu}=n^{1.68}-10$.\cite{KIM20082637}.Three measures can be defined:
 \begin{itemize}
     \item $N_{1e,st}$, the number of different subgraphs with different number of spanning trees, after cutting one edge. The normalised complexity $C_{1e,st} = (N_{1e,st}-1)/(m_{cu}-1)$.
     \item $N_{1e,spec}$, the number of different subgraphs with different spectrums, after cutting one edge. The normalised complexity $C_{1e,spec} = (N_{1e,spec}-1)/(m_{cu}-1)$.
@@ -253,9 +256,9 @@ Different subgraph measures are principally simple, but they are complex to comp
     \label{fig:subgraph_measure}
 \end{figure}
 
-The complexity is abnormal for graphs with around 90 edges and 15 nodes as shown in figure \ref{fig:subgraph_measure}. These exceptions could imply that the upper bound assumption $m_{cu}$ is not correct, but there is another possible reason, which is the problem of the floating point arithmetic.\par
-On most machines today, numbers are represented in binary system\cite{floating_point}. For example, 0.2 is recorded as 0.00110011001100110011... in a binary system. This series is infinite, represented by $1*2^{-3}+1*2^{-4}+1*2^{-7}+1*2{-8}...$. For obvious reasons, computer scientists don't want to work with infinite series. Therefore, the series is approximated. On a modern computer, the series is usually approximated to 63 digits and an extra one digit represents the sign of the number. After approximation, the error could cause the equal operation to fail. A famous example is that for modern programming language or machine that operates this numbering system, 0.2+0.1 does not equal 0.15+0.15. As a result, the inaccurate comparison may cause mistakes and generates more different subgraphs than actual.\par
-The core of different subgraph measure is to compare the cofactor($C_{1e,st}$) or spectrum($C_{1e,spec}$ and $C_{2e,spec}$) of a subgraph. Given the fact that the probability of a decimal number to appear in the spectrum is high and the cofactor might exceed the upper bound of the numbering system\cite{python_int}. The comparisons will be inaccurate with a high probability. There are three possible solutions:
+The complexity is abnormal for graphs with around 90 edges and 15 nodes as shown in figure \ref{fig:subgraph_measure}. These exceptions could imply that the upper bound assumption $m_{cu}$ is not correct, but there is another possible reason, which is the problem of the floating-point arithmetic.\par
+On most machines today, numbers are represented in binary system\cite{floating_point}. For example, 0.2 is recorded as 0.00110011001100110011... in a binary system. This series is infinite, represented by $1*2^{-3}+1*2^{-4}+1*2^{-7}+1*2{-8}...$. For obvious reasons, computer scientists don't want to work with infinite series. Therefore, the series is approximated. On a modern computer, the series is usually approximated to 63 digits, and an extra one digit represents the sign of the number. After approximation, the error could cause the equal operation to fail. A famous example is that for modern programming language or machine that operates this numbering system, 0.2+0.1 does not equal 0.15+0.15. As a result, the inaccurate comparison may cause mistakes and generates more different subgraphs than actual.\par
+The core of different subgraph measure is to compare the cofactor ($C_{1e,st}$) or spectrum ($C_{1e,spec}$ and $C_{2e,spec}$) of a subgraph. Given the fact that the probability of a decimal number to appear in the spectrum is high, and the cofactor might exceed the upper bound of the numbering system\cite{python_int}. The comparisons will be inaccurate with a high probability. There are three possible solutions:
 \begin{itemize}
     \item As suggested, errors will be made when approximated by the machine. An error threshold can be used when comparing spectrums and cofactors. For example, two numbers with relative error less than 1\% can also be considered equal numbers. One disadvantage is the increase of complexity, taking more time and effort to compare the spectrums/number of spanning trees.
     \item Similarly, numbers can be rounded before comparison to avoid errors. This is used in the implementation of different subgraph measures, all cofactors and spectrums are rounded to the first ten significant figures. This solution requires less computation time than the first solution and reduce the number of misclassification. The drawback is that similar graphs can be considered as isomorphic graphs, this disadvantage also applies to the first provided solution, but with higher accuracy for large graphs. This solution may still cause complexities larger than 1, but it is the best solution considering the effort spent. Thus, this solution will be used in this project.
@@ -271,7 +274,7 @@ A unique problem with $C_{2e,spec}$ is the value is not properly scaled for smal
     \centering
 \end{figure}
 \par
-The upper-bound of $C_{2e,spec}$ is 0.5 while $ n\leq7 $. To have an upper bound at 1, the complexity values have to be scaled by 2. However, scales by two will cause the complexity to exceed 1 for larger graphs. Thus, we stick to the original normalisation and scaling: $C_{2e,spec}$ will have an upper bound at 0.5 for $n=7$, and less for smaller $n$s.
+The upper bound of $C_{2e,spec}$ is 0.5 while $ n\leq7 $. To have an upper bound at 1, the complexity values have to be scaled by 2. However, scales by two will cause the complexity to exceed 1 for larger graphs. Thus, we stick to the original normalisation and scaling: $C_{2e,spec}$ will have an upper bound at 0.5 for $n=7$, and less for smaller $n$s.
 
 \subsection{Product measure}
 The core idea of product measure is to assign low complexity at both extremes(path and cliques) and higher complexity to graphs with a medium number of edges.
@@ -285,7 +288,7 @@ This measure is based on redundancy and mutual information of a graph.\cite{wilh
     \item Lowest mutual information: $I_{clique}=ln(\frac{n}{n-1})$
 \end{itemize}
 \par
-Since the maximum and the minimum of redundancy and mutual information can be found, normalization technique can be applied to ensure the complexity $MA_g$ is bounded by 0 and 1.
+Since the maximum and the minimum of redundancy and mutual information can be found, the normalisation technique can be applied to ensure the complexity $MA_g$ is bounded by 0 and 1.
 \begin{equation}
     MA_g=MA_R*MA_I,
 \end{equation}
@@ -306,7 +309,7 @@ In section \ref{graph}, Laplacian matrix was introduced. $Cr$ is depending on an
 A node-node link correlation matrix need to be constructed to calculate $OdC$.\cite{odc} The matrix element $c_{i,j}$ records the number of neighbours with degree $j \geq i$ of all nodes with degree $i$. $OdC$ assigns higher complexity to graphs that their nodes have no preferences on their neighbours degree. A vector $a_n$ is calcualted by summing up all the rows in the matrix. The normalised $OdC$ is calculated as:\\
 $OdC=-(\sum^{k_{max}-1}_{n=0}A_nln(A_n))/ln(n-1)$ with $A=a_n/\sum_{n=0}^{k_{max}-1}a_n$(proability of each $a_n$).
 \subsection{$MA_{RI}$}
-$MAg$ measure is a product measure, which assigns higher complexity to graphs with medium number of edges and lower complexity at both extremes(path and clique). Using the product of redundancy $R$ and mutual information $I$, with normalisation, $MAg$ is defined as\cite{KIM20082637}:
+$MAg$ measure is a product measure, which assigns higher complexity to graphs with medium number of edges and lower complexity at both extremes (path and clique). Using the product of redundancy $R$ and mutual information $I$, with normalisation, $MAg$ is defined as\cite{KIM20082637}:
 \begin{equation}
     \label{eq:RandI}
     \begin{gathered}
@@ -347,7 +350,7 @@ Assuming the upper bound $C_{max}$ can be found, $0<C/C_{max}<1$. As suggested i
     C = -R^2+(ln(2m)-I_{clique}+R_{path})R+(-R_{path}ln(2m)+R_{path}I_{clique})
 \end{equation}
 \par
-Referring to the equation \ref{eq:rewrite_complexity_1}, the complexity function is a quadratic function with only variable $R$, which denotes, there is one and only one extreme. Considering the nature of product measure, it is safe to assume that the extreme is a maximum. To find the maximum, differentiates the function respect to $R(R_{max})$ where the function's slope is 0:
+As shown in equation \ref{eq:rewrite_complexity_1}, the complexity function is a quadratic function with only variable $R$, which denotes, there is one and only one extreme. As a product measure, the extreme should be a maximum. To find the maximum, differentiates the function with respect to $R(R_{max})$ where the function's slope is 0:
 \begin{equation}
     \label{eq:mari_diff}
         \frac{dC}{dR} = -2R_{max}+ln(2m)-I_{clique}+R_{path} = 0\\
@@ -386,7 +389,7 @@ As shown in figure \ref{fig:marimagcompare}, $MA_{RI}$ gives higher coplexity to
 \section{Result}
 \subsection{Complexity measures on small random graphs}
 \label{complexity}
-To validate implemented measures, all measures are applied on $G(n,m)$ random graphs, with $n=7$ and 50 samples are generated for each $m$. As shown in figure \ref{fig:small_graphs}, we reproduced results as Kim and Wilhelm did in \cite{KIM20082637}. Except $C_{2e,spec}$, as mentioned in section \ref{problem}, there is a scaling problem. Most of the methods reach their maximum briefly before the medium number of edges. Low complexities are given to highly connected graphs and sparse graphs as expected.\par
+To validate all the implemented measures, all measures are applied on $G(n,m)$ random graphs, with $n=7$, and 50 samples are generated for each $m$. As shown in figure \ref{fig:small_graphs}, we reproduced results as Kim and Wilhelm did in \cite{KIM20082637}. Except $C_{2e,spec}$, as mentioned in section \ref{problem}, there is a scaling problem. Most of the methods reach their maximum briefly before the medium number of edges. Low complexities are given to highly connected graphs and sparse graphs as expected.\par
 \clearpage
 \newpage
 \begin{figure}[p!]
@@ -408,7 +411,7 @@ To validate implemented measures, all measures are applied on $G(n,m)$ random gr
     \label{fig:graph_models}
 \end{figure}
 
-Different subgraph measures perform similarly when the graph is neither sparse or strongly connected, there is a big difference between the maximum and minimum with same $m$. Thus, it is very difficult to predict the complexity of a graph with given $m$ and $n$. The highest complexity is reached at $m=15$ for $C_{1e,st}$ and $C_{1e,spec}$ and $m=14$ for $C_{2e,spec}$. There is a miss in the plot: $C_{1e,spec}$ and $C_{2e,spec}$ plot does not contain a data point at (6,0). There is a very small probability for $G(n,m)$ model to generate a star graph(n-1 nodes are connected to 1 node, in total of n-1 edges), which will result in 0 complexity using $C_{1e,spec}$ and $C_{2e,spec}$ measure. Uses different subgraph measures for small graphs is optimal as it is relatively independent of $m$, but not for large graphs due to its complexity.\par
+Different subgraph measures perform similarly when the graph is neither sparse nor strongly connected, there is a big difference between the maximum and minimum with the same $m$. Thus, it is difficult to predict the complexity of a graph with given $m$ and $n$. The highest complexity is reached at $m=15$ for $C_{1e,st}$ and $C_{1e,spec}$ and $m=14$ for $C_{2e,spec}$. There is a miss in the plot: $C_{1e,spec}$ and $C_{2e,spec}$ plot does not contain a data point at (6,0). There is a very small probability for $G(n,m)$ model to generate a star graph(n-1 nodes are connected to 1 node, in total of n-1 edges), which will result in 0 complexity using $C_{1e,spec}$ and $C_{2e,spec}$ measure. Uses different subgraph measures for small graphs is optimal as it is relatively independent of $m$, but not for large graphs due to its complexity.\par
 
 
 $OdC$ is based on the node-node link correlation matrix of a graph.\cite{odc} Thus, it spreads across the space and has little relationship with $m$. $OdC$ assigns a lot of graphs with six edges high complexity than desired. $OdC$ is "hierarchy sensitive", it may not creates a big difference between graphs when the graphs are considerably small.\par
@@ -419,23 +422,23 @@ All 4 product measures are similar, gives higher complexity value at a medium nu
 \subsection{BA,WS and NW model}
 As informed in section \ref{problem}, different subgraph measures have normalisation problems and the complexities would exceed one.\par
 Surprisingly, different subgraph measures and product measures are struggling to separate random graphs, WS graphs, and NW graphs. Only $OdC$ separates random graphs and WS, NW model by giving random graphs higher complexity than WS and MW model with fixed $m$. This is because $OdC$ awards graphs with complicated degree correlations.\\
-More interesting results are obtained from BA graphs. Different subgraph measures assign lower complexity to BA graphs compare to random graphs. This can be caused by preferential attachment. Preferential attachment ensures most nodes have low degrees and builds hubs(nodes with high degrees) in the graph. After cutting an edge/two edges between hubs and nodes with small degrees, there is a high chance an isomorphic subgraph can be found, thus lower the complexity of the graph. Specifically, subgraphs resulted by cutting the edge between hubs and nodes with small degrees are very similar and occasionally isormophic.\par
-$MA_g$ and $MA_{RI}$ perform similarly by assigning BA graphs lower value towards medium number of links. Both measures are depening on the variable $\sum_{i,j>i}d_id_j$. BA graphs ususally have less $\sum_{i,j>i}d_id_j$ because they are highly structure, causing less sum than a random graph. Contrarily, $Ce$ and $Cr$ cannot distinguish BA graphs and random graphs. $Ce$ is based on the efficiency of a graph, a highly complex graph should have small average distance with not too much edges simultaneously. BA graph does not perform different than random graphs in $Ce$ measure.\\
+More fascinating results are obtained from BA graphs. Different subgraph measures assign lower complexity to BA graphs compare to random graphs. This can be caused by preferential attachment. Preferential attachment ensures most nodes have low degrees and builds hubs(nodes with high degrees) in the graph. After cutting an edge/two edges between hubs and nodes with small degrees, there is a high chance an isomorphic subgraph can be found, thus lower the complexity of the graph. Specifically, subgraphs resulted by cutting the edge between hubs and nodes with small degrees are very similar and occasionally isormophic.\par
+$MA_g$ and $MA_{RI}$ perform similarly by assigning BA graphs lower values towards a medium number of links. Both measures are depending on the variable $\sum_{i,j>i}d_id_j$. BA graphs usually have less $\sum_{i,j>i}d_id_j$ because they are highly structure, causing less sum than a random graph. Contrarily, $Ce$ and $Cr$ cannot distinguish BA graphs and random graphs. $Ce$ is based on the efficiency of a graph, a highly complex graph should have a small average distance with not too many edges simultaneously. BA graph does not perform differently than random graphs in $Ce$ measure.\\
 
 \subsubsection{Configuration model}
 \label{configuration_model}
-As introduced in section \ref{small_world}, a network is said to be scale-free if its degree distribution follows a power law distribution with $2<\gamma <3$. To observe how the change of $\gamma$ would affect the complexity of a network, we need a model that can generate the graph with given $\gamma$. A configuration model \cite{newmanbook} is able to turn a given degree distribution into a graph, which has the exact degree distribution as the given degree series. 
+As introduced in section \ref{small_world}, a network is said to be scale-free if its degree distribution follows a power-law distribution with $2<\gamma <3$. To observe how the change of $\gamma$ would affect the complexity of a network, we need a model that can generate the graph with given $\gamma$. A configuration model \cite{newmanbook} is able to turn a given degree distribution into a graph, which has the exact degree distribution as the given degree series. 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.6\textwidth]{configuration_model.eps}
-    \label{fig:configuration_model}
     \caption{Complexities of graphs generated using configuration model, $n=50$. Results are average of 50 simulations.}
+    \label{fig:configuration_model}
 \end{figure}
 \par
 $OdC$ and $C_{1e,spec}$ didn't change much by varying $\gamma$. $MA_{RI}$ increases slightly as it is very sensitive to the change of degrees of nodes. Overall, varying $\gamma$ does not impact the complexity by a lot. Due to limitation of our implementation, we can only generate a degree distribution within the range $2.7<\gamma<3.3$, by varying $n$ and $\gamma$ in a larger range, and adding a new variable $n$ in the model, it can be more suggestful. 
 
 \subsection{Complexity correlation}
-Different type of measures focus on different properties/parameters of a network, monitor the correlation between measures enable further understanding of the properties/parameters each measure is highlighting on. Additioanlly, network scientists may use more than one complexity measure on a network to determine whether they are truly "complex" or not. Combining complexity measures on networks will allow network scientists to comment on the network complexity from different aspect. For these reasons, we choosed three measures($C_{1e,st}$,$OdC$ and $MA_{RI}$) and monitored their behaviours on random and BA graphs. The reason BA graphs are added is to investigate whether distinguish BA graphs and random graphs is possible or not.\\
+Different type of measures focus on different properties/parameters of a network, monitor the correlation between measures enable further understanding of the properties/parameters each measure is highlighting on. Additionally, network scientists may use more than one complexity measure on a network to determine whether they are truly "complex" or not. Combining complexity measures on networks will allow network scientists to comment on the network complexity from a different aspect. For these reasons, we choose three measures($C_{1e,st}$,$OdC$ and $MA_{RI}$) and monitored their behaviours on random and BA graphs. The reason BA graphs are added is to investigate whether distinguish BA graphs and random graphs is possible or not.\\
 \begin{figure}[h!]
     \makebox[\textwidth]{
     \includegraphics[width = \textwidth]{complexity_correlation.eps}
@@ -445,14 +448,14 @@ Different type of measures focus on different properties/parameters of a network
 \end{figure}
 
 \noindent
-As figure \ref{fig:correlation} suggests, the correlation between complexity measures are difficult to observe, since they are trying to address different things. As $C_{1e,st}$ value increases, $OdC$ also increases. We indicated in section \ref{complexity}, $m$ is not an important factor for $OdC$. On the other hand, $C_{1e,st}$ is highly based on $m$, the complexity increases linearly with $m$, and then complexity drops quickly after reaching the maximum. By constructing a correlation between $C_{1e,st}$ and $OdC$, seperate BA graphs and random graphs is not possible.\par
-Since both complexity measure are heavily depend on $m$, thus we can observe a linear decreasing trend. We can detect a very unique distribution of the BA graphs' complexity: a shape between ellipse and half-moon. This is because both $MA_{RI}$ and $C_{1e,st}$ assign lower complexity values to some of the BA graphs, compare to other BA graphs with same number of edges. Therefore, distinguish Ba graphs and random graphs is difficult.\par
-The correlation between $OdC$ and $MA_{RI}$ of random graph seems simple: as $m$ decrease, $MA_{RI}$ decrease speedly but $OdC$ change unnoticeably until the graph is highly connected. On the other hand, the correlation between $OdC$ and $MA_{RI}$ on BA graphs perform slightly different. As suggested, $MA_{RI}$ distributes lower complexity to some BA graphs, and $OdC$ is very consistent. In section \ref{configuration_model}, we did not observe a big change of complexity by varying $\gamma$. To observe a better result, using larger graph is optimal(for instance $n=1000$), but due to technical issues(time complexity), they are not used here.
+As figure \ref{fig:correlation} suggests, the correlation between complexity measures are difficult to observe, since they are trying to address different things. As $C_{1e,st}$ value increases, $OdC$ also increases. We indicated in section \ref{complexity}, $m$ is not an important factor for $OdC$. On the other hand, $C_{1e,st}$ is highly based on $m$, the complexity increases linearly with $m$, and then complexity drops quickly after reaching the maximum. By constructing a correlation between $C_{1e,st}$ and $OdC$, separate BA graphs and random graphs are not possible.\par
+Since both complexity measures are heavily dependent on $m$, thus we can observe a linearly decreasing trend. We can detect an unique distribution of the BA graphs' complexity: a shape between ellipse and half-moon. This is because both $MA_{RI}$ and $C_{1e,st}$ assign lower complexity values to some of the BA graphs, compare to other BA graphs with same number of edges. Therefore, distinguish Ba graphs and random graphs is difficult.\par
+The correlation between $OdC$ and $MA_{RI}$ of the random graph seems simple: as $m$ decrease, $MA_{RI}$ decrease speedily but $OdC$ change unnoticeably until the graph is highly connected. On the other hand, the correlation between $OdC$ and $MA_{RI}$ on BA graphs perform slightly differently. As suggested, $MA_{RI}$ distributes lower complexity to some BA graphs, and $OdC$ is very consistent. In section \ref{configuration_model}, we did not observe a big change of complexity by varying $\gamma$. To observe a better result, using a larger graph is optimal(for an instance, $n=1000$), but due to technical issues(time complexity), they are not used here.
 
 
 
 \subsection{Complement graphs}
-Definition of a complement graph is fairly simple: the complement graph contains all the edges that are not in the original graph. To ensure complexity measures can be succesfully applied, graphs that will cause the complement graphs to be disconnected will be removed. Thus, in theory, the original graphs and the complement graphs are not exmtreme graphs. Analysing the complexity correlation between the original graph and the complement graph give us more inspirations of the measure. We have choose three different measures with different types: $OdC$, $MA_{RI}$ and $C_{1e,spec}$.
+The definition of a complement graph is fairly simple: the complement graph contains all the edges that are not in the original graph. To ensure complexity measures can be successfully applied, graphs that will cause the complement graphs to be disconnected will be removed. Thus, in theory, the original graphs and the complement graphs are not extreme graphs. Analysing the complexity correlation between the original graph and the complement graph gives us more inspiration of the measures. We have choose three different measures with different types: $OdC$, $MA_{RI}$ and $C_{1e,spec}$.
 \begin{figure}[h!]
     \makebox[\textwidth]{
     \includegraphics[width = \textwidth]{complement.eps}
@@ -461,12 +464,12 @@ Definition of a complement graph is fairly simple: the complement graph contains
     \label{fig:complement}
 \end{figure}
 \noindent
-$OdC$ seems to be very symmetric with respect to $m$. Since taking the completment graph is reversing the degree distribution, the consistency of node-node link relation is preserved. Causing the complexity value for original graph equal to the complement graph. As mentioned $MA_{RI}$ is highly based on the number of edges, so observing a linear function is not a surprise. This alo applies to BA grapps. Similar to $MA_{RI}$, $C1_{1e,st}$ is more keen to $m$, causing another negative correlation between the original graph and the complement graph.\\
+$OdC$ seems to be very symmetric with respect to $m$. Since taking the complement graph is reversing the degree distribution, the consistency of node-node link relation is preserved. Causing the complexity value for the original graph equal to the complement graph. As mentioned $MA_{RI}$ is highly based on the number of edges, so observing a linear function is not a surprise. This also applies to BA graphs. Similar to $MA_{RI}$, $C1_{1e,st}$ is keener to $m$, causing another negative correlation between the original graph and the complement graph.\\
 
 
 \subsection{Applying $MA_{RI}$ on real networks}
-To test the new measure $MA_{RI}$, 6 real networks are collected. To ensure comprehensive evaluation, various types of networks are used. To be applicable, bus networks in 6 cities are collected and converted to networks from raw. Bus networks are different to other real networks. Bus networks contain extraordinary amount of nodes with degree 2. For simplification and general interest, bus networks are modified. In modified bus networks, all nodes with $k=2$ are removed, whereas the edges are preserved. For instance, node $b$ is only conneted to $a$ and $c$. Node $b$ will be removed from the network and a new edge $(a,c)$ will be added to the network. The modification will be iterated multiple times until bus networks are free from node with degree $k=2$. Modification will significantly decrease the distance of bus networks. Moreover, generated graphs are also added to be evaluated and compared.\par
-To be mentioned, we will refer these non-bus networks as real networks, for convinience.
+To test the new measure $MA_{RI}$, 6 real networks are collected. To ensure comprehensive evaluation, various types of networks are used. To be applicable, bus networks in 6 cities are collected and converted to networks from raw. Bus networks are different to other real networks. Bus networks contain an extraordinary amount of nodes with degree 2. For simplification and general interest, bus networks are modified. In modified bus networks, all nodes with $k=2$ are removed, whereas the edges are preserved. For instance, node $b$ is only connected to $a$ and $c$. Node $b$ will be removed from the network and a new edge $(a,c)$ will be added to the network. The modification will be iterated multiple times until bus networks are free from nodes with degree $k=2$. The modification will significantly decrease the distance of bus networks. Moreover, generated graphs are also added to be evaluated and compared.\par
+To be mentioned, for convinience, real networks are referred to non-bus networks.
 
 \begin{table}[ht]
     \noindent\makebox[\textwidth]{
@@ -539,38 +542,40 @@ To be mentioned, we will refer these non-bus networks as real networks, for conv
     \label{fig:real_networks}
 \end{figure}
 \par
-After careful consideration, average distance ratio $L/L_r$ is chosen to be the variable showin on x-axis in figure \ref{fig:real_networks}. Average distance is a more important parameter to consider about because it can identify how "small-world" the network is. As suggested, all the bus networks have significantly higher average distance ratio than real networks. Even after modified, the average distance ratios are still relatively high. But higher average distance ratio brings less $MA_{RI}$ complexity. We can suggest a negative correlation between the average distance ratio and the $MA_{RI}$ complexity. There is an exception of real networks, which is the UK train network. Cosidering the similarity between bus networks and train networks, it is not surprising. Generated graphs also behaves similar to standard real networks; low average distance ratio with high complexity, as they are intended to simulate the behaviour of standard real networks. In theory, "Flight" is also a public transport, so it should behave similar to bus networks or the train network. However, the "Flight" network performs unlike transport networks. Flight networks are designed to be robust\cite{zhixing2021recent} to be functional under severe whether/accident. Unlike trains or buses, flight are less limited by physical path in the sky.\par
-To discuss the cause of increase of $MA_{RI}$ complexity after modified, we need to consider about the parameter $MA_{RI}$ focusing on. $\sum_{i,j>i}d_id_j$ is the only variable that affects the complexity of a graph. The essence of the measure is calculating the average $d_id_j$. By removing nodes with degree 2, average $d_id_j$ will be increased, and leads to an increase of the $MA_{RI}$ complexity.
+After careful consideration, average distance ratio $L/L_r$ is chosen to be the variable showing on x-axis in figure \ref{fig:real_networks}. Average distance is a more important parameter to consider because it can identify how "small-world" the network is. As suggested, all the bus networks have a significantly higher average distance ratio than real networks. Even after being modified, the average distance ratios are still relatively high. But higher average distance ratio brings less $MA_{RI}$ complexity. We can suggest a negative correlation between the average distance ratio and the $MA_{RI}$ complexity. There is an exception of real networks, which is the UK train network. Considering the similarity between bus networks and train networks, it is not surprising. Generated graphs also behave similar to standard real networks; low average distance ratio with high complexity, as they are intended to simulate the behaviour of standard real networks. In theory, "Flight" is also a public transport system, so it should behave similarly to bus networks or the train network. However, the "Flight" network performs, unlike transport networks. Flight networks are designed to be robust\cite{zhixing2021recent} to be functional under severe weather/accident. Unlike trains or buses, flights are less limited by physical paths and routes.\par
+To discuss the cause of the increase of $MA_{RI}$ complexity after modification, we need to consider the only parameter $MA_{RI}$ focusing on(with fixed $m$ and $n$). $\sum_{i,j>i}d_id_j$ is the only variable that affects the complexity of a graph. The essence of the measure is calculating the average $d_id_j$. By removing nodes with degree 2, average $d_id_j$ will be increased and leads to an increase of the $MA_{RI}$ complexity.
 
 \subsection{Rewiring on real networks}
-As recommened in section \ref{rewiring}, rewiring is an important technique to monitor the behaviour of a network. Hence, we rewired real networks and modified bus networks to record their behaviour. Both single link rewiring and pairwise rewiring will be used. The reason we are going to use $OdC$ instead of $MA_{RI}$ is that pairwise rewiring will keep the degree relationship, and $MA_{RI}$ will stay unchanged.\par
+As recommended in section \ref{rewiring}, rewiring is an important technique to monitor the behaviour of a network. Hence, we rewired real networks and modified bus networks to record their behaviour. Both single link rewiring and pairwise rewiring will be used. The reason we are going to use $OdC$ instead of $MA_{RI}$ is that pairwise rewiring will keep the degree relationship, and $MA_{RI}$ will stay unchanged.\par
 How we rewire graphs:
 \begin{itemize}
     \item The rewiring is done gradually. Initially, graph $G$ will be rewired with probability $p=0.05$. After recording the results, we rewire it with probability $p=0.05$ again. This step will be repeated 20 times.
-    \item Both rewiring have been simulated on all graphs more than 10 times("dolphins" and "PDZBase" have been rewired more than 100 times, as they are relatively small), to generate more consistent results.
+    \item Both rewiring have been simulated on all graphs more than ten times("dolphins" and "PDZBase" have been rewired more than 100 times, as they are relatively small) to generate more consistent results.
 \end{itemize}
 \begin{figure}[ht]
     \centering
     \includegraphics[width=\textwidth]{rewiring.eps}
-    \caption{Change of $OdC$ complexities respect to change of rewiring probaility with an error bar(one standard deviation).}
+    \caption{Change of $OdC$ complexities respect to change of rewiring probability with an error bar(one standard deviation).}
     \label{fig:rewiring}
 \end{figure}
 \noindent
-From figure \ref{fig:rewiring}, we can concludes that most real networks behaves similar using rewiring. As mentioned in section \ref{rewiring}, single link rewiring results in higher randomness, because it destroys the degree distribution. In theory, when $p=1$, the graph becomes a random network. $OdC$ decreases significantly with the increase of rewiring probability for real networks, whereas the change of complexity is not large for pairwise rewiring. This is because $OdC$ is highly sensitive to degree relationship, but pairwise rewiring does not change the degree relationship. Also, the error bar for "dolphins" and "PDZBase" is large. This is simply because they are small networks, rewiring will make larger impact than larger graphs.\par
-There is an expcetion in real networks; the UK train network performs similar to bus networks rather than real networks. As public transportation networks, single link rewiring will cause the complexity to increase. Generally, the increase of complexity becomes small after $p=0.4$; almost half of the links have been rewired. As shown in table \ref{tb:descriptions}, $OdC$ complexities are very low for all the bus networks. As introduced by Claussen\cite{odc}, $OdC$ assign high complexity to graphs that have no preference for the degree of their neighbours. After destroying the degree correlation using single link rewiring, the $OdC$ complexity will increase.\par
-In contrast, pairwise rewiring will cause the complexity to decrease briefly like real networks, with similar reason.
+From figure \ref{fig:rewiring}, we can conclude that most real networks behave similarly using rewiring. As mentioned in section \ref{rewiring}, single link rewiring results in higher randomness, because it destroys the degree distribution. In theory, when $p=1$, the graph becomes a random network. $OdC$ decreases significantly with the increase of rewiring probability for real networks, whereas the change of complexity is not large for pairwise rewiring. This is because $OdC$ is highly sensitive to degree relationship, but pairwise rewiring does not change the degree relationship. Also, the error bar for "dolphins" and "PDZBase" is large. This is because they are small networks, rewiring will make a larger impact than larger graphs.\par
+There is an exception in real networks; the UK train network performs similar to bus networks rather than real networks. As public transportation networks, single link rewiring will cause the complexity to increase. Generally, the increase of complexity becomes small after $p=0.4$; almost half of the links have been rewired. As shown in table \ref{tb:descriptions}, $OdC$ complexities are very low for all the bus networks. As introduced by Claussen\cite{odc}, $OdC$ assigns high complexity to graphs that have no preference for the degree of their neighbours. After destroying the degree correlation using single link rewiring, the $OdC$ complexity will increase.\par
+In contrast, pairwise rewiring will cause the complexity to decrease briefly like real networks, with similar reasons.
+
 \section{Conclusion and further study}
-In this theis, we investigated and compared difference of complexity measures. Different complexity measure focuses on different properties and parameters of a graph. For example, different subgraph measures focusing on the general structure of subgraphs, leads to high complexity and not feasible to apply difference subgraph measures on large networks. In addition, the floating point algorithmetic is imperfect when dealing with large numbers and decimals.
-On the other hand, product measures are faily simple in terms of calculation time. Espectiall $Cr$, the easist complexity measure, which can be calculated in $O(n)$ time\cite{KIM20082637}. A drawback of product measures is that they are highly based on $m$, creating smaller difference than other complexity measures with fix $m$ and $n$.
-$OdC$ measure can distinguish random graphs and graphs generated using BA,WS and NW model, and within relatively small amount of time. However, the complexity value are spreaded. We suggest to use the measure that is most suitable, depending on which specific parameters or properties are most important in the problem.\par
+In this thesis, we investigated and compared different measures. The different complexity measures focus on different properties and parameters of a graph. For example, different subgraph measures focus on the general structure of subgraphs, lead to high complexity, and they are not feasible to apply different subgraph measures on large networks. In addition, the floating-point arithmetic is imperfect when dealing with large numbers and decimals.
+On the other hand, product measures are fairly simple in terms of calculation time. Especiallyly $Cr$, the easiest complexity measure, which can be calculated in $O(n)$ time\cite{KIM20082637}. A drawback of product measures is that they are highly based on $m$, creating smaller differences than other complexity measures with fix $m$ and $n$.
+$OdC$ measure can distinguish random graphs and graphs generated using BA,WS and NW model, and within a relatively small amount of time. However, the border of complexity value are wide. We suggest using the measure that is most suitable, depending on which specific parameters or properties are most important in the problem.\par
 Additionally, we constructed a new measure $MA_{RI}$ based on the idea of $MA_g$. $MA_{RI}$ assigns higher complexity to sparser graph than $MA_g$. To be noticed, to calculate $MA_{RI}$, $R_{clique}$ and $I_{path}$ are not required, but $m$ is involved in the calcualtion.\par
-We also compare the difference between real networks and bus networks, and we investigated the unique property of bus networks: high average distance with low complexity, which is the opposite of a small-world network. This causes averagely lower complexities than other real networks.\par
-There are more complexity measures \cite{emmert-streib_dehmer_2012}\cite{dehmer_barbarini_varmuza_graber_2009} for further studies and researches. We encourage study and application of the measures on different type of graphs and monitor the behaviour of different complexity measures. Further studies on complexity measures could help the network science community to build a comprehensive, robust and applicable complexity meausre which everyone can agree on.\par
-An unexpected fact was observed: degree based measures($OdC$,$MA_g$,$MA_{RI}$) generally assign relatively high complexity to very sparse graphs, except $Ce$. We are not sure whether this is a coincidence or not, but this can be a topic to further investigate.\par
-Overall, we hope our result can stimulate more studies on network complexity meausre. The definition of complexity is already difficult to be determined. A good complexity measure should be able to distinguish: random networks, small-world networks, scale-free networks and real networks. In addition, highest complexity to graphs with number of edges slightly less than the medium. Our work provides useful aspect and observation to build a optimal complexity measure in the future.
+We also compare the difference between real networks and bus networks, and we investigated the unique property of bus networks: high average distance with low complexity, which is the opposite of a small-world network. This causes average lower complexities than other real networks.\par
+There are more complexity measures \cite{emmert-streib_dehmer_2012}\cite{dehmer_barbarini_varmuza_graber_2009} for further studies and researches. We encourage studies and applications of the measures on the different types of graphs and monitor the behaviour of different complexity measures. Further studies on complexity measures could help the network science community to build a comprehensive, robust and applicable complexity measure that everyone can agree on.\par
+An unexpected fact was observed: the degree-based measures($OdC$,$MA_g$,$MA_{RI}$) generally assign relatively high complexity to very sparse graphs, except $Ce$. We are not sure whether this is a coincidence or not, but this can be a topic to further investigate.\par
+Overall, we hope our result can stimulate more studies on network complexity measures. The definition of complexity is already difficult to be determined. A good complexity measure should be able to distinguish: random networks, small-world networks, scale-free networks and real networks. In addition, the highest complexity to graphs with the number of edges is slightly less than the medium. Our work provides useful aspects and observations to build an optimal complexity measure in the future.
 
 \appendix
-
+\section{Data}
+All real networks' citation can be found in the reference. To analyse them, all networks required pre-prodcessing. Using Gephi is optimal. They need to be converted into the following form: a csv file with two columns: ''source'' and ''target'', which stores all the starting nodes and the ending nodes of all the edges. All processed real networks should be placed in ''real$\_$network$/$sprocessed'' and processed networks in ''bus$/$processed''.
 
 \section{utilities.py}
 \label{utilities_code}
@@ -658,7 +663,6 @@ def subgraph_one_edge_deletion(G):
         temp_graph.remove_edge(edge[0],edge[1])
         subgraphs.append(temp_graph)
     return subgraphs
-
 
 #   Return the number of spanning trees of a graph.
 #   This calculation is based on the Kirchhoffs theorem, which is:
@@ -899,9 +903,8 @@ from math import cos,pi,log
 import utilities as ut
 from scipy.linalg import eig
 import math
-
-#   All complexity measure have an optional parameter-normalisation
-#   If normalisation = True(true by default), the normalised value will be returned
+#   All complexity measure have an optional parameter normalisation
+#   If normalisation = True(set by default), the normalised value will be returned
 #   Otherwise, the unnormalized form will be returned
 
 #   Calculates OdC Complexity of a graph
@@ -913,7 +916,6 @@ def OdC(G,normalisation = True):
         degree_sequence = sorted([d for n, d in G.degree()], reverse=True)
         max_degree = max(degree_sequence)
         degree_correlation = np.zeros((max_degree,max_degree))
-        
         #Building the correlation matrix
         for node in list(G.nodes):
             #An array to store all the neighbors degrees
@@ -929,7 +931,6 @@ def OdC(G,normalisation = True):
             for item in neighbors_degree:
                 if node_degree<=item:
                     degree_correlation[node_degree-1,item-1] +=1
-                    
         #Calculating a_k
         a_k=[]
         for i in range(max_degree):
@@ -938,12 +939,10 @@ def OdC(G,normalisation = True):
         if A !=0:
             for i in range(len(a_k)):
                 a_k[i]=a_k[i]/A
-        
         #Calculating the complexity
         complexity = 0
         for item in a_k:
             complexity -= item*ln(item)
-        
         #Normalisation
         if normalisation == True:
             complexity = complexity/(ln(len(G.nodes)-1))
@@ -1032,22 +1031,18 @@ def C1espec(G,normalisation =True):
     for i in range(len(subgraphs)):
         L = nx.laplacian_matrix(subgraphs[i]).todense()
         A = nx.adjacency_matrix(subgraphs[i]).todense()
-        
         eig_values,_ = eig(L)
         eig_values = eig_values.real
         eig_values = sorted(eig_values)
         eig_values = [round(item,10) for item in eig_values]
-        
         L = L + A + A
         eig_values_s,_ = eig(L)
         eig_values_s = eig_values_s.real
         eig_values_s = sorted(eig_values_s)
         eig_values_s = [round(item,10) for item in eig_values_s]
-        
         if eig_values not in spectra and eig_values_s not in spectra_s:
             spectra.append(eig_values)
             spectra_s.append(eig_values_s)
-        
     N1espec = len(spectra)
     if normalisation == False:
         return N1espec
@@ -1063,41 +1058,33 @@ def C2espec(G,normalisation=True):
         for item in neighbours:
             if item < i:
                 remove_edges.append([i,item])
-    
-    
     products = []
     for i in range(len(remove_edges)):
         for j in range(i+1,len(remove_edges)):
             products.append([remove_edges[i],remove_edges[j]])
-    
     subgraphs = []
     for item in products:
         temp_G = G.copy()
         temp_G.remove_edge(item[0][0],item[0][1])
         temp_G.remove_edge(item[1][0],item[1][1])
         subgraphs.append(temp_G)
-        
     spectra = [];spectra_s = []
     mcu = len(G.nodes())**1.68-10
     for i in range(len(subgraphs)):
         L = nx.laplacian_matrix(subgraphs[i]).todense()
         A = nx.adjacency_matrix(subgraphs[i]).todense()
-        
         eig_values,_ = eig(L)
         eig_values = eig_values.real
         eig_values = sorted(eig_values)
         eig_values = [round(item,10) for item in eig_values]
-        
         L = L + A + A
         eig_values_s,_ = eig(L)
         eig_values_s = eig_values_s.real
         eig_values_s = sorted(eig_values_s)
         eig_values_s = [round(item,10) for item in eig_values_s]
-        
         if eig_values not in spectra and eig_values_s not in spectra_s:
             spectra.append(eig_values)
             spectra_s.append(eig_values_s)
-            
     N2espec = len(spectra)
     if normalisation == False:
         return N2espec
@@ -1121,12 +1108,7 @@ def MAg(G,normalisation = True):
         return MAr * MAi
     else:
         return R*I
-    MAr = 4*((R-R_p)/(R_c - R_p))*(1 - (R-R_p)/(R_c-R_p))
-    MAi = 4*((I-I_c)/(I_p-I_c))*(1-(I-I_c)/(I_p-I_c))
-    if normalisation == True:
-        return MAr * MAi
-    else:
-        return R*I
+        
 #   Calcualtes MA_{RI} complexity of a graph
 #   Using function mutual_info and redundancy from utilities to calcualte I and R
 def MAri(G,normalisation=True):
@@ -1148,8 +1130,31 @@ def MAri(G,normalisation=True):
 \end{lstlisting}
 
 \section{figure\_generator.py}
+\begin{lstlisting}[breaklines=true,language=Python]
+import utilities as ut
+import networkx as nx
+import Complexity as cx
+import matplotlib.pyplot as plt
+import collections
+from math import log
+import numpy as np
+import pandas as pd
+\end{lstlisting}
 \label{figure_generator}
-\# Following codes generate figure \ref{fig:small_graphs}:
+\# The following codes generate figure \ref{fig:path_clique}:
+\begin{lstlisting}[breaklines=true,language=Python]
+n = 10
+G1 = nx.path_graph(n)
+plt.figure(figsize=(10,5))
+plt.subplot(1,2,1)
+nx.draw(G1)
+G2=nx.gnp_random_graph(n,1)
+plt.subplot(1,2,2)
+nx.draw(G2)
+plt.show()
+plt.savefig("figures/path_clique.eps",format="eps")
+\end{lstlisting}
+\# The following codes generate figure \ref{fig:small_graphs}:
 \begin{lstlisting}[breaklines=true,language=Python]
 import networkx as nx
 import utilities as ut
@@ -1168,9 +1173,11 @@ import collections
 \begin{lstlisting}[breaklines=true,language=Python]
 n=15
 graphs,df = ut.random_networks(n,False,1000)
+
 c1est = [cx.C1est(g) for g in graphs]
 c1espec = [cx.C1espec(g) for g in graphs]
 c2espec = [cx.C2espec(g) for g in graphs]
+
 fig,axes = plt.subplots(1, 3,figsize = ([15,5]))
 axes[0].scatter(df["Number_of_edges"],c1est,s=10,color = "black")
 axes[1].scatter(df["Number_of_edges"],c1espec,s=10,color = "black")
@@ -1181,11 +1188,12 @@ for item in axes:
 axes[0].set_ylabel("$C1e,st$",fontsize= 18)
 axes[1].set_ylabel("$C1e,spec$",fontsize= 18)
 axes[2].set_ylabel("$C2e,spec$",fontsize= 18)
+plt.show()
 fig.savefig("figures/subgraph_measures.eps",format="eps")
 \end{lstlisting}
 \noindent
 \newline
-\# Following codes generate figure \ref{fig:c2espec}:
+\# The following codes generate figure \ref{fig:c2espec}:
 \begin{lstlisting}[breaklines=true,language=Python]
 n = [6,7,8]
 c2graphs= [];dfs= []
@@ -1205,11 +1213,12 @@ for i in range(len(n)):
 axes[0].set_ylabel("$C_{1e,st}$",fontsize= 18)
 axes[1].set_ylabel("$C_{1e,spec}$",fontsize= 18)
 axes[2].set_ylabel("$C_{2e,spec}$",fontsize= 18)
+plt.show()
 fig.savefig("figures/c2espec.eps",format="eps")
 \end{lstlisting}
 \noindent
 \newline
-\# Following codes generate figure \ref{fig:small_world_models}:
+\# The following codes generate figure \ref{fig:small_world_models}:
 \begin{lstlisting}[breaklines=true,language=Python]
 plt.figure(figsize=(15,10))
 plt.subplot(2,3,1)
@@ -1221,7 +1230,6 @@ plt.title("p = 0.1",fontsize= 18)
 plt.subplot(2,3,3)
 nx.draw_circular(nx.watts_strogatz_graph(20,4,0.5),node_size=100)
 plt.title("p = 0.5",fontsize= 18)
-
 plt.subplot(2,3,4)
 nx.draw_circular(nx.newman_watts_strogatz_graph(20,4,0),node_size=100)
 plt.title("p = 0",fontsize= 18)
@@ -1231,13 +1239,14 @@ plt.title("p = 0.1",fontsize= 18)
 plt.subplot(2,3,6)
 nx.draw_circular(nx.newman_watts_strogatz_graph(20,4,0.5),node_size=100)
 plt.title("p = 0.5",fontsize= 18)
+plt.show()
 plt.savefig("figures/small_world_network_model.eps",format = "eps")
 \end{lstlisting}
 \noindent
 \newline
 \# Following codes generate figure \ref{fig:degree_dist}:
 \begin{lstlisting}[breaklines=true,language=Python]
-    def degree_distribution(G):
+def degree_distribution(G):
     degree_sequence = sorted([d for n, d in G.degree()],reverse = True)
     degreeCount = collections.Counter(degree_sequence)
     deg, cnt = zip(*degreeCount.items())
@@ -1250,7 +1259,6 @@ G = nx.gnm_random_graph(1000,5000)
 deg,cnt = degree_distribution(G)
 cnt = [item/1000 for item in cnt]
 plt.plot(deg,cnt,color = "black",label="$G(n,m)$ model")
-
 G = nx.barabasi_albert_graph(1000,5)
 deg1,cnt1 = degree_distribution(G,)
 cnt1 = [item/1000 for item in cnt1]
@@ -1261,7 +1269,6 @@ plt.scatter(deg1,cnt1,color = "black")
 plt.xlabel("Degree",fontsize= 18)
 plt.ylabel("Probability",fontsize= 18)
 plt.title("Degree distribution",fontsize= 15)
-
 plt.subplot(1,2,2)
 log_deg = [log(item) for item in deg];log_cnt = [log(item) for item in cnt]
 log_deg1 = [log(item) for item in deg1];log_cnt1 = [log(item) for item in cnt1]
@@ -1273,7 +1280,7 @@ plt.savefig("figures/degree_distribution.eps",format = "eps")
 \end{lstlisting}
 \noindent
 \newline
-\# Following codes generate figure \ref{fig:marimagcompare}:
+\# The following codes generate figure \ref{fig:marimagcompare}:
 \begin{lstlisting}[breaklines=true,language=Python]
 n = 20
 graphs,df = ut.random_networks(n,False,1000)
@@ -1315,8 +1322,6 @@ axes[0][1].set_ylabel("$C_{1e,spec}$",fontsize= 18)
 axes[1][0].set_ylabel("$C_{2e,spec}$",fontsize= 18)
 plt.savefig("figures/complexities.eps",format="eps")
 plt.show()
-
-
 \end{lstlisting}
 \noindent
 \newline
@@ -1328,13 +1333,11 @@ corr_results = []
 corr_results.append([cx.C1est(g) for g in corr_use_graphs])
 corr_results.append([cx.OdC(g) for g in corr_use_graphs])
 corr_results.append([cx.MAri(g) for g in corr_use_graphs])
-
 corr_use_BA = ut.BA_random_graphs(n,200)
 corr_results_BA = []
 corr_results_BA.append([cx.C1est(g) for g in corr_use_BA])
 corr_results_BA.append([cx.OdC(g) for g in corr_use_BA])
 corr_results_BA.append([cx.MAri(g) for g in corr_use_BA])
-
 plt.figure(figsize=(22,7))
 plt.subplot(1,3,1)
 plt.scatter(corr_results[0],
@@ -1357,7 +1360,7 @@ plt.scatter(corr_results[1],
 plt.colorbar()
 plt.scatter(corr_results_BA[1],corr_results_BA[2],color="black",marker = "x",label = "BA Graphs")
 plt.xlabel("$OdC$",fontsize = 20);plt.ylabel("$MAri$",fontsize = 20);
-
+plt.show()
 plt.savefig("figures/complexity_correlation.eps",format = "eps")
 \end{lstlisting}
 \noindent
@@ -1381,13 +1384,11 @@ for item in methods:
     method = getattr(cx,item)
     temp_result = [method(g) for g in BA_graphs]
     BA_result.append(temp_result)
-
 WS_result = []
 for item in methods:
     method = getattr(cx,item)
     temp_result = [method(g) for g in WS_graphs]
     WS_result.append(temp_result)
-
 NW_result = []
 for item in methods:
     method = getattr(cx,item)
@@ -1420,7 +1421,7 @@ plt.show()
 \end{lstlisting}
 \noindent
 \newline
-\# Following codes generate figure \ref{fig:complement}:
+\# The following codes generate figure \ref{fig:complement}:
 \begin{lstlisting}[breaklines=true,language=Python]
 #Analyse Complement graphs complexity
 graphs,df = ut.random_networks(25,False,1000)
@@ -1434,7 +1435,6 @@ for i in range(len(complement_graphs)):
         c.append(complement_graphs[i])
         g.append(graphs[i])
         edges.append(df["Number_of_edges"][i])
-    
 BA_comp = [ut.complement_graph(g) for g in BA_graphs]
 ba_c = []
 ba_g = []
@@ -1446,17 +1446,14 @@ results1 = [cx.OdC(item) for item in g]
 results_c = [cx.OdC(g) for g in c]
 ba_result = [cx.OdC(g) for g in ba_c]
 ba_result_c = [cx.OdC(g) for g in ba_g]
-
 results2 = [cx.MAri(item) for item in g]
 results_c_1 = [cx.MAri(g) for g in c]
 ba_result_1 = [cx.MAri(g) for g in ba_c]
 ba_result_c_1 = [cx.MAri(g) for g in ba_g]
-
 results3 = [cx.C1est(item) for item in g]
 results_c_2 = [cx.C1est(g) for g in c]
 ba_result_2 = [cx.C1est(g) for g in ba_c]
 ba_result_c_2 = [cx.C1est(g) for g in ba_g]
-
 plt.figure(figsize = (18,5))
 plt.subplot(1,3,1)
 plt.scatter(results1,results_c,c = edges,cmap="gray",label = "$G(n,m)$ random graphs")
@@ -1467,7 +1464,6 @@ plt.ylabel("$OdC$ of complement graph",fontsize = 20)
 plt.xticks([0,0.5,1])
 plt.yticks([0,0.5,1])
 plt.legend(fontsize = 12)
-
 plt.subplot(1,3,2)
 plt.scatter(results2,results_c_1,c = edges,cmap="gray",label = "$G(n,m)$ random graphs")
 plt.colorbar()
@@ -1476,7 +1472,6 @@ plt.xlabel("$MAri$ of original graph",fontsize = 20)
 plt.ylabel("$MAri$ of complement graph",fontsize = 20)
 plt.xticks([0,0.5,1])
 plt.yticks([0,0.5,1])
-
 plt.subplot(1,3,3)
 plt.scatter(results3,results_c_2,c = edges,cmap="gray",label = "$G(n,m)$ random graphs")
 plt.colorbar()
@@ -1531,7 +1526,6 @@ plt.legend(fontsize = 15)
 plt.xlabel("$L/L_r$",fontsize = 20)
 plt.ylabel("$MAri$",fontsize = 20)
 plt.yticks([0,0.25,0.5,0.75,1])
-
 for i in range(len(index)):
     if i !=1:
         plt.annotate(str(i+1),(l_ratio[i]+0.02,result_g[i]+0.02),fontsize= 15,color = "grey")
@@ -1546,7 +1540,7 @@ plt.savefig("figures/real_networks.eps",format = "eps")
 \end{lstlisting}
 
 \section{rewiring\_simulation.py}
-This file is used to simulate both rewiring introduced in section \ref{rewiring}, and generate figure \ref{fig:rewiring}:
+This file is used to simulate both rewirings introduced in section \ref{rewiring}, and generate figure \ref{fig:rewiring}:
 \begin{lstlisting}[breaklines=true,language=Python]
 import utilities as ut
 import Complexity as cx
@@ -1565,7 +1559,6 @@ class rewiring():
         self.p_n=0
         self.load_result("S")
         self.load_result("P")
-
     #Load all the networks
     def load_network(self):
         if self.bus == False:
@@ -1574,7 +1567,6 @@ class rewiring():
             load_path = "bus/modified/m_"+self.name+".csv"
         df = pd.read_csv(load_path)
         self.G = ut.df_to_network(df)
-
     #Carry out one step of single link rewiring
     def single_link_rewiring(self):
         self.rewired_G = ut.single_link_rewiring(self.rewired_G,self.step_prob)
@@ -1677,7 +1669,6 @@ class rewiring():
                 mean = [np.mean(row) for index, row in self.s_result.iterrows()]
                 std = [0.5*np.std(row) for index, row in self.s_result.iterrows()]
                 plt.errorbar(prob_list,mean,yerr = std,color = "black",label = "Single link rewiring")
-                
                 mean = [np.mean(row) for index, row in self.p_result.iterrows()]
                 std = [0.5*np.std(row) for index, row in self.p_result.iterrows()]
                 plt.errorbar(prob_list,mean,yerr = std,color = "blue",label = "Pairwise rewiring")
@@ -1743,7 +1734,7 @@ plt.subplot(4,3,12);plt.xlabel("Rewiring probability",fontsize=18);plt.legend(fo
 plt.savefig("figures/rewiring.eps",format = "eps")
 \end{lstlisting}
 \section{configuration\_model.r and R\_functions.py}
-Since there is no package that can implement a connected configuration model in Python, R is used to implement configuration model and simulate the behaviour to produce figure \ref{fig:configuration_model}.
+Since no package can implement a connected configuration model in Python, R is used to implement the configuration model and simulate the behaviour to produce figure \ref{fig:configuration_model}.
 \\
 configuration\_model.r:
 \begin{lstlisting}[breaklines=true,language=R]
@@ -1809,13 +1800,11 @@ def power_law_series(n,gamma):
     n = int(n)
     sequence = nx.random_powerlaw_tree_sequence(n, gamma,tries=100000)
     return sequence
-
 def construct_network(edge_list):
     G=nx.Graph()
     for item in edge_list:
         G.add_edge(item[0],item[1])
     return G 
-
 \end{lstlisting}
 
 \printbibliography[heading=bibnumbered]

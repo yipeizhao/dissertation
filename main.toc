@@ -8,64 +8,66 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.1.1}Graph}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}Random graphs}{7}{}%
+\contentsline {subsection}{\numberline {1.2}Random graphs}{6}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3}Rewiring}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4}Small-world}{8}{}%
+\contentsline {subsection}{\numberline {1.4}Small-world}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5}Scale-free network}{9}{}%
+\contentsline {subsection}{\numberline {1.5}Scale-free network}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6}Generating graphs}{10}{}%
+\contentsline {subsection}{\numberline {1.6}Generating graphs}{9}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Methods}{10}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Implemeted methods}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Different subgraph measures}{11}{}%
+\contentsline {subsection}{\numberline {2.2}Different subgraph measures}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Potential problems and solutions of different subgraph measures}{12}{}%
+\contentsline {subsection}{\numberline {2.3}Potential problems and solutions of different subgraph measures}{11}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4}Product measure}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.1}Medium articulation for graphs($MA_g$)}{14}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Medium articulation for graphs($MA_g$)}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2}Efficiency complexity($Ce$)}{15}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Efficiency complexity($Ce$)}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.3}Graph index complexity($Cr$)}{15}{}%
+\contentsline {subsubsection}{\numberline {2.4.3}Graph index complexity($Cr$)}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Offdiagonal complexity($OdC$)}{15}{}%
+\contentsline {subsection}{\numberline {2.5}Offdiagonal complexity($OdC$)}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6}$MA_{RI}$}{15}{}%
+\contentsline {subsection}{\numberline {2.6}$MA_{RI}$}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Result}{17}{}%
+\contentsline {section}{\numberline {3}Result}{16}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Complexity measures on small random graphs}{17}{}%
+\contentsline {subsection}{\numberline {3.1}Complexity measures on small random graphs}{16}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}BA,WS and NW model}{19}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Configuration model}{22}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Configuration model}{19}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Complexity correlation}{23}{}%
+\contentsline {subsection}{\numberline {3.3}Complexity correlation}{20}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Complement graphs}{24}{}%
+\contentsline {subsection}{\numberline {3.4}Complement graphs}{21}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5}Applying $MA_{RI}$ on real networks}{24}{}%
+\contentsline {subsection}{\numberline {3.5}Applying $MA_{RI}$ on real networks}{21}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6}Rewiring on real networks}{26}{}%
+\contentsline {subsection}{\numberline {3.6}Rewiring on real networks}{23}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Conclusion and further study}{28}{}%
+\contentsline {section}{\numberline {4}Conclusion and further study}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Data}{29}{}%
+\contentsline {section}{\numberline {A}Data}{26}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B}utilities.py}{29}{}%
+\contentsline {section}{\numberline {B}utilities.py}{26}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C}Complexity.py}{37}{}%
+\contentsline {section}{\numberline {C}Complexity.py}{33}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D}figure\_generator.py}{43}{}%
+\contentsline {section}{\numberline {D}modify\_bus.py}{38}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E}rewiring\_simulation.py}{54}{}%
+\contentsline {section}{\numberline {E}figure\_generator.py}{39}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {F}configuration\_model.r and R\_functions.py}{60}{}%
+\contentsline {section}{\numberline {F}rewiring\_simulation.py}{48}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {G}References}{62}{}%
+\contentsline {section}{\numberline {G}configuration\_model.r and R\_functions.py}{53}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {H}References}{55}{}%
